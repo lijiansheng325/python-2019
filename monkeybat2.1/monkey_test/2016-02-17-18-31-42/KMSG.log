@@ -1,0 +1,1727 @@
+<11>[18822.281727] init: untracked pid 13237 exited with status 129
+<3>[18822.331954] enable_store: android_usb: already disabled
+<6>[18822.336897] functions_store: Android: enable functions: rndis,adb
+<6>[18822.342141] read descriptors
+<6>[18822.342160] read strings
+<6>[18822.342200] rndis_function_bind_config: rndis_function_bind_config MAC: 02:06:51:53:33:65
+<4>[18822.342294] android_usb gadget: using random self ethernet address
+<4>[18822.347544] android_usb gadget: using random host ethernet address
+<6>[18822.359802] rndis0: MAC 36:1d:34:e1:ba:6e
+<6>[18822.359817] rndis0: HOST MAC 2a:7c:c5:33:38:0c
+<6>[18822.360009] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18822.363093] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[18822.367376] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<3>[18822.367415] smb135x_external_power_changed: current_limit = 2
+<6>[18822.373200] smb135x_set_usb_chg_current: USB current_ma = 2
+<6>[18822.373212] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[18822.375624] power_ok_handler: rt_stat = 0x00
+<3>[18822.382458] fast_chg_handler: rt_stat = 0x00
+<3>[18822.389019] CHARGE:smb135x_battery_get_property: __get battery voltage=4321059___
+<3>[18822.399192] CHARGE:smb135x_battery_get_property:  __get battery temp=30___
+<12>[18822.405405] healthd: battery l=100 v=4321 t=30.4 h=2 st=3 chg=u
+<6>[18822.411854] ....led_brightness_set_tricolor...
+<7>[18822.411865] KTD2026:*****RED  CLOSED*****
+<6>[18822.412878] ....led_brightness_set_tricolor...
+<7>[18822.412894] KTD2026:*****GREEN  CLOSED*****
+<6>[18822.413478] ....led_brightness_set_tricolor...
+<7>[18822.413492] KTD2026:*****BLUE CLOSED*****
+<12>[18822.428790] healthd: battery l=100 v=4300 t=30.4 h=2 st=3 chg=u
+<12>[18822.446638] healthd: battery l=100 v=4311 t=30.4 h=2 st=3 chg=u
+<12>[18822.465895] healthd: battery l=100 v=4302 t=30.4 h=2 st=3 chg=u
+<12>[18822.489640] healthd: battery l=100 v=4317 t=30.4 h=2 st=3 chg=u
+<6>[18822.498633] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<3>[18822.498673] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[18822.503775] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[18822.503814] smb135x_external_power_changed: current_limit = 100
+<6>[18822.509178] smb135x_set_usb_chg_current: USB current_ma = 100
+<6>[18822.510371] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18822.512251] power_ok_handler: rt_stat = 0x01
+<12>[18822.530819] healthd: battery l=100 v=4348 t=30.4 h=2 st=2 chg=u
+<6>[18822.537126] ....led_brightness_set_tricolor...
+<7>[18822.537138] KTD2026:*****RED  CLOSED*****
+<6>[18822.540934] ....led_brightness_set_tricolor...
+<7>[18822.540947] KTD2026:****GREEN OPEN*****
+<6>[18822.540953] ...ktd_green_on = 8 ...
+<6>[18822.543035] ....led_brightness_set_tricolor...
+<7>[18822.543047] KTD2026:*****BLUE CLOSED*****
+<12>[18822.557232] healthd: battery l=100 v=4335 t=30.3 h=2 st=2 chg=u
+<3>[18822.571545] CHARGE:smb135x_battery_get_property: __get battery voltage=4355187___
+<12>[18822.581934] healthd: battery l=100 v=4355 t=30.3 h=2 st=2 chg=u
+<6>[18822.589637] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18822.595326] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<12>[18822.611409] healthd: battery l=100 v=4328 t=30.4 h=2 st=2 chg=u
+<3>[18822.623097] fast_chg_handler: rt_stat = 0x40
+<3>[18822.637703] CHARGE:smb135x_battery_get_property: __get battery voltage=4315764___
+<12>[18822.649022] healthd: battery l=100 v=4315 t=30.4 h=2 st=2 chg=u
+<6>[18822.649111] IPv6: ADDRCONF(NETDEV_UP): rndis0: link is not ready
+<12>[18822.671225] healthd: battery l=100 v=4302 t=30.5 h=2 st=2 chg=u
+<6>[18822.699533] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18822.723565] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<3>[18822.724030] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[18822.729353] IPv6: ADDRCONF(NETDEV_CHANGE): rndis0: link becomes ready
+<3>[18822.729572] smb135x_external_power_changed: current_limit = 500
+<6>[18822.734885] smb135x_set_usb_chg_current: USB current_ma = 500
+<6>[18822.735964] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18822.745331] CHARGE:smb135x_battery_get_property: __get battery voltage=4356660___
+<12>[18822.756067] healthd: battery l=100 v=4356 t=30.4 h=2 st=2 chg=u
+<3>[18822.761125] qtaguid: tag_stat: stat_update() p2p0 not found
+<6>[18822.790120] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<3>[18824.279799] qtaguid: tag_stat: stat_update() p2p0 not found
+<3>[18827.922345] Error: returning -4 value
+<6>[18828.024262] functions_store: Android: enable functions: rmnet,diag,serial,adb
+<6>[18828.032497] read descriptors
+<6>[18828.032514] read strings
+<6>[18828.032600] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18828.035678] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[18828.039964] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[18828.040118] android_work: android_work: did not send uevent (1 1           (null))
+<3>[18828.040144] smb135x_external_power_changed: current_limit = 2
+<6>[18828.046173] smb135x_set_usb_chg_current: USB current_ma = 2
+<6>[18828.046187] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[18828.052628] power_ok_handler: rt_stat = 0x00
+<3>[18828.059315] fast_chg_handler: rt_stat = 0x00
+<3>[18828.066458] CHARGE:smb135x_battery_get_property: __get battery voltage=4307526___
+<12>[18828.080333] healthd: battery l=100 v=4307 t=30.5 h=2 st=3 chg=u
+<6>[18828.086063] ....led_brightness_set_tricolor...
+<7>[18828.086078] KTD2026:*****RED  CLOSED*****
+<6>[18828.086722] ....led_brightness_set_tricolor...
+<7>[18828.086738] KTD2026:*****GREEN  CLOSED*****
+<6>[18828.087437] ....led_brightness_set_tricolor...
+<7>[18828.087450] KTD2026:*****BLUE CLOSED*****
+<12>[18828.101049] healthd: battery l=100 v=4295 t=30.4 h=2 st=3 chg=u
+<12>[18828.133464] healthd: battery l=100 v=4296 t=30.5 h=2 st=3 chg=u
+<12>[18828.156742] healthd: battery l=100 v=4297 t=30.6 h=2 st=3 chg=u
+<12>[18828.174889] healthd: battery l=100 v=4314 t=30.7 h=2 st=3 chg=u
+<3>[18828.189945] qtaguid: tag_stat: stat_update() p2p0 not found
+<3>[18830.420117] qtaguid: tag_stat: stat_update() p2p0 not found
+<3>[18838.404430] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4368910, chip->last_soc=100, batt_temp = 304,current_now=217964
+<6>[18842.173995] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18842.725051] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18843.236020] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18844.744275] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18849.406736] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18849.946180] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18850.425228] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18853.282688] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<3>[18853.282746] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[18853.287810] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[18853.287840] smb135x_external_power_changed: current_limit = 100
+<6>[18853.293288] smb135x_set_usb_chg_current: USB current_ma = 100
+<6>[18853.296640] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18853.299172] power_ok_handler: rt_stat = 0x01
+<12>[18853.315002] healthd: battery l=100 v=4330 t=30.4 h=2 st=2 chg=u
+<6>[18853.321086] ....led_brightness_set_tricolor...
+<7>[18853.321099] KTD2026:*****RED  CLOSED*****
+<6>[18853.321783] ....led_brightness_set_tricolor...
+<7>[18853.321796] KTD2026:****GREEN OPEN*****
+<6>[18853.321803] ...ktd_green_on = 8 ...
+<6>[18853.325951] ....led_brightness_set_tricolor...
+<7>[18853.325991] KTD2026:*****BLUE CLOSED*****
+<12>[18853.345784] healthd: battery l=100 v=4336 t=30.4 h=2 st=2 chg=u
+<12>[18853.372182] healthd: battery l=100 v=4328 t=30.5 h=2 st=2 chg=u
+<6>[18853.387605] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18853.396210] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<12>[18853.409074] healthd: battery l=100 v=4310 t=30.6 h=2 st=2 chg=u
+<3>[18853.414543] fast_chg_handler: rt_stat = 0x40
+<12>[18853.431299] healthd: battery l=100 v=4298 t=30.6 h=2 st=2 chg=u
+<12>[18853.458787] healthd: battery l=100 v=4316 t=30.4 h=2 st=2 chg=u
+<6>[18853.481836] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18853.544461] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<6>[18853.544499] diag: USB channel diag connected
+<3>[18853.544551] msm_otg 78d9000.usb: Avail curr from USB = 500
+<3>[18853.545920] gbam_connect_work: Bam channel is not ready
+<3>[18853.548787] Error: returning -4 value
+<6>[18853.557885] diag: USB channel diag disconnected
+<3>[18853.558105] smb135x_external_power_changed: current_limit = 500
+<3>[18853.559955] gbam_disconnect_work: Bam channel is not opened
+<6>[18853.569583] smb135x_set_usb_chg_current: USB current_ma = 500
+<6>[18853.570779] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18853.581789] CHARGE:smb135x_battery_get_property: __get battery voltage=4371369___
+<12>[18853.593799] healthd: battery l=100 v=4371 t=30.3 h=2 st=2 chg=u
+<4>[18853.599659] enable_store: 1 callbacks suppressed
+<3>[18853.603356] enable_store: android_usb: already disabled
+<6>[18853.609182] functions_store: Android: enable functions: rndis,adb
+<6>[18853.611876] read descriptors
+<6>[18853.611988] read strings
+<6>[18853.612021] rndis_function_bind_config: rndis_function_bind_config MAC: 02:06:51:53:33:65
+<4>[18853.612086] android_usb gadget: using random self ethernet address
+<4>[18853.617243] android_usb gadget: using random host ethernet address
+<6>[18853.624391] rndis0: MAC 7a:e2:4c:21:28:1e
+<6>[18853.624401] rndis0: HOST MAC 96:68:9f:25:02:74
+<6>[18853.624512] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18853.627587] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[18853.631863] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[18853.631967] android_work: android_work: did not send uevent (1 1           (null))
+<3>[18853.631985] smb135x_external_power_changed: current_limit = 2
+<6>[18853.637976] smb135x_set_usb_chg_current: USB current_ma = 2
+<6>[18853.637986] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[18853.639617] power_ok_handler: rt_stat = 0x00
+<3>[18853.646082] fast_chg_handler: rt_stat = 0x00
+<3>[18853.653406] CHARGE:smb135x_battery_get_property: __get battery voltage=4294287___
+<12>[18853.669089] healthd: battery l=100 v=4294 t=30.6 h=2 st=3 chg=u
+<6>[18853.674968] ....led_brightness_set_tricolor...
+<7>[18853.674981] KTD2026:*****RED  CLOSED*****
+<6>[18853.675750] ....led_brightness_set_tricolor...
+<7>[18853.675762] KTD2026:*****GREEN  CLOSED*****
+<6>[18853.678099] ....led_brightness_set_tricolor...
+<7>[18853.678110] KTD2026:*****BLUE CLOSED*****
+<12>[18853.691298] healthd: battery l=100 v=4302 t=30.6 h=2 st=3 chg=u
+<12>[18853.724825] healthd: battery l=100 v=4308 t=30.5 h=2 st=3 chg=u
+<12>[18853.746846] healthd: battery l=100 v=4311 t=30.5 h=2 st=3 chg=u
+<12>[18853.763279] healthd: battery l=100 v=4308 t=30.5 h=2 st=3 chg=u
+<6>[18858.086900] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18858.118066] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18858.668013] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<3>[18858.668050] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[18858.673086] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[18858.673132] smb135x_external_power_changed: current_limit = 100
+<6>[18858.679107] smb135x_set_usb_chg_current: USB current_ma = 100
+<6>[18858.681253] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18858.683196] power_ok_handler: rt_stat = 0x01
+<3>[18858.694569] CHARGE:smb135x_battery_get_property: __get battery voltage=4330182___
+<12>[18858.704803] healthd: battery l=100 v=4330 t=30.6 h=2 st=2 chg=u
+<6>[18858.711286] ....led_brightness_set_tricolor...
+<7>[18858.711298] KTD2026:*****RED  CLOSED*****
+<6>[18858.712692] ....led_brightness_set_tricolor...
+<7>[18858.712709] KTD2026:****GREEN OPEN*****
+<6>[18858.712716] ...ktd_green_on = 8 ...
+<6>[18858.716735] ....led_brightness_set_tricolor...
+<7>[18858.716777] KTD2026:*****BLUE CLOSED*****
+<12>[18858.733387] healthd: battery l=100 v=4332 t=30.5 h=2 st=2 chg=u
+<12>[18858.753101] healthd: battery l=100 v=4328 t=30.5 h=2 st=2 chg=u
+<6>[18858.759101] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18858.768020] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<12>[18858.787544] healthd: battery l=100 v=4303 t=30.8 h=2 st=2 chg=u
+<6>[18858.792204] IPv6: ADDRCONF(NETDEV_UP): rndis0: link is not ready
+<3>[18858.793690] fast_chg_handler: rt_stat = 0x40
+<3>[18858.811305] CHARGE:smb135x_battery_get_property: __get battery voltage=4284873___
+<12>[18858.829375] healthd: battery l=100 v=4271 t=30.8 h=2 st=2 chg=u
+<12>[18858.847860] healthd: battery l=100 v=4286 t=30.7 h=2 st=2 chg=u
+<6>[18858.869539] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<3>[18858.879934] qtaguid: tag_stat: stat_update() p2p0 not found
+<6>[18858.889486] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<3>[18858.890011] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[18858.894829] IPv6: ADDRCONF(NETDEV_CHANGE): rndis0: link becomes ready
+<3>[18858.895109] smb135x_external_power_changed: current_limit = 500
+<6>[18858.902420] smb135x_set_usb_chg_current: USB current_ma = 500
+<6>[18858.903724] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18858.913400] CHARGE:smb135x_battery_get_property: __get battery voltage=4333710___
+<12>[18858.926467] healthd: battery l=100 v=4333 t=30.4 h=2 st=2 chg=u
+<6>[18858.959897] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<3>[18864.653091] Error: returning -19 value
+<6>[18864.807168] functions_store: Android: enable functions: rmnet,diag,serial,adb
+<3>[18864.810088] qtaguid: tag_stat: stat_update() p2p0 not found
+<6>[18864.812033] read descriptors
+<6>[18864.812263] read strings
+<6>[18864.812413] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18864.815538] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[18864.819949] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[18864.820383] android_work: android_work: did not send uevent (1 1           (null))
+<3>[18864.820428] smb135x_external_power_changed: current_limit = 2
+<6>[18864.826303] smb135x_set_usb_chg_current: USB current_ma = 2
+<6>[18864.826327] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[18864.829024] power_ok_handler: rt_stat = 0x00
+<3>[18864.835074] fast_chg_handler: rt_stat = 0x00
+<3>[18864.841674] CHARGE:smb135x_battery_get_property: __get battery voltage=4288992___
+<12>[18864.853778] healthd: battery l=100 v=4288 t=30.7 h=2 st=3 chg=u
+<6>[18864.861130] ....led_brightness_set_tricolor...
+<7>[18864.861148] KTD2026:*****RED  CLOSED*****
+<6>[18864.863104] ....led_brightness_set_tricolor...
+<7>[18864.863116] KTD2026:*****GREEN  CLOSED*****
+<6>[18864.864851] ....led_brightness_set_tricolor...
+<7>[18864.864863] KTD2026:*****BLUE CLOSED*****
+<12>[18864.881972] healthd: battery l=100 v=4284 t=30.7 h=2 st=3 chg=u
+<6>[18864.884478] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<3>[18864.884504] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[18864.892923] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[18864.894208] smb135x_external_power_changed: current_limit = 100
+<6>[18864.899314] smb135x_set_usb_chg_current: USB current_ma = 100
+<6>[18864.900985] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18864.902873] power_ok_handler: rt_stat = 0x01
+<3>[18864.913233] CHARGE:smb135x_battery_get_property: __get battery voltage=4319001___
+<12>[18864.924090] healthd: battery l=100 v=4319 t=30.7 h=2 st=2 chg=u
+<6>[18864.930220] ....led_brightness_set_tricolor...
+<7>[18864.930230] KTD2026:*****RED  CLOSED*****
+<6>[18864.932122] ....led_brightness_set_tricolor...
+<7>[18864.932135] KTD2026:****GREEN OPEN*****
+<6>[18864.932140] ...ktd_green_on = 8 ...
+<6>[18864.934113] ....led_brightness_set_tricolor...
+<7>[18864.934125] KTD2026:*****BLUE CLOSED*****
+<12>[18864.949806] healthd: battery l=100 v=4330 t=30.5 h=2 st=2 chg=u
+<12>[18864.968972] healthd: battery l=100 v=4305 t=30.5 h=2 st=2 chg=u
+<6>[18864.975776] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18864.979461] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<12>[18864.990361] healthd: battery l=100 v=4289 t=30.8 h=2 st=2 chg=u
+<12>[18865.008573] healthd: battery l=100 v=4313 t=30.7 h=2 st=2 chg=u
+<3>[18865.013286] fast_chg_handler: rt_stat = 0x40
+<3>[18865.024763] CHARGE:smb135x_battery_get_property: __get battery voltage=4271043___
+<12>[18865.041077] healthd: battery l=100 v=4297 t=30.6 h=2 st=2 chg=u
+<12>[18865.059997] healthd: battery l=100 v=4288 t=30.5 h=2 st=2 chg=u
+<12>[18865.080830] healthd: battery l=100 v=4286 t=30.7 h=2 st=2 chg=u
+<6>[18865.086599] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<12>[18865.100005] healthd: battery l=100 v=4290 t=30.6 h=2 st=2 chg=u
+<6>[18865.590732] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18866.098947] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18866.984789] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<6>[18866.984838] diag: USB channel diag connected
+<3>[18866.984903] msm_otg 78d9000.usb: Avail curr from USB = 500
+<3>[18866.989784] gbam_connect_work: Bam channel is not ready
+<3>[18866.990358] smb135x_external_power_changed: current_limit = 500
+<6>[18866.990363] smb135x_set_usb_chg_current: USB current_ma = 500
+<6>[18866.992360] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18867.000529] CHARGE:smb135x_battery_get_property: __get battery voltage=4376370___
+<12>[18867.012384] healthd: battery l=100 v=4376 t=30.3 h=2 st=2 chg=u
+<6>[18867.049983] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<6>[18868.648482] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18869.671910] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[18872.129794] qtaguid: tag_stat: stat_update() p2p0 not found
+<6>[18873.813555] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18874.324799] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18875.335121] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18880.525597] diag: USB channel diag disconnected
+<3>[18880.526293] Error: returning -19 value
+<3>[18880.527480] gbam_disconnect_work: Bam channel is not opened
+<4>[18880.528897] enable_store: 1 callbacks suppressed
+<3>[18880.528901] enable_store: android_usb: already disabled
+<6>[18880.529401] functions_store: Android: enable functions: rndis,adb
+<6>[18880.529495] rndis_function_bind_config: rndis_function_bind_config MAC: 02:06:51:53:33:65
+<4>[18880.529598] android_usb gadget: using random self ethernet address
+<4>[18880.529640] android_usb gadget: using random host ethernet address
+<6>[18880.532885] rndis0: MAC ae:bd:82:80:ad:d4
+<6>[18880.532897] rndis0: HOST MAC 7a:84:61:4f:fe:98
+<6>[18880.534020] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18880.537259] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[18880.537271] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[18880.537296] android_work: android_work: did not send uevent (1 1           (null))
+<3>[18880.537312] smb135x_external_power_changed: current_limit = 2
+<6>[18880.537318] smb135x_set_usb_chg_current: USB current_ma = 2
+<6>[18880.537323] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[18880.539532] power_ok_handler: rt_stat = 0x00
+<3>[18880.546570] fast_chg_handler: rt_stat = 0x00
+<3>[18880.550313] CHARGE:smb135x_battery_get_property: __get battery voltage=4328709___
+<12>[18880.597594] healthd: battery l=100 v=4304 t=30.7 h=2 st=3 chg=u
+<6>[18880.606785] ....led_brightness_set_tricolor...
+<7>[18880.606801] KTD2026:*****RED  CLOSED*****
+<6>[18880.612034] ....led_brightness_set_tricolor...
+<7>[18880.612047] KTD2026:*****GREEN  CLOSED*****
+<6>[18880.612540] ....led_brightness_set_tricolor...
+<7>[18880.612552] KTD2026:*****BLUE CLOSED*****
+<3>[18880.618337] CHARGE:smb135x_battery_get_property: __get battery voltage=4281048___
+<12>[18880.628842] healthd: battery l=100 v=4281 t=30.8 h=2 st=3 chg=u
+<6>[18880.646054] read descriptors
+<6>[18880.646077] read strings
+<6>[18880.646114] rndis_function_bind_config: rndis_function_bind_config MAC: 02:06:51:53:33:65
+<4>[18880.646181] android_usb gadget: using random self ethernet address
+<12>[18880.649817] healthd: battery l=100 v=4272 t=30.8 h=2 st=3 chg=u
+<4>[18880.658425] android_usb gadget: using random host ethernet address
+<12>[18880.663002] healthd: battery l=100 v=4283 t=30.8 h=2 st=3 chg=u
+<12>[18880.675474] healthd: battery l=100 v=4274 t=30.8 h=2 st=3 chg=u
+<6>[18880.680756] rndis0: MAC ea:2c:3f:92:1a:a5
+<6>[18880.680767] rndis0: HOST MAC 62:f2:39:45:5e:a9
+<6>[18880.680866] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<6>[18880.813199] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<3>[18880.813230] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[18880.818499] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[18880.818518] smb135x_external_power_changed: current_limit = 100
+<6>[18880.823624] smb135x_set_usb_chg_current: USB current_ma = 100
+<6>[18880.824895] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18880.826910] power_ok_handler: rt_stat = 0x01
+<3>[18880.837807] CHARGE:smb135x_battery_get_property: __get battery voltage=4345479___
+<12>[18880.849307] healthd: battery l=100 v=4345 t=30.5 h=2 st=2 chg=u
+<6>[18880.855780] ....led_brightness_set_tricolor...
+<7>[18880.855791] KTD2026:*****RED  CLOSED*****
+<6>[18880.856301] ....led_brightness_set_tricolor...
+<7>[18880.856311] KTD2026:****GREEN OPEN*****
+<6>[18880.856316] ...ktd_green_on = 8 ...
+<6>[18880.860826] ....led_brightness_set_tricolor...
+<7>[18880.860839] KTD2026:*****BLUE CLOSED*****
+<12>[18880.875297] healthd: battery l=100 v=4339 t=30.6 h=2 st=2 chg=u
+<12>[18880.900460] healthd: battery l=100 v=4343 t=30.5 h=2 st=2 chg=u
+<6>[18880.906399] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18880.910694] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<12>[18880.928250] healthd: battery l=100 v=4315 t=30.8 h=2 st=2 chg=u
+<3>[18880.937339] fast_chg_handler: rt_stat = 0x40
+<6>[18880.938290] IPv6: ADDRCONF(NETDEV_UP): rndis0: link is not ready
+<3>[18880.949355] CHARGE:smb135x_battery_get_property: __get battery voltage=4291932___
+<12>[18880.964301] healthd: battery l=100 v=4291 t=30.7 h=2 st=2 chg=u
+<12>[18880.982207] healthd: battery l=100 v=4296 t=30.8 h=2 st=2 chg=u
+<6>[18881.015981] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<3>[18881.059887] qtaguid: tag_stat: stat_update() p2p0 not found
+<6>[18881.965428] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<3>[18881.966029] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[18881.970810] IPv6: ADDRCONF(NETDEV_CHANGE): rndis0: link becomes ready
+<3>[18881.971265] smb135x_external_power_changed: current_limit = 500
+<6>[18881.976953] smb135x_set_usb_chg_current: USB current_ma = 500
+<6>[18881.978869] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18881.994744] CHARGE:smb135x_battery_get_property: __get battery voltage=4381080___
+<12>[18882.011023] healthd: battery l=100 v=4381 t=30.4 h=2 st=2 chg=u
+<6>[18882.029875] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<3>[18886.706921] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4368372, chip->last_soc=100, batt_temp = 304,current_now=-63750
+<3>[18886.909789] qtaguid: tag_stat: stat_update() p2p0 not found
+<6>[18894.068254] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[18899.009816] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[18909.029809] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[18910.719969] Error: returning -4 value
+<6>[18910.822610] functions_store: Android: enable functions: rmnet,diag,serial,adb
+<6>[18910.827192] read descriptors
+<6>[18910.827206] read strings
+<6>[18910.827297] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18910.830376] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[18910.834655] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[18910.834808] android_work: android_work: did not send uevent (1 1           (null))
+<3>[18910.834829] smb135x_external_power_changed: current_limit = 2
+<6>[18910.842075] smb135x_set_usb_chg_current: USB current_ma = 2
+<6>[18910.842088] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[18910.844013] power_ok_handler: rt_stat = 0x00
+<3>[18910.850697] fast_chg_handler: rt_stat = 0x00
+<3>[18910.858056] CHARGE:smb135x_battery_get_property: __get battery voltage=4291932___
+<12>[18910.869596] healthd: battery l=100 v=4291 t=30.8 h=2 st=3 chg=u
+<6>[18910.875359] ....led_brightness_set_tricolor...
+<7>[18910.875381] KTD2026:*****RED  CLOSED*****
+<6>[18910.875939] ....led_brightness_set_tricolor...
+<7>[18910.875955] KTD2026:*****GREEN  CLOSED*****
+<6>[18910.876520] ....led_brightness_set_tricolor...
+<7>[18910.876535] KTD2026:*****BLUE CLOSED*****
+<12>[18910.891743] healthd: battery l=100 v=4282 t=30.8 h=2 st=3 chg=u
+<3>[18910.909912] qtaguid: tag_stat: stat_update() p2p0 not found
+<12>[18910.916340] healthd: battery l=100 v=4285 t=30.8 h=2 st=3 chg=u
+<12>[18910.941232] healthd: battery l=100 v=4296 t=30.8 h=2 st=3 chg=u
+<12>[18910.961142] healthd: battery l=100 v=4273 t=30.8 h=2 st=3 chg=u
+<6>[18911.006853] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<3>[18911.006886] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[18911.011709] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[18911.011729] smb135x_external_power_changed: current_limit = 100
+<6>[18911.017503] smb135x_set_usb_chg_current: USB current_ma = 100
+<6>[18911.018548] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18911.020491] power_ok_handler: rt_stat = 0x01
+<12>[18911.036380] healthd: battery l=100 v=4317 t=30.8 h=2 st=2 chg=u
+<6>[18911.042075] ....led_brightness_set_tricolor...
+<7>[18911.042088] KTD2026:*****RED  CLOSED*****
+<6>[18911.042600] ....led_brightness_set_tricolor...
+<7>[18911.042611] KTD2026:****GREEN OPEN*****
+<6>[18911.042616] ...ktd_green_on = 8 ...
+<6>[18911.045427] ....led_brightness_set_tricolor...
+<7>[18911.045440] KTD2026:*****BLUE CLOSED*****
+<3>[18911.064853] CHARGE:smb135x_battery_get_property: __get battery voltage=4335477___
+<12>[18911.076184] healthd: battery l=100 v=4335 t=30.7 h=2 st=2 chg=u
+<3>[18911.091416] CHARGE:smb135x_battery_get_property: __get battery voltage=4301643___
+<6>[18911.098413] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18911.102731] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<12>[18911.102766] healthd: battery l=100 v=4301 t=30.8 h=2 st=2 chg=u
+<12>[18911.123998] healthd: battery l=100 v=4288 t=30.9 h=2 st=2 chg=u
+<3>[18911.131084] fast_chg_handler: rt_stat = 0x40
+<12>[18911.161325] healthd: battery l=100 v=4289 t=30.7 h=2 st=2 chg=u
+<12>[18911.182431] healthd: battery l=100 v=4315 t=30.6 h=2 st=2 chg=u
+<6>[18911.214510] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18911.253584] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<6>[18911.253638] diag: USB channel diag connected
+<3>[18911.253703] msm_otg 78d9000.usb: Avail curr from USB = 500
+<3>[18911.258419] gbam_connect_work: Bam channel is not ready
+<3>[18911.258604] smb135x_external_power_changed: current_limit = 500
+<6>[18911.258613] smb135x_set_usb_chg_current: USB current_ma = 500
+<6>[18911.259856] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18911.272789] CHARGE:smb135x_battery_get_property: __get battery voltage=4389024___
+<12>[18911.284048] healthd: battery l=100 v=4389 t=30.4 h=2 st=2 chg=u
+<6>[18911.310008] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<3>[18911.749825] qtaguid: tag_stat: stat_update() p2p0 not found
+<6>[18928.865442] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18931.924595] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18933.450068] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18933.958678] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18934.483814] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[18934.958801] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4369490, chip->last_soc=100, batt_temp = 304,current_now=-169224
+<6>[18934.996462] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18937.608013] diag: USB channel diag disconnected
+<3>[18937.608701] Error: returning -19 value
+<3>[18937.610365] gbam_disconnect_work: Bam channel is not opened
+<4>[18937.612027] enable_store: 1 callbacks suppressed
+<3>[18937.612031] enable_store: android_usb: already disabled
+<6>[18937.612298] functions_store: Android: enable functions: rndis,adb
+<6>[18937.612400] rndis_function_bind_config: rndis_function_bind_config MAC: 02:06:51:53:33:65
+<4>[18937.612514] android_usb gadget: using random self ethernet address
+<4>[18937.612527] android_usb gadget: using random host ethernet address
+<6>[18937.619928] rndis0: MAC 3a:6e:f6:ac:c2:48
+<6>[18937.619937] rndis0: HOST MAC 2e:cc:5d:70:7b:95
+<6>[18937.620354] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18937.639419] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[18937.644422] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[18937.646046] android_work: android_work: did not send uevent (1 1           (null))
+<3>[18937.646071] smb135x_external_power_changed: current_limit = 2
+<6>[18937.651981] smb135x_set_usb_chg_current: USB current_ma = 2
+<6>[18937.651999] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[18937.655540] power_ok_handler: rt_stat = 0x00
+<3>[18937.663111] fast_chg_handler: rt_stat = 0x00
+<3>[18937.670788] CHARGE:smb135x_battery_get_property: __get battery voltage=4309881___
+<12>[18937.681316] healthd: battery l=100 v=4309 t=30.8 h=2 st=3 chg=u
+<6>[18937.687823] ....led_brightness_set_tricolor...
+<7>[18937.687836] KTD2026:*****RED  CLOSED*****
+<6>[18937.688448] ....led_brightness_set_tricolor...
+<7>[18937.688459] KTD2026:*****GREEN  CLOSED*****
+<6>[18937.689323] ....led_brightness_set_tricolor...
+<7>[18937.689335] KTD2026:*****BLUE CLOSED*****
+<12>[18937.710485] healthd: battery l=100 v=4301 t=30.8 h=2 st=3 chg=u
+<6>[18937.729958] read descriptors
+<6>[18937.729973] read strings
+<6>[18937.730001] rndis_function_bind_config: rndis_function_bind_config MAC: 02:06:51:53:33:65
+<4>[18937.730069] android_usb gadget: using random self ethernet address
+<4>[18937.735615] android_usb gadget: using random host ethernet address
+<12>[18937.742311] healthd: battery l=100 v=4308 t=30.8 h=2 st=3 chg=u
+<6>[18937.746012] rndis0: MAC a2:e7:14:85:bd:87
+<6>[18937.746016] rndis0: HOST MAC fa:84:22:37:87:06
+<6>[18937.746109] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18937.751308] CHARGE:smb135x_battery_get_property: __get battery voltage=4276929___
+<12>[18937.769336] healthd: battery l=100 v=4298 t=30.8 h=2 st=3 chg=u
+<3>[18937.781514] CHARGE:smb135x_battery_get_property: __get battery voltage=4306938___
+<12>[18937.792933] healthd: battery l=100 v=4306 t=30.7 h=2 st=3 chg=u
+<6>[18937.895898] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<3>[18937.895929] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[18937.900884] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[18937.900902] smb135x_external_power_changed: current_limit = 100
+<6>[18937.906475] smb135x_set_usb_chg_current: USB current_ma = 100
+<6>[18937.907622] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18937.909608] power_ok_handler: rt_stat = 0x01
+<3>[18937.920548] CHARGE:smb135x_battery_get_property: __get battery voltage=4344597___
+<12>[18937.930830] healthd: battery l=100 v=4344 t=30.7 h=2 st=2 chg=u
+<6>[18937.937217] ....led_brightness_set_tricolor...
+<7>[18937.937229] KTD2026:*****RED  CLOSED*****
+<6>[18937.938731] ....led_brightness_set_tricolor...
+<7>[18937.938743] KTD2026:****GREEN OPEN*****
+<6>[18937.938751] ...ktd_green_on = 8 ...
+<6>[18937.941616] ....led_brightness_set_tricolor...
+<7>[18937.941653] KTD2026:*****BLUE CLOSED*****
+<12>[18937.956381] healthd: battery l=100 v=4351 t=30.7 h=2 st=2 chg=u
+<12>[18937.975276] healthd: battery l=100 v=4343 t=30.8 h=2 st=2 chg=u
+<6>[18937.986458] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18938.002436] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<12>[18938.015935] healthd: battery l=100 v=4315 t=30.8 h=2 st=2 chg=u
+<6>[18938.022809] IPv6: ADDRCONF(NETDEV_UP): rndis0: link is not ready
+<3>[18938.022866] fast_chg_handler: rt_stat = 0x40
+<3>[18938.040189] CHARGE:smb135x_battery_get_property: __get battery voltage=4288698___
+<12>[18938.057346] healthd: battery l=100 v=4290 t=30.8 h=2 st=2 chg=u
+<12>[18938.075115] healthd: battery l=100 v=4301 t=30.8 h=2 st=2 chg=u
+<6>[18938.098188] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<3>[18938.129936] qtaguid: tag_stat: stat_update() p2p0 not found
+<6>[18939.048363] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<3>[18939.048935] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[18939.054316] IPv6: ADDRCONF(NETDEV_CHANGE): rndis0: link becomes ready
+<3>[18939.055037] smb135x_external_power_changed: current_limit = 500
+<6>[18939.062237] smb135x_set_usb_chg_current: USB current_ma = 500
+<6>[18939.064408] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18939.076723] CHARGE:smb135x_battery_get_property: __get battery voltage=4382844___
+<12>[18939.089232] healthd: battery l=100 v=4382 t=30.5 h=2 st=2 chg=u
+<6>[18939.119961] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<3>[18939.656399] Error: returning -4 value
+<6>[18939.756370] functions_store: Android: enable functions: rmnet,diag,serial,adb
+<6>[18939.763903] read descriptors
+<6>[18939.763923] read strings
+<6>[18939.764011] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18939.767100] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[18939.771382] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[18939.771611] android_work: android_work: did not send uevent (1 1           (null))
+<3>[18939.771633] smb135x_external_power_changed: current_limit = 2
+<6>[18939.780793] smb135x_set_usb_chg_current: USB current_ma = 2
+<6>[18939.780811] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[18939.782701] power_ok_handler: rt_stat = 0x00
+<3>[18939.788911] fast_chg_handler: rt_stat = 0x00
+<3>[18939.796922] CHARGE:smb135x_battery_get_property: __get battery voltage=4297818___
+<6>[18939.803728] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<3>[18939.803779] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[18939.809828] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[18939.809849] smb135x_external_power_changed: current_limit = 100
+<12>[18939.815537] healthd: battery l=100 v=4297 t=30.8 h=2 st=3 chg=u
+<6>[18939.815666] smb135x_set_usb_chg_current: USB current_ma = 100
+<6>[18939.816919] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18939.818481] power_ok_handler: rt_stat = 0x01
+<6>[18939.826344] ....led_brightness_set_tricolor...
+<7>[18939.826399] KTD2026:*****RED  CLOSED*****
+<6>[18939.826930] ....led_brightness_set_tricolor...
+<7>[18939.826938] KTD2026:*****GREEN  CLOSED*****
+<6>[18939.827399] ....led_brightness_set_tricolor...
+<7>[18939.827410] KTD2026:*****BLUE CLOSED*****
+<12>[18939.848272] healthd: battery l=100 v=4294 t=30.8 h=2 st=2 chg=u
+<6>[18939.860532] ....led_brightness_set_tricolor...
+<7>[18939.860543] KTD2026:*****RED  CLOSED*****
+<6>[18939.861028] ....led_brightness_set_tricolor...
+<7>[18939.861043] KTD2026:****GREEN OPEN*****
+<6>[18939.861050] ...ktd_green_on = 8 ...
+<6>[18939.864072] ....led_brightness_set_tricolor...
+<7>[18939.864084] KTD2026:*****BLUE CLOSED*****
+<3>[18939.871473] CHARGE:smb135x_battery_get_property:  __get battery temp=31___
+<12>[18939.878088] healthd: battery l=100 v=4281 t=31.0 h=2 st=2 chg=u
+<3>[18939.883400] qtaguid: tag_stat: stat_update() p2p0 not found
+<6>[18939.894340] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18939.898695] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<12>[18939.906232] healthd: battery l=100 v=4289 t=31.0 h=2 st=2 chg=u
+<3>[18939.929284] CHARGE:smb135x_battery_get_property:  __get battery temp=30___
+<3>[18939.929583] fast_chg_handler: rt_stat = 0x40
+<12>[18939.941949] healthd: battery l=100 v=4296 t=30.9 h=2 st=2 chg=u
+<12>[18939.960935] healthd: battery l=100 v=4285 t=30.8 h=2 st=2 chg=u
+<12>[18939.978624] healthd: battery l=100 v=4293 t=30.7 h=2 st=2 chg=u
+<12>[18939.997098] healthd: battery l=100 v=4286 t=30.8 h=2 st=2 chg=u
+<6>[18940.004102] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<12>[18940.017647] healthd: battery l=100 v=4301 t=30.8 h=2 st=2 chg=u
+<12>[18940.037478] healthd: battery l=100 v=4325 t=30.8 h=2 st=2 chg=u
+<6>[18942.982908] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<6>[18942.982948] diag: USB channel diag connected
+<3>[18942.982998] msm_otg 78d9000.usb: Avail curr from USB = 500
+<3>[18942.984809] gbam_connect_work: Bam channel is not ready
+<3>[18942.992988] smb135x_external_power_changed: current_limit = 500
+<6>[18942.998841] smb135x_set_usb_chg_current: USB current_ma = 500
+<6>[18943.000244] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18943.009591] CHARGE:smb135x_battery_get_property: __get battery voltage=4368135___
+<12>[18943.022961] healthd: battery l=100 v=4368 t=30.5 h=2 st=2 chg=u
+<6>[18943.049863] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<3>[18948.229801] qtaguid: tag_stat: stat_update() p2p0 not found
+<3>[18950.000891] Error: returning -4 value
+<6>[18950.001822] diag: USB channel diag disconnected
+<3>[18950.002337] gbam_disconnect_work: Bam channel is not opened
+<4>[18950.052677] enable_store: 1 callbacks suppressed
+<3>[18950.056254] enable_store: android_usb: already disabled
+<6>[18950.062476] functions_store: Android: enable functions: rndis,adb
+<6>[18950.065075] read descriptors
+<6>[18950.065089] read strings
+<6>[18950.065117] rndis_function_bind_config: rndis_function_bind_config MAC: 02:06:51:53:33:65
+<4>[18950.065189] android_usb gadget: using random self ethernet address
+<4>[18950.070409] android_usb gadget: using random host ethernet address
+<6>[18950.079660] rndis0: MAC f2:49:34:4d:33:2b
+<6>[18950.079671] rndis0: HOST MAC 3a:ff:d2:11:4a:b1
+<6>[18950.079946] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18950.083329] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[18950.087604] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[18950.087630] android_work: android_work: did not send uevent (1 1           (null))
+<3>[18950.087646] smb135x_external_power_changed: current_limit = 2
+<6>[18950.093541] smb135x_set_usb_chg_current: USB current_ma = 2
+<6>[18950.093552] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[18950.096569] power_ok_handler: rt_stat = 0x00
+<3>[18950.103507] fast_chg_handler: rt_stat = 0x00
+<3>[18950.110727] CHARGE:smb135x_battery_get_property: __get battery voltage=4321647___
+<12>[18950.122990] healthd: battery l=100 v=4321 t=30.9 h=2 st=3 chg=u
+<6>[18950.128497] ....led_brightness_set_tricolor...
+<7>[18950.128509] KTD2026:*****RED  CLOSED*****
+<6>[18950.130251] ....led_brightness_set_tricolor...
+<7>[18950.130266] KTD2026:*****GREEN  CLOSED*****
+<6>[18950.130791] ....led_brightness_set_tricolor...
+<7>[18950.130810] KTD2026:*****BLUE CLOSED*****
+<12>[18950.156453] healthd: battery l=100 v=4302 t=30.9 h=2 st=3 chg=u
+<3>[18950.162026] CHARGE:smb135x_battery_get_property: __get battery voltage=4288107___
+<3>[18950.180946] CHARGE:smb135x_battery_get_property: __get battery voltage=4320471___
+<12>[18950.192413] healthd: battery l=100 v=4320 t=30.8 h=2 st=3 chg=u
+<12>[18950.212575] healthd: battery l=100 v=4330 t=30.8 h=2 st=3 chg=u
+<12>[18950.231166] healthd: battery l=100 v=4333 t=30.7 h=2 st=3 chg=u
+<6>[18950.288858] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<3>[18950.288887] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[18950.294185] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[18950.294204] smb135x_external_power_changed: current_limit = 100
+<6>[18950.299351] smb135x_set_usb_chg_current: USB current_ma = 100
+<6>[18950.300677] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18950.302748] power_ok_handler: rt_stat = 0x01
+<12>[18950.317406] healthd: battery l=100 v=4336 t=30.7 h=2 st=2 chg=u
+<6>[18950.323332] ....led_brightness_set_tricolor...
+<7>[18950.323346] KTD2026:*****RED  CLOSED*****
+<6>[18950.323881] ....led_brightness_set_tricolor...
+<7>[18950.323898] KTD2026:****GREEN OPEN*****
+<6>[18950.323905] ...ktd_green_on = 8 ...
+<6>[18950.328707] ....led_brightness_set_tricolor...
+<7>[18950.328733] KTD2026:*****BLUE CLOSED*****
+<12>[18950.350969] healthd: battery l=100 v=4348 t=30.7 h=2 st=2 chg=u
+<12>[18950.372456] healthd: battery l=100 v=4334 t=30.8 h=2 st=2 chg=u
+<6>[18950.379587] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18950.383706] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[18950.398351] IPv6: ADDRCONF(NETDEV_UP): rndis0: link is not ready
+<12>[18950.400881] healthd: battery l=100 v=4312 t=30.8 h=2 st=2 chg=u
+<3>[18950.413810] fast_chg_handler: rt_stat = 0x40
+<12>[18950.434660] healthd: battery l=100 v=4311 t=30.8 h=2 st=2 chg=u
+<12>[18950.453443] healthd: battery l=100 v=4308 t=30.9 h=2 st=2 chg=u
+<6>[18950.488814] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<3>[18950.499910] qtaguid: tag_stat: stat_update() p2p0 not found
+<6>[18950.505021] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<3>[18950.505529] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[18950.510694] IPv6: ADDRCONF(NETDEV_CHANGE): rndis0: link becomes ready
+<3>[18950.510958] smb135x_external_power_changed: current_limit = 500
+<6>[18950.517903] smb135x_set_usb_chg_current: USB current_ma = 500
+<6>[18950.519069] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<12>[18950.532338] healthd: battery l=100 v=4341 t=30.7 h=2 st=2 chg=u
+<6>[18950.569894] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<6>[18950.946575] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18951.488164] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18954.033502] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18955.580282] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18956.089696] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18957.619927] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[18957.629927] qtaguid: tag_stat: stat_update() p2p0 not found
+<3>[18959.129780] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[18963.328046] Error: returning -4 value
+<6>[18963.429182] functions_store: Android: enable functions: rmnet,diag,serial,adb
+<6>[18963.433521] read descriptors
+<6>[18963.433537] read strings
+<6>[18963.433619] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18963.436742] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[18963.441019] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[18963.441291] android_work: android_work: did not send uevent (1 1           (null))
+<3>[18963.441346] smb135x_external_power_changed: current_limit = 2
+<6>[18963.447755] smb135x_set_usb_chg_current: USB current_ma = 2
+<6>[18963.447775] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[18963.450174] power_ok_handler: rt_stat = 0x00
+<3>[18963.456601] fast_chg_handler: rt_stat = 0x00
+<6>[18963.460237] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<3>[18963.460260] msm_otg 78d9000.usb: Avail curr from USB = 100
+<3>[18963.465973] smb135x_external_power_changed: current_limit = 100
+<6>[18963.472133] smb135x_set_usb_chg_current: USB current_ma = 100
+<6>[18963.472505] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[18963.474598] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18963.476508] power_ok_handler: rt_stat = 0x01
+<12>[18963.481247] healthd: battery l=100 v=4294 t=30.8 h=2 st=2 chg=u
+<3>[18963.492826] CHARGE:smb135x_battery_get_property: __get battery voltage=4283400___
+<3>[18963.506379] CHARGE:smb135x_battery_get_property:  __get battery temp=31___
+<12>[18963.513069] healthd: battery l=100 v=4296 t=31.0 h=2 st=2 chg=u
+<3>[18963.539874] qtaguid: tag_stat: stat_update() p2p0 not found
+<3>[18963.544602] CHARGE:smb135x_battery_get_property:  __get battery temp=30___
+<3>[18963.548512] CHARGE:smb135x_battery_get_property:  __get battery temp=31___
+<12>[18963.559149] healthd: battery l=100 v=4306 t=31.0 h=2 st=2 chg=u
+<6>[18963.565795] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18963.567620] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<12>[18963.578395] healthd: battery l=100 v=4277 t=31.1 h=2 st=2 chg=u
+<3>[18963.587248] fast_chg_handler: rt_stat = 0x40
+<12>[18963.605079] healthd: battery l=100 v=4294 t=31.0 h=2 st=2 chg=u
+<3>[18963.627104] CHARGE:smb135x_battery_get_property:  __get battery temp=30___
+<12>[18963.633764] healthd: battery l=100 v=4281 t=30.8 h=2 st=2 chg=u
+<3>[18963.647275] CHARGE:smb135x_battery_get_property: __get battery voltage=4326063___
+<3>[18963.657319] CHARGE:smb135x_battery_get_property:  __get battery temp=31___
+<12>[18963.664010] healthd: battery l=100 v=4326 t=31.0 h=2 st=2 chg=u
+<6>[18963.669683] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<3>[18963.678910] CHARGE:smb135x_battery_get_property: __get battery voltage=4293111___
+<3>[18963.690061] CHARGE:smb135x_battery_get_property:  __get battery temp=30___
+<12>[18963.697407] healthd: battery l=100 v=4293 t=30.9 h=2 st=2 chg=u
+<12>[18963.714322] healthd: battery l=100 v=4303 t=30.8 h=2 st=2 chg=u
+<6>[18964.285003] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18965.318209] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18966.842083] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[18971.670075] qtaguid: tag_stat: stat_update() p2p0 not found
+<3>[18972.833965] CHARGE:smb135x_battery_get_property: __get battery voltage=4339596___
+<12>[18972.844823] healthd: battery l=100 v=4339 t=30.7 h=2 st=2 chg=u
+<3>[18975.879641] Error: returning -512 value
+<4>[18975.884924] enable_store: 1 callbacks suppressed
+<3>[18975.889240] enable_store: android_usb: already disabled
+<6>[18975.894659] functions_store: Android: enable functions: rndis,adb
+<6>[18975.900250] read descriptors
+<6>[18975.900270] read strings
+<6>[18975.900315] rndis_function_bind_config: rndis_function_bind_config MAC: 02:06:51:53:33:65
+<4>[18975.900435] android_usb gadget: using random self ethernet address
+<4>[18975.906945] android_usb gadget: using random host ethernet address
+<6>[18975.922309] rndis0: MAC a2:cf:87:d9:ce:0b
+<6>[18975.922324] rndis0: HOST MAC 2a:17:8b:ec:d7:c2
+<6>[18975.922979] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<3>[18975.926119] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[18975.930400] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[18975.930466] android_work: android_work: did not send uevent (1 1           (null))
+<3>[18975.930488] smb135x_external_power_changed: current_limit = 2
+<6>[18975.937454] smb135x_set_usb_chg_current: USB current_ma = 2
+<6>[18975.937467] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[18975.944930] power_ok_handler: rt_stat = 0x00
+<3>[18975.951399] fast_chg_handler: rt_stat = 0x00
+<3>[18975.958366] CHARGE:smb135x_battery_get_property: __get battery voltage=4296051___
+<12>[18975.970379] healthd: battery l=100 v=4296 t=30.9 h=2 st=3 chg=u
+<6>[18975.976272] ....led_brightness_set_tricolor...
+<7>[18975.976285] KTD2026:*****RED  CLOSED*****
+<6>[18975.976892] ....led_brightness_set_tricolor...
+<7>[18975.976902] KTD2026:*****GREEN  CLOSED*****
+<6>[18975.978860] ....led_brightness_set_tricolor...
+<7>[18975.978875] KTD2026:*****BLUE CLOSED*****
+<12>[18975.999213] healthd: battery l=100 v=4296 t=30.8 h=2 st=3 chg=u
+<3>[18976.009779] CHARGE:smb135x_battery_get_property:  __get battery temp=31___
+<3>[18976.022257] CHARGE:smb135x_battery_get_property:  __get battery temp=30___
+<12>[18976.028857] healthd: battery l=100 v=4311 t=30.9 h=2 st=3 chg=u
+<12>[18976.047817] healthd: battery l=100 v=4323 t=30.8 h=2 st=3 chg=u
+<12>[18976.065469] healthd: battery l=100 v=4323 t=30.8 h=2 st=3 chg=u
+<3>[18983.284309] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4369291, chip->last_soc=100, batt_temp = 312,current_now=231948
+<6>[18992.283027] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<3>[18992.283059] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[18992.287884] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[18992.287906] smb135x_external_power_changed: current_limit = 100
+<6>[18992.295639] smb135x_set_usb_chg_current: USB current_ma = 100
+<6>[18992.298030] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18992.299899] power_ok_handler: rt_stat = 0x01
+<3>[18992.310476] CHARGE:smb135x_battery_get_property:  __get battery temp=31___
+<12>[18992.319281] healthd: battery l=100 v=4287 t=31.1 h=2 st=2 chg=u
+<6>[18992.325804] ....led_brightness_set_tricolor...
+<7>[18992.325815] KTD2026:*****RED  CLOSED*****
+<6>[18992.326418] ....led_brightness_set_tricolor...
+<7>[18992.326430] KTD2026:****GREEN OPEN*****
+<6>[18992.326434] ...ktd_green_on = 8 ...
+<6>[18992.329280] ....led_brightness_set_tricolor...
+<7>[18992.329292] KTD2026:*****BLUE CLOSED*****
+<3>[18992.330988] CHARGE:smb135x_battery_get_property:  __get battery temp=30___
+<12>[18992.345028] healthd: battery l=100 v=4299 t=30.9 h=2 st=2 chg=u
+<12>[18992.363266] healthd: battery l=100 v=4288 t=30.9 h=2 st=2 chg=u
+<6>[18992.374281] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18992.380184] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[18992.399294] IPv6: ADDRCONF(NETDEV_UP): rndis0: link is not ready
+<3>[18992.403244] CHARGE:smb135x_battery_get_property:  __get battery temp=31___
+<3>[18992.411139] fast_chg_handler: rt_stat = 0x40
+<12>[18992.418237] healthd: battery l=100 v=4294 t=31.1 h=2 st=2 chg=u
+<3>[18992.424192] CHARGE:smb135x_battery_get_property: __get battery voltage=4264866___
+<3>[18992.435430] CHARGE:smb135x_battery_get_property: __get battery voltage=4229856___
+<12>[18992.445700] healthd: battery l=100 v=4229 t=31.0 h=2 st=2 chg=u
+<3>[18992.461083] CHARGE:smb135x_battery_get_property: __get battery voltage=4295757___
+<12>[18992.472473] healthd: battery l=100 v=4295 t=31.2 h=2 st=2 chg=u
+<6>[18992.485515] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[18992.503724] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<3>[18992.504221] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[18992.508920] IPv6: ADDRCONF(NETDEV_CHANGE): rndis0: link becomes ready
+<3>[18992.509186] smb135x_external_power_changed: current_limit = 500
+<6>[18992.515227] smb135x_set_usb_chg_current: USB current_ma = 500
+<6>[18992.515937] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<3>[18992.519852] qtaguid: tag_stat: stat_update() p2p0 not found
+<3>[18992.528985] CHARGE:smb135x_battery_get_property: __get battery voltage=4330476___
+<3>[18992.540445] CHARGE:smb135x_battery_get_property:  __get battery temp=30___
+<12>[18992.548606] healthd: battery l=100 v=4330 t=30.8 h=2 st=2 chg=u
+<6>[18992.570076] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<6>[18994.829873] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18995.363763] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[18995.879319] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[18998.029886] qtaguid: tag_stat: stat_update() p2p0 not found
+<6>[19015.390664] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19015.891051] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19017.220312] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19018.248403] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19020.837413] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19021.850408] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19022.358649] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19023.379668] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19023.890933] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19023.899388] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19026.454634] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19026.965342] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19027.986637] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19029.007839] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[19031.561863] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4369624, chip->last_soc=100, batt_temp = 308,current_now=-116938
+<2>[19032.726537] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[19032.733800] wlan: [4187:F :CTL] a080eb4: 0
+<2>[19032.737806] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[19032.742565] wlan: [4187:F :CTL] a08040c: 0
+<2>[19032.746968] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[19032.751280] wlan: [4187:F :CTL] a013c50: 5
+<2>[19032.754884] wlan: [4187:F :CTL] a013c5c: 12
+<2>[19032.759054] wlan: [4187:F :CTL] a013d38: 91
+<2>[19032.763133] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[19032.767782] wlan: [4187:F :CTL] a0801d0: e
+<3>[19035.927121] iio_buffer_store_enable: for predisable part
+<3>[19035.933035] iio_buffer_store_enable: for postenable part
+<6>[19038.001117] msm_vidc: info: Opening video instance: ffffffc005bd6000, 1
+<6>[19038.027716] subsys-pil-tz 1de0000.qcom,venus: venus: loading from 0x000000008ee00000 to 0x000000008f300000
+<6>[19038.099856] subsys-pil-tz 1de0000.qcom,venus: venus: Brought out of reset
+<6>[19038.239478] msm_vidc:  err: Persist buffers already allocated
+<6>[19065.844648] msm_vidc: info: Closed video instance: ffffffc005bd6000
+<6>[19067.066922] msm_vidc: info: Opening video instance: ffffffc03eb26000, 1
+<6>[19067.167881] msm_vidc:  err: Persist buffers already allocated
+<6>[19072.867930] msm_vidc: info: Closed video instance: ffffffc03eb26000
+<6>[19073.711809] msm_vidc: info: Opening video instance: ffffffc066cd4000, 1
+<6>[19073.793335] msm_vidc:  err: Persist buffers already allocated
+<6>[19079.787890] BMS: report_eoc: Report EOC to charger,chip->last_ocv_uv=4370473
+<6>[19079.787905] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[19079.789775] power_ok_handler: rt_stat = 0x00
+<3>[19079.796734] fast_chg_handler: rt_stat = 0x00
+<6>[19079.801476] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<6>[19079.801875] smb135x-charger 6-0057: status = FULL chg_done_batt_full = 1
+<3>[19079.802146] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4370473, chip->last_soc=100, batt_temp = 308,current_now=-131978
+<3>[19079.825251] CHARGE:smb135x_battery_get_property:  __get battery temp=31___
+<12>[19079.832059] healthd: battery l=100 v=4329 t=31.0 h=2 st=5 chg=u
+<12>[19079.859169] healthd: battery l=100 v=4312 t=31.1 h=2 st=5 chg=u
+<3>[19079.872805] CHARGE:smb135x_battery_get_property: __get battery voltage=4296936___
+<12>[19079.885528] healthd: battery l=100 v=4296 t=31.1 h=2 st=5 chg=u
+<12>[19079.906202] healthd: battery l=100 v=4313 t=31.2 h=2 st=5 chg=u
+<6>[19083.199822] msm_vidc: info: Closed video instance: ffffffc066cd4000
+<3>[19084.379791] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[19085.409522] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19088.077221] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19091.662447] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19092.067869] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19096.153193] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19096.666278] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19097.702048] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[19099.409822] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[19101.840197] msm_vidc: info: Opening video instance: ffffffc07230e000, 1
+<6>[19101.863566] subsys-pil-tz 1de0000.qcom,venus: venus: loading from 0x000000008ee00000 to 0x000000008f300000
+<6>[19101.908236] subsys-pil-tz 1de0000.qcom,venus: venus: Brought out of reset
+<6>[19102.054470] msm_vidc:  err: Persist buffers already allocated
+<3>[19108.185356] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[19109.208516] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<6>[19112.783298] msm_vidc: info: Closed video instance: ffffffc07230e000
+<4>[19112.786858] CodecLooper (15644) used greatest stack depth: 9992 bytes left
+<3>[19114.439995] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[19128.053111] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4368219, chip->last_soc=100, batt_temp = 314,current_now=270540
+<3>[19129.469779] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[19176.304664] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4366162, chip->last_soc=100, batt_temp = 313,current_now=287938
+<2>[19205.879143] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 3 reasonCode: 400
+<2>[19205.886659] wlan: [4187:F :CTL] a080eb4: 0
+<2>[19205.890954] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[19205.895707] wlan: [4187:F :CTL] a08040c: 3000
+<2>[19205.899471] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[19205.903825] wlan: [4187:F :CTL] a013c50: 28
+<2>[19205.907900] wlan: [4187:F :CTL] a013c5c: 12
+<2>[19205.911875] wlan: [4187:F :CTL] a013d38: c8
+<2>[19205.915970] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[19205.923715] wlan: [4187:F :CTL] a0801d0: 35
+<3>[19219.650113] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[19224.557524] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4363827, chip->last_soc=100, batt_temp = 315,current_now=304092
+<6>[19247.910996] lowmemorykiller: Killing '.tencent.qqlive' (8148), adj 1000,
+<6>[19247.910996]    to free 131720kB on behalf of 'kswapd0' (103) because
+<6>[19247.910996]    cache 321744kB is below limit 322560kB for oom_score_adj 1000
+<6>[19247.910996]    Free memory is 19512kB above reserved.
+<6>[19247.910996]    Free CMA is 1488kB
+<6>[19247.910996]    Total reserve is 19984kB
+<6>[19247.910996]    Total free pages is 31664kB
+<6>[19247.910996]    Total file cache is 322688kB
+<6>[19247.910996]    Slab Reclaimable is 28096kB
+<6>[19247.910996]    Slab UnReclaimable is 70104kB
+<6>[19247.910996]    Total Slab is 98200kB
+<6>[19247.910996]    GFP mask is 0xd0
+<6>[19250.812379] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19257.815350] msm_vidc: info: Opening video instance: ffffffc0135be000, 1
+<6>[19257.838212] subsys-pil-tz 1de0000.qcom,venus: venus: loading from 0x000000008ee00000 to 0x000000008f300000
+<6>[19257.889838] subsys-pil-tz 1de0000.qcom,venus: venus: Brought out of reset
+<6>[19258.022861] msm_vidc:  err: Persist buffers already allocated
+<6>[19258.083579] lowmemorykiller: Killing '.yulong.cloneit' (13466), adj 1000,
+<6>[19258.083579]    to free 60936kB on behalf of 'kswapd0' (103) because
+<6>[19258.083579]    cache 311380kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.083579]    Free memory is 26744kB above reserved.
+<6>[19258.083579]    Free CMA is 12kB
+<6>[19258.083579]    Total reserve is 19984kB
+<6>[19258.083579]    Total free pages is 26756kB
+<6>[19258.083579]    Total file cache is 320396kB
+<6>[19258.083579]    Slab Reclaimable is 27040kB
+<6>[19258.083579]    Slab UnReclaimable is 69388kB
+<6>[19258.083579]    Total Slab is 96428kB
+<6>[19258.083579]    GFP mask is 0xd0
+<6>[19258.111681] lowmemorykiller: Killing 'm.android.music' (3175), adj 1000,
+<6>[19258.111681]    to free 57072kB on behalf of 'kswapd0' (103) because
+<6>[19258.111681]    cache 311380kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.111681]    Free memory is 42368kB above reserved.
+<6>[19258.111681]    Free CMA is 12kB
+<6>[19258.111681]    Total reserve is 19984kB
+<6>[19258.111681]    Total free pages is 42380kB
+<6>[19258.111681]    Total file cache is 320396kB
+<6>[19258.111681]    Slab Reclaimable is 27040kB
+<6>[19258.111681]    Slab UnReclaimable is 69388kB
+<6>[19258.111681]    Total Slab is 96428kB
+<6>[19258.111681]    GFP mask is 0xd0
+<6>[19258.152106] lowmemorykiller: Killing 'droid.gallery3d' (14674), adj 1000,
+<6>[19258.152106]    to free 54780kB on behalf of 'kswapd0' (103) because
+<6>[19258.152106]    cache 311380kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.152106]    Free memory is 52164kB above reserved.
+<6>[19258.152106]    Free CMA is 756kB
+<6>[19258.152106]    Total reserve is 19984kB
+<6>[19258.152106]    Total free pages is 53788kB
+<6>[19258.152106]    Total file cache is 320396kB
+<6>[19258.152106]    Slab Reclaimable is 27040kB
+<6>[19258.152106]    Slab UnReclaimable is 69388kB
+<6>[19258.152106]    Total Slab is 96428kB
+<6>[19258.152106]    GFP mask is 0xd0
+<6>[19258.212024] lowmemorykiller: Killing 'system:ui' (14238), adj 1000,
+<6>[19258.212024]    to free 46216kB on behalf of 'kswapd0' (103) because
+<6>[19258.212024]    cache 313588kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.212024]    Free memory is 72664kB above reserved.
+<6>[19258.212024]    Free CMA is 880kB
+<6>[19258.212024]    Total reserve is 19984kB
+<6>[19258.212024]    Total free pages is 73544kB
+<6>[19258.212024]    Total file cache is 322604kB
+<6>[19258.212024]    Slab Reclaimable is 27040kB
+<6>[19258.212024]    Slab UnReclaimable is 69388kB
+<6>[19258.212024]    Total Slab is 96428kB
+<6>[19258.212024]    GFP mask is 0xd0
+<6>[19258.241729] lowmemorykiller: Killing 'ong.logredirect' (3124), adj 1000,
+<6>[19258.241729]    to free 45400kB on behalf of 'kswapd0' (103) because
+<6>[19258.241729]    cache 315060kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.241729]    Free memory is 76520kB above reserved.
+<6>[19258.241729]    Free CMA is 880kB
+<6>[19258.241729]    Total reserve is 19984kB
+<6>[19258.241729]    Total free pages is 77772kB
+<6>[19258.241729]    Total file cache is 324076kB
+<6>[19258.241729]    Slab Reclaimable is 27040kB
+<6>[19258.241729]    Slab UnReclaimable is 69264kB
+<6>[19258.241729]    Total Slab is 96304kB
+<6>[19258.241729]    GFP mask is 0xd0
+<6>[19258.272640] lowmemorykiller: Killing 'tv.android.note' (12425), adj 1000,
+<6>[19258.272640]    to free 35700kB on behalf of 'kswapd0' (103) because
+<6>[19258.272640]    cache 315060kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.272640]    Free memory is 86292kB above reserved.
+<6>[19258.272640]    Free CMA is 2244kB
+<6>[19258.272640]    Total reserve is 19984kB
+<6>[19258.272640]    Total free pages is 88536kB
+<6>[19258.272640]    Total file cache is 324076kB
+<6>[19258.272640]    Slab Reclaimable is 27040kB
+<6>[19258.272640]    Slab UnReclaimable is 69140kB
+<6>[19258.272640]    Total Slab is 96180kB
+<6>[19258.272640]    GFP mask is 0xd0
+<6>[19258.332061] lowmemorykiller: Killing 'ndroid.incallui' (15488), adj 1000,
+<6>[19258.332061]    to free 81452kB on behalf of 'kswapd0' (103) because
+<6>[19258.332061]    cache 315060kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.332061]    Free memory is 89656kB above reserved.
+<6>[19258.332061]    Free CMA is 2244kB
+<6>[19258.332061]    Total reserve is 19984kB
+<6>[19258.332061]    Total free pages is 91900kB
+<6>[19258.332061]    Total file cache is 324076kB
+<6>[19258.332061]    Slab Reclaimable is 27040kB
+<6>[19258.332061]    Slab UnReclaimable is 69140kB
+<6>[19258.332061]    Total Slab is 96180kB
+<6>[19258.332061]    GFP mask is 0xd0
+<6>[19258.392847] lowmemorykiller: Killing 'etv.android.ota' (4472), adj 1000,
+<6>[19258.392847]    to free 59524kB on behalf of 'kswapd0' (103) because
+<6>[19258.392847]    cache 315060kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.392847]    Free memory is 111736kB above reserved.
+<6>[19258.392847]    Free CMA is 2492kB
+<6>[19258.392847]    Total reserve is 19984kB
+<6>[19258.392847]    Total free pages is 114228kB
+<6>[19258.392847]    Total file cache is 324076kB
+<6>[19258.392847]    Slab Reclaimable is 27040kB
+<6>[19258.392847]    Slab UnReclaimable is 69016kB
+<6>[19258.392847]    Total Slab is 96056kB
+<6>[19258.392847]    GFP mask is 0xd0
+<6>[19258.452205] lowmemorykiller: Killing 'droid.deskclock' (5608), adj 1000,
+<6>[19258.452205]    to free 34872kB on behalf of 'kswapd0' (103) because
+<6>[19258.452205]    cache 315060kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.452205]    Free memory is 118460kB above reserved.
+<6>[19258.452205]    Free CMA is 4972kB
+<6>[19258.452205]    Total reserve is 19984kB
+<6>[19258.452205]    Total free pages is 123432kB
+<6>[19258.452205]    Total file cache is 324076kB
+<6>[19258.452205]    Slab Reclaimable is 27040kB
+<6>[19258.452205]    Slab UnReclaimable is 68892kB
+<6>[19258.452205]    Total Slab is 95932kB
+<6>[19258.452205]    GFP mask is 0xd0
+<6>[19258.514832] lowmemorykiller: Killing 'tvShareProvider' (14256), adj 1000,
+<6>[19258.514832]    to free 34460kB on behalf of 'kswapd0' (103) because
+<6>[19258.514832]    cache 315612kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.514832]    Free memory is 135264kB above reserved.
+<6>[19258.514832]    Free CMA is 5096kB
+<6>[19258.514832]    Total reserve is 19984kB
+<6>[19258.514832]    Total free pages is 140360kB
+<6>[19258.514832]    Total file cache is 324444kB
+<6>[19258.514832]    Slab Reclaimable is 27040kB
+<6>[19258.514832]    Slab UnReclaimable is 68756kB
+<6>[19258.514832]    Total Slab is 95796kB
+<6>[19258.514832]    GFP mask is 0xd0
+<6>[19258.542286] lowmemorykiller: Killing 'ndroid.exchange' (13747), adj 1000,
+<6>[19258.542286]    to free 34380kB on behalf of 'kswapd0' (103) because
+<6>[19258.542286]    cache 315612kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.542286]    Free memory is 137620kB above reserved.
+<6>[19258.542286]    Free CMA is 5096kB
+<6>[19258.542286]    Total reserve is 19984kB
+<6>[19258.542286]    Total free pages is 142716kB
+<6>[19258.542286]    Total file cache is 324444kB
+<6>[19258.542286]    Slab Reclaimable is 27040kB
+<6>[19258.542286]    Slab UnReclaimable is 68632kB
+<6>[19258.542286]    Total Slab is 95672kB
+<6>[19258.542286]    GFP mask is 0xd0
+<6>[19258.572420] lowmemorykiller: Killing 'oadcastreceiver' (13782), adj 1000,
+<6>[19258.572420]    to free 33372kB on behalf of 'kswapd0' (103) because
+<6>[19258.572420]    cache 315612kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.572420]    Free memory is 149900kB above reserved.
+<6>[19258.572420]    Free CMA is 5096kB
+<6>[19258.572420]    Total reserve is 19984kB
+<6>[19258.572420]    Total free pages is 155376kB
+<6>[19258.572420]    Total file cache is 324444kB
+<6>[19258.572420]    Slab Reclaimable is 27040kB
+<6>[19258.572420]    Slab UnReclaimable is 68632kB
+<6>[19258.572420]    Total Slab is 95672kB
+<6>[19258.572420]    GFP mask is 0xd0
+<6>[19258.631535] lowmemorykiller: Killing 'i.modemtestmode' (4622), adj 1000,
+<6>[19258.631535]    to free 32372kB on behalf of 'kswapd0' (103) because
+<6>[19258.631535]    cache 315612kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.631535]    Free memory is 153152kB above reserved.
+<6>[19258.631535]    Free CMA is 5096kB
+<6>[19258.631535]    Total reserve is 19984kB
+<6>[19258.631535]    Total free pages is 158248kB
+<6>[19258.631535]    Total file cache is 324444kB
+<6>[19258.631535]    Slab Reclaimable is 27040kB
+<6>[19258.631535]    Slab UnReclaimable is 68632kB
+<6>[19258.631535]    Total Slab is 95672kB
+<6>[19258.631535]    GFP mask is 0xd0
+<6>[19258.662699] lowmemorykiller: Killing 'wallpaperonline' (4033), adj 1000,
+<6>[19258.662699]    to free 173648kB on behalf of 'kswapd0' (103) because
+<6>[19258.662699]    cache 315612kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.662699]    Free memory is 157120kB above reserved.
+<6>[19258.662699]    Free CMA is 5468kB
+<6>[19258.662699]    Total reserve is 19984kB
+<6>[19258.662699]    Total free pages is 162588kB
+<6>[19258.662699]    Total file cache is 324444kB
+<6>[19258.662699]    Slab Reclaimable is 27040kB
+<6>[19258.662699]    Slab UnReclaimable is 68632kB
+<6>[19258.662699]    Total Slab is 95672kB
+<6>[19258.662699]    GFP mask is 0xd0
+<6>[19258.751945] lowmemorykiller: Killing 'd.process.media' (6075), adj 1000,
+<6>[19258.751945]    to free 39692kB on behalf of 'kswapd0' (103) because
+<6>[19258.751945]    cache 315612kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.751945]    Free memory is 280184kB above reserved.
+<6>[19258.751945]    Free CMA is 9312kB
+<6>[19258.751945]    Total reserve is 19984kB
+<6>[19258.751945]    Total free pages is 289496kB
+<6>[19258.751945]    Total file cache is 324444kB
+<6>[19258.751945]    Slab Reclaimable is 27040kB
+<6>[19258.751945]    Slab UnReclaimable is 68508kB
+<6>[19258.751945]    Total Slab is 95548kB
+<6>[19258.751945]    GFP mask is 0xd0
+<6>[19258.782730] lowmemorykiller: Killing 'rver.telecom:ui' (15467), adj 1000,
+<6>[19258.782730]    to free 31076kB on behalf of 'kswapd0' (103) because
+<6>[19258.782730]    cache 315612kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.782730]    Free memory is 285144kB above reserved.
+<6>[19258.782730]    Free CMA is 9312kB
+<6>[19258.782730]    Total reserve is 19984kB
+<6>[19258.782730]    Total free pages is 294456kB
+<6>[19258.782730]    Total file cache is 324444kB
+<6>[19258.782730]    Slab Reclaimable is 27040kB
+<6>[19258.782730]    Slab UnReclaimable is 68384kB
+<6>[19258.782730]    Total Slab is 95424kB
+<6>[19258.782730]    GFP mask is 0xd0
+<6>[19258.811415] lowmemorykiller: Killing 'ti.diagservices' (3743), adj 1000,
+<6>[19258.811415]    to free 29440kB on behalf of 'kswapd0' (103) because
+<6>[19258.811415]    cache 315612kB is below limit 322560kB for oom_score_adj 1000
+<6>[19258.811415]    Free memory is 291452kB above reserved.
+<6>[19258.811415]    Free CMA is 9436kB
+<6>[19258.811415]    Total reserve is 19984kB
+<6>[19258.811415]    Total free pages is 300888kB
+<6>[19258.811415]    Total file cache is 324444kB
+<6>[19258.811415]    Slab Reclaimable is 27040kB
+<6>[19258.811415]    Slab UnReclaimable is 68384kB
+<6>[19258.811415]    Total Slab is 95424kB
+<6>[19258.811415]    GFP mask is 0xd0
+<6>[19260.443418] msm_vidc: info: Closed video instance: ffffffc0135be000
+<4>[19260.447436] CodecLooper (16518) used greatest stack depth: 9624 bytes left
+<3>[19272.815419] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4360939, chip->last_soc=100, batt_temp = 317,current_now=419254
+<3>[19273.599249] iio_buffer_store_enable: for predisable part
+<3>[19273.609243] iio_buffer_store_enable: for postenable part
+<3>[19279.769799] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[19283.726881] iio_buffer_store_enable: for predisable part
+<3>[19283.733884] iio_buffer_store_enable: for postenable part
+<3>[19285.331866] iio_buffer_store_enable: for predisable part
+<3>[19285.342348] iio_buffer_store_enable: for postenable part
+<3>[19286.786653] iio_buffer_store_enable: for predisable part
+<3>[19286.794546] iio_buffer_store_enable: for postenable part
+<3>[19314.840064] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[19321.064955] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<6>[19321.065618] smb135x-charger 6-0057: status = CHARGING chg_done_batt_full = 0
+<6>[19321.065632] BMS: check_recharge_condition: soc dropped below resume_soc soc=100 last_ocv_uv=4358126 resume_soc=99, restart charging
+<3>[19321.067360] power_ok_handler: rt_stat = 0x01
+<3>[19321.071297] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4358126, chip->last_soc=100, batt_temp = 318,current_now=363625
+<3>[19321.094966] CHARGE:smb135x_battery_get_property: __get battery voltage=4333416___
+<12>[19321.113914] healthd: battery l=100 v=4333 t=31.6 h=2 st=2 chg=u
+<12>[19321.135769] healthd: battery l=100 v=4335 t=31.6 h=2 st=2 chg=u
+<3>[19321.178152] fast_chg_handler: rt_stat = 0x40
+<12>[19321.203768] healthd: battery l=100 v=4352 t=31.4 h=2 st=2 chg=u
+<3>[19321.221560] CHARGE:smb135x_battery_get_property: __get battery voltage=4366662___
+<12>[19321.231911] healthd: battery l=100 v=4366 t=31.5 h=2 st=2 chg=u
+<2>[19323.095022] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[19323.102365] wlan: [4187:F :CTL] a080eb4: 41
+<2>[19323.107061] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[19323.110909] wlan: [4187:F :CTL] a08040c: 3000
+<2>[19323.115097] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[19323.119285] wlan: [4187:F :CTL] a013c50: 28
+<2>[19323.125321] wlan: [4187:F :CTL] a013c5c: 12
+<2>[19323.128711] wlan: [4187:F :CTL] a013d38: f0
+<2>[19323.132734] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[19323.137339] wlan: [4187:F :CTL] a0801d0: 0
+<6>[19348.995423] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19349.515577] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19350.023832] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19358.698467] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19359.729338] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[19359.930082] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[19361.259604] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19361.815856] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19364.846981] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[19369.330508] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4358788, chip->last_soc=100, batt_temp = 314,current_now=-144322
+<3>[19369.950184] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<2>[19399.578426] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[19399.585553] wlan: [4187:F :CTL] a080eb4: 41
+<2>[19399.590747] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[19399.594915] wlan: [4187:F :CTL] a08040c: 3000
+<2>[19399.598721] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[19399.603017] wlan: [4187:F :CTL] a013c50: 28
+<2>[19399.607384] wlan: [4187:F :CTL] a013c5c: 12
+<2>[19399.611561] wlan: [4187:F :CTL] a013d38: b4
+<2>[19399.615451] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[19399.620061] wlan: [4187:F :CTL] a0801d0: 0
+<3>[19417.598077] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4359694, chip->last_soc=100, batt_temp = 314,current_now=-94898
+<6>[19430.722014] binder: 3937:3937 transaction failed 29189, size 432-0
+<3>[19465.139820] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[19465.835051] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4359466, chip->last_soc=100, batt_temp = 316,current_now=136981
+<2>[19509.971756] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[19509.982052] wlan: [4187:F :CTL] a080eb4: 0
+<2>[19509.985242] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[19509.993051] wlan: [4187:F :CTL] a08040c: 3000
+<2>[19509.998102] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[19510.001455] wlan: [4187:F :CTL] a013c50: 28
+<2>[19510.007979] wlan: [4187:F :CTL] a013c5c: 12
+<2>[19510.014021] wlan: [4187:F :CTL] a013d38: f0
+<2>[19510.017381] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[19510.023660] wlan: [4187:F :CTL] a0801d0: 0
+<3>[19514.103651] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4358835, chip->last_soc=100, batt_temp = 316,current_now=141961
+<3>[19520.249783] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[19535.279851] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[19550.851714] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19552.301434] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19555.412758] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19556.978200] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[19562.351104] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4359538, chip->last_soc=100, batt_temp = 316,current_now=-154248
+<6>[19563.173454] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19565.225790] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19565.732150] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19568.797246] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[19569.805913] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[19570.860123] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<12>[19572.840745] healthd: battery l=100 v=4391 t=31.6 h=2 st=2 chg=u
+<3>[19577.892112] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<6>[19578.843314] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19579.877404] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19580.898008] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19581.404102] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19581.912564] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19584.990779] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19590.433837] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19591.493217] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19592.015004] [ vibrator_set_level] set vib_level to 2500 mV
+<2>[19609.255572] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[19609.263099] wlan: [4187:F :CTL] a080eb4: 41
+<2>[19609.267592] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[19609.271376] wlan: [4187:F :CTL] a08040c: 3000
+<2>[19609.275667] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[19609.279849] wlan: [4187:F :CTL] a013c50: 28
+<2>[19609.284068] wlan: [4187:F :CTL] a013c5c: 12
+<2>[19609.288369] wlan: [4187:F :CTL] a013d38: c3
+<2>[19609.292955] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[19609.297000] wlan: [4187:F :CTL] a0801d0: 7
+<3>[19610.592957] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4360580, chip->last_soc=100, batt_temp = 320,current_now=-61659
+<3>[19630.469833] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[19658.859139] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4361740, chip->last_soc=100, batt_temp = 319,current_now=-169701
+<3>[19685.580014] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[19707.117050] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4363009, chip->last_soc=100, batt_temp = 320,current_now=-173888
+<6>[19708.756252] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19709.267289] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19710.285940] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19710.798210] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19711.327952] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19711.837262] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19712.362967] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19713.899160] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19714.419420] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19717.007052] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19717.479316] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[19737.282410] iio_buffer_store_enable: for predisable part
+<3>[19737.289402] iio_buffer_store_enable: for postenable part
+<2>[19740.547711] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[19740.554812] wlan: [4187:F :CTL] a080eb4: 41
+<2>[19740.560500] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[19740.568046] wlan: [4187:F :CTL] a08040c: 0
+<2>[19740.571201] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[19740.575692] wlan: [4187:F :CTL] a013c50: f
+<2>[19740.579352] wlan: [4187:F :CTL] a013c5c: 12
+<2>[19740.583582] wlan: [4187:F :CTL] a013d38: 9b
+<2>[19740.587742] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[19740.592775] wlan: [4187:F :CTL] a0801d0: 4
+<3>[19744.446209] iio_buffer_store_enable: for predisable part
+<3>[19744.452732] iio_buffer_store_enable: for postenable part
+<3>[19755.353176] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4364187, chip->last_soc=100, batt_temp = 320,current_now=-148468
+<3>[19760.730148] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[19768.211546] lowmemorykiller: Killing 'ndroid.letvlive' (15082), adj 1000,
+<6>[19768.211546]    to free 87688kB on behalf of 'kswapd0' (103) because
+<6>[19768.211546]    cache 322172kB is below limit 322560kB for oom_score_adj 1000
+<6>[19768.211546]    Free memory is 18768kB above reserved.
+<6>[19768.211546]    Free CMA is 0kB
+<6>[19768.211546]    Total reserve is 19984kB
+<6>[19768.211546]    Total free pages is 18768kB
+<6>[19768.211546]    Total file cache is 342324kB
+<6>[19768.211546]    Slab Reclaimable is 25924kB
+<6>[19768.211546]    Slab UnReclaimable is 69000kB
+<6>[19768.211546]    Total Slab is 94924kB
+<6>[19768.211546]    GFP mask is 0xd0
+<3>[19768.416208] iio_buffer_store_enable: for predisable part
+<3>[19768.425019] iio_buffer_store_enable: for postenable part
+<6>[19770.605681] lowmemorykiller: Killing 'ndroid.calendar' (3151), adj 1000,
+<6>[19770.605681]    to free 61520kB on behalf of 'kswapd0' (103) because
+<6>[19770.605681]    cache 321780kB is below limit 322560kB for oom_score_adj 1000
+<6>[19770.605681]    Free memory is 18752kB above reserved.
+<6>[19770.605681]    Free CMA is 0kB
+<6>[19770.605681]    Total reserve is 19984kB
+<6>[19770.605681]    Total free pages is 18752kB
+<6>[19770.605681]    Total file cache is 341928kB
+<6>[19770.605681]    Slab Reclaimable is 25756kB
+<6>[19770.605681]    Slab UnReclaimable is 68716kB
+<6>[19770.605681]    Total Slab is 94472kB
+<6>[19770.605681]    GFP mask is 0xd0
+<3>[19771.093628] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[19772.116892] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[19775.759885] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[19781.529435] lowmemorykiller: Killing 'ndroid.contacts' (15580), adj 1000,
+<6>[19781.529435]    to free 56912kB on behalf of 'kswapd0' (103) because
+<6>[19781.529435]    cache 322076kB is below limit 322560kB for oom_score_adj 1000
+<6>[19781.529435]    Free memory is 18264kB above reserved.
+<6>[19781.529435]    Free CMA is 620kB
+<6>[19781.529435]    Total reserve is 19984kB
+<6>[19781.529435]    Total free pages is 18884kB
+<6>[19781.529435]    Total file cache is 334336kB
+<6>[19781.529435]    Slab Reclaimable is 26044kB
+<6>[19781.529435]    Slab UnReclaimable is 68728kB
+<6>[19781.529435]    Total Slab is 94772kB
+<6>[19781.529435]    GFP mask is 0xd0
+<6>[19781.601459] lowmemorykiller: Killing 'browser:service' (16330), adj 1000,
+<6>[19781.601459]    to free 47132kB on behalf of 'kswapd0' (103) because
+<6>[19781.601459]    cache 322076kB is below limit 322560kB for oom_score_adj 1000
+<6>[19781.601459]    Free memory is 31040kB above reserved.
+<6>[19781.601459]    Free CMA is 1488kB
+<6>[19781.601459]    Total reserve is 19984kB
+<6>[19781.601459]    Total free pages is 32528kB
+<6>[19781.601459]    Total file cache is 334888kB
+<6>[19781.601459]    Slab Reclaimable is 26044kB
+<6>[19781.601459]    Slab UnReclaimable is 68728kB
+<6>[19781.601459]    Total Slab is 94772kB
+<6>[19781.601459]    GFP mask is 0xd0
+<6>[19798.818691] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[19803.615758] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4365072, chip->last_soc=100, batt_temp = 321,current_now=-153633
+<3>[19805.820154] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[19807.537666] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19807.546408] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19807.567616] lowmemorykiller: Killing 'viders.calendar' (19392), adj 1000,
+<6>[19807.567616]    to free 34844kB on behalf of 'kswapd0' (103) because
+<6>[19807.567616]    cache 322328kB is below limit 322560kB for oom_score_adj 1000
+<6>[19807.567616]    Free memory is 16408kB above reserved.
+<6>[19807.567616]    Free CMA is 200kB
+<6>[19807.567616]    Total reserve is 19984kB
+<6>[19807.567616]    Total free pages is 16608kB
+<6>[19807.567616]    Total file cache is 343580kB
+<6>[19807.567616]    Slab Reclaimable is 26108kB
+<6>[19807.567616]    Slab UnReclaimable is 68464kB
+<6>[19807.567616]    Total Slab is 94572kB
+<6>[19807.567616]    GFP mask is 0xd0
+<6>[19807.599698] lowmemorykiller: Killing 'oid.ecoProvider' (19411), adj 1000,
+<6>[19807.599698]    to free 34420kB on behalf of 'kswapd0' (103) because
+<6>[19807.599698]    cache 321592kB is below limit 322560kB for oom_score_adj 1000
+<6>[19807.599698]    Free memory is 18764kB above reserved.
+<6>[19807.599698]    Free CMA is 200kB
+<6>[19807.599698]    Total reserve is 19984kB
+<6>[19807.599698]    Total free pages is 18964kB
+<6>[19807.599698]    Total file cache is 342844kB
+<6>[19807.599698]    Slab Reclaimable is 26108kB
+<6>[19807.599698]    Slab UnReclaimable is 68464kB
+<6>[19807.599698]    Total Slab is 94572kB
+<6>[19807.599698]    GFP mask is 0xd0
+<6>[19810.703846] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19812.147170] lowmemorykiller: Killing 'android.browser' (16276), adj 1000,
+<6>[19812.147170]    to free 114760kB on behalf of 'kswapd0' (103) because
+<6>[19812.147170]    cache 321888kB is below limit 322560kB for oom_score_adj 1000
+<6>[19812.147170]    Free memory is 20208kB above reserved.
+<6>[19812.147170]    Free CMA is 0kB
+<6>[19812.147170]    Total reserve is 19984kB
+<6>[19812.147170]    Total free pages is 19824kB
+<6>[19812.147170]    Total file cache is 343156kB
+<6>[19812.147170]    Slab Reclaimable is 26140kB
+<6>[19812.147170]    Slab UnReclaimable is 68352kB
+<6>[19812.147170]    Total Slab is 94492kB
+<6>[19812.147170]    GFP mask is 0xd0
+<6>[19814.127036] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19815.178330] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19816.242352] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19826.439159] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[19826.943488] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[19833.106757] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[19835.154219] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<6>[19841.721501] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[19851.863952] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4366037, chip->last_soc=100, batt_temp = 321,current_now=-143875
+<3>[19860.929829] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[19895.999845] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[19900.105967] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4367332, chip->last_soc=100, batt_temp = 323,current_now=-150508
+<2>[19904.657118] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[19904.664170] wlan: [4187:F :CTL] a080eb4: 41
+<2>[19904.668527] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[19904.673059] wlan: [4187:F :CTL] a08040c: 3000
+<2>[19904.677297] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[19904.681521] wlan: [4187:F :CTL] a013c50: 23
+<2>[19904.685544] wlan: [4187:F :CTL] a013c5c: 12
+<2>[19904.689700] wlan: [4187:F :CTL] a013d38: af
+<2>[19904.694101] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[19904.698560] wlan: [4187:F :CTL] a0801d0: 3
+<6>[19910.560987] lowmemorykiller: Killing 'm.android.email' (19612), adj 1000,
+<6>[19910.560987]    to free 42560kB on behalf of 'kswapd0' (103) because
+<6>[19910.560987]    cache 322204kB is below limit 322560kB for oom_score_adj 1000
+<6>[19910.560987]    Free memory is 18944kB above reserved.
+<6>[19910.560987]    Free CMA is 8kB
+<6>[19910.560987]    Total reserve is 19984kB
+<6>[19910.560987]    Total free pages is 18952kB
+<6>[19910.560987]    Total file cache is 334908kB
+<6>[19910.560987]    Slab Reclaimable is 25284kB
+<6>[19910.560987]    Slab UnReclaimable is 69020kB
+<6>[19910.560987]    Total Slab is 94304kB
+<6>[19910.560987]    GFP mask is 0xd0
+<6>[19910.591966] lowmemorykiller: Killing 'viders.calendar' (19631), adj 1000,
+<6>[19910.591966]    to free 34920kB on behalf of 'kswapd0' (103) because
+<6>[19910.591966]    cache 322204kB is below limit 322560kB for oom_score_adj 1000
+<6>[19910.591966]    Free memory is 22292kB above reserved.
+<6>[19910.591966]    Free CMA is 380kB
+<6>[19910.591966]    Total reserve is 19984kB
+<6>[19910.591966]    Total free pages is 22672kB
+<6>[19910.591966]    Total file cache is 334908kB
+<6>[19910.591966]    Slab Reclaimable is 25284kB
+<6>[19910.591966]    Slab UnReclaimable is 69020kB
+<6>[19910.591966]    Total Slab is 94304kB
+<6>[19910.591966]    GFP mask is 0xd0
+<6>[19910.625232] lowmemorykiller: Killing 'ndroid.exchange' (19664), adj 1000,
+<6>[19910.625232]    to free 34276kB on behalf of 'kswapd0' (103) because
+<6>[19910.625232]    cache 322204kB is below limit 322560kB for oom_score_adj 1000
+<6>[19910.625232]    Free memory is 24152kB above reserved.
+<6>[19910.625232]    Free CMA is 1000kB
+<6>[19910.625232]    Total reserve is 19984kB
+<6>[19910.625232]    Total free pages is 25152kB
+<6>[19910.625232]    Total file cache is 334908kB
+<6>[19910.625232]    Slab Reclaimable is 25284kB
+<6>[19910.625232]    Slab UnReclaimable is 69020kB
+<6>[19910.625232]    Total Slab is 94304kB
+<6>[19910.625232]    GFP mask is 0xd0
+<3>[19911.030036] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<36>[19918.441712] type=1400 audit(1455704752.840:231639): avc: denied { getattr } for pid=19895 comm="pool-3-thread-1" path="/system/xbin/su" dev="mmcblk0p40" ino=3461 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:su_exec:s0 tclass=file permissive=0
+<36>[19918.477028] type=1400 audit(1455704752.870:231640): avc: denied { getattr } for pid=19898 comm="ls" path="/system/xbin/su" dev="mmcblk0p40" ino=3461 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:su_exec:s0 tclass=file permissive=0
+<36>[19918.562384] type=1400 audit(1455704752.960:231641): avc: denied { getattr } for pid=19895 comm="pool-3-thread-1" path="/system/xbin/su" dev="mmcblk0p40" ino=3461 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:su_exec:s0 tclass=file permissive=0
+<6>[19934.228938] lowmemorykiller: Killing 'd.remotecontrol' (15902), adj 1000,
+<6>[19934.228938]    to free 49392kB on behalf of 'kswapd0' (103) because
+<6>[19934.228938]    cache 320088kB is below limit 322560kB for oom_score_adj 1000
+<6>[19934.228938]    Free memory is 23852kB above reserved.
+<6>[19934.228938]    Free CMA is 44kB
+<6>[19934.228938]    Total reserve is 19984kB
+<6>[19934.228938]    Total free pages is 23896kB
+<6>[19934.228938]    Total file cache is 324848kB
+<6>[19934.228938]    Slab Reclaimable is 25684kB
+<6>[19934.228938]    Slab UnReclaimable is 68640kB
+<6>[19934.228938]    Total Slab is 94324kB
+<6>[19934.228938]    GFP mask is 0xd0
+<6>[19934.251679] lowmemorykiller: Killing 'd.process.media' (16615), adj 1000,
+<6>[19934.251679]    to free 34164kB on behalf of 'kswapd0' (103) because
+<6>[19934.251679]    cache 320088kB is below limit 322560kB for oom_score_adj 1000
+<6>[19934.251679]    Free memory is 31416kB above reserved.
+<6>[19934.251679]    Free CMA is 1408kB
+<6>[19934.251679]    Total reserve is 19984kB
+<6>[19934.251679]    Total free pages is 32824kB
+<6>[19934.251679]    Total file cache is 324848kB
+<6>[19934.251679]    Slab Reclaimable is 25684kB
+<6>[19934.251679]    Slab UnReclaimable is 68640kB
+<6>[19934.251679]    Total Slab is 94324kB
+<6>[19934.251679]    GFP mask is 0xd0
+<6>[19934.281624] lowmemorykiller: Killing 'motecontrol:cde' (16095), adj 1000,
+<6>[19934.281624]    to free 33232kB on behalf of 'kswapd0' (103) because
+<6>[19934.281624]    cache 320088kB is below limit 322560kB for oom_score_adj 1000
+<6>[19934.281624]    Free memory is 35388kB above reserved.
+<6>[19934.281624]    Free CMA is 1532kB
+<6>[19934.281624]    Total reserve is 19984kB
+<6>[19934.281624]    Total free pages is 36920kB
+<6>[19934.281624]    Total file cache is 324848kB
+<6>[19934.281624]    Slab Reclaimable is 25684kB
+<6>[19934.281624]    Slab UnReclaimable is 68640kB
+<6>[19934.281624]    Total Slab is 94324kB
+<6>[19934.281624]    GFP mask is 0xd0
+<6>[19934.311829] lowmemorykiller: Killing 'nt.mobileqq:web' (17714), adj 1000,
+<6>[19934.311829]    to free 32804kB on behalf of 'kswapd0' (103) because
+<6>[19934.311829]    cache 320088kB is below limit 322560kB for oom_score_adj 1000
+<6>[19934.311829]    Free memory is 44208kB above reserved.
+<6>[19934.311829]    Free CMA is 2276kB
+<6>[19934.311829]    Total reserve is 19984kB
+<6>[19934.311829]    Total free pages is 46484kB
+<6>[19934.311829]    Total file cache is 324848kB
+<6>[19934.311829]    Slab Reclaimable is 25684kB
+<6>[19934.311829]    Slab UnReclaimable is 68640kB
+<6>[19934.311829]    Total Slab is 94324kB
+<6>[19934.311829]    GFP mask is 0xd0
+<3>[19934.330013] binder: 16095: binder_alloc_buf, no vma
+<6>[19934.333857] binder: 1138:2477 transaction failed 29201, size 76-0
+<6>[19934.342481] lowmemorykiller: Killing 'encent.mobileqq' (17741), adj 1000,
+<6>[19934.342481]    to free 30720kB on behalf of 'kswapd0' (103) because
+<6>[19934.342481]    cache 321008kB is below limit 322560kB for oom_score_adj 1000
+<6>[19934.342481]    Free memory is 48032kB above reserved.
+<6>[19934.342481]    Free CMA is 2276kB
+<6>[19934.342481]    Total reserve is 19984kB
+<6>[19934.342481]    Total free pages is 50308kB
+<6>[19934.342481]    Total file cache is 325768kB
+<6>[19934.342481]    Slab Reclaimable is 25684kB
+<6>[19934.342481]    Slab UnReclaimable is 68640kB
+<6>[19934.342481]    Total Slab is 94324kB
+<6>[19934.342481]    GFP mask is 0xd0
+<6>[19934.374538] lowmemorykiller: Killing 'externalstorage' (16657), adj 1000,
+<6>[19934.374538]    to free 29296kB on behalf of 'kswapd0' (103) because
+<6>[19934.374538]    cache 321376kB is below limit 322560kB for oom_score_adj 1000
+<6>[19934.374538]    Free memory is 51400kB above reserved.
+<6>[19934.374538]    Free CMA is 2276kB
+<6>[19934.374538]    Total reserve is 19984kB
+<6>[19934.374538]    Total free pages is 53460kB
+<6>[19934.374538]    Total file cache is 326136kB
+<6>[19934.374538]    Slab Reclaimable is 25684kB
+<6>[19934.374538]    Slab UnReclaimable is 68640kB
+<6>[19934.374538]    Total Slab is 94324kB
+<6>[19934.374538]    GFP mask is 0xd0
+<6>[19934.401584] lowmemorykiller: Killing 'com.svox.pico' (17696), adj 1000,
+<6>[19934.401584]    to free 28720kB on behalf of 'kswapd0' (103) because
+<6>[19934.401584]    cache 321928kB is below limit 322560kB for oom_score_adj 1000
+<6>[19934.401584]    Free memory is 53788kB above reserved.
+<6>[19934.401584]    Free CMA is 2400kB
+<6>[19934.401584]    Total reserve is 19984kB
+<6>[19934.401584]    Total free pages is 56188kB
+<6>[19934.401584]    Total file cache is 326688kB
+<6>[19934.401584]    Slab Reclaimable is 25684kB
+<6>[19934.401584]    Slab UnReclaimable is 68640kB
+<6>[19934.401584]    Total Slab is 94324kB
+<6>[19934.401584]    GFP mask is 0xd0
+<3>[19936.080105] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[19948.372418] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4368341, chip->last_soc=100, batt_temp = 322,current_now=-199649
+<3>[19952.017031] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[19996.623047] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4369818, chip->last_soc=100, batt_temp = 323,current_now=-195984
+<6>[20044.866570] BMS: report_eoc: Report EOC to charger,chip->last_ocv_uv=4371257
+<6>[20044.866582] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[20044.870602] power_ok_handler: rt_stat = 0x00
+<6>[20044.870758] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<6>[20044.874548] smb135x-charger 6-0057: status = FULL chg_done_batt_full = 1
+<3>[20044.876258] fast_chg_handler: rt_stat = 0x00
+<3>[20044.880127] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4371257, chip->last_soc=100, batt_temp = 323,current_now=-174373
+<3>[20044.902460] CHARGE:smb135x_battery_get_property:  __get battery temp=32___
+<12>[20044.911809] healthd: battery l=100 v=4337 t=32.6 h=2 st=5 chg=u
+<3>[20044.915832] CHARGE:smb135x_battery_get_property: __get battery voltage=4320177___
+<3>[20044.945298] CHARGE:smb135x_battery_get_property:  __get battery temp=33___
+<12>[20044.951627] healthd: battery l=100 v=4309 t=33.0 h=2 st=5 chg=u
+<3>[20044.969039] CHARGE:smb135x_battery_get_property:  __get battery temp=32___
+<12>[20044.975551] healthd: battery l=100 v=4301 t=32.7 h=2 st=5 chg=u
+<12>[20044.992094] healthd: battery l=100 v=4305 t=32.8 h=2 st=5 chg=u
+<6>[20055.882206] binder: 280:1000 transaction failed 29189, size 96-0
+<6>[20055.882230] binder: 280:1000 transaction failed 29189, size 96-0
+<3>[20055.897067] msm_flash_lm3642_led_init:104 called
+<6>[20055.902690] msm_csid_init: CSID_VERSION = 0x30010000
+<6>[20055.935806] MSM-CPP cpp_init_hardware:953 CPP HW Version: 0x40000000
+<3>[20055.935823] MSM-CPP cpp_init_hardware:974 stream_cnt:0
+<3>[20055.903177]  msm_csid_init: Failed in getting TOP gdscr regulator handle
+<3>[20055.965781]  msm_cci_init: Failed in getting TOP gdscr regulator handle<6>[20055.972782] MSM-CPP cpp_load_fw:1111 MC Bootloader Version: 0x312e3176
+<6>[20055.974663] msm_cci_init:763: hw_version = 0x10000008
+<3>[20055.975078] msm_sensor_match_id: camera read id: 0x8858 expected id 0x8858:
+<6>[20055.978910] MSM-CPP cpp_load_fw:1124 CPP FW Version: 0x10040005
+<6>[20055.981474] (branch yulong_camera_k)sensor info: name: ov8858, prepare_otp_data: 1, prepare_otp_data:front 1, rear 0.
+<6>[20055.981486] ov8858 probe ok,set first_time_power_up_ov8858 to 0
+<3>[20055.981493] msm_sensor_config32:918 case: CFG_POWER_UP, sensor(ov8858) state 1
+<3>[20056.052018] iio_buffer_store_enable: for predisable part
+<3>[20056.058209] iio_buffer_store_enable: for postenable part
+<3>[20056.076658] iio_buffer_store_enable: for predisable part
+<3>[20056.082527] iio_buffer_store_enable: for postenable part
+<3>[20056.263673] iio_buffer_store_enable: for predisable part
+<3>[20056.320796] iio_buffer_store_enable: for postenable part
+<3>[20056.331459] iio_buffer_store_enable: for predisable part
+<3>[20056.337369] iio_buffer_store_enable: for postenable part
+<3>[20056.346260] iio_buffer_store_enable: for predisable part
+<3>[20056.352173] iio_buffer_store_enable: for postenable part
+<36>[20056.779974] type=1400 audit(1455704891.180:231642): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<36>[20056.802409] type=1400 audit(1455704891.180:231643): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<3>[20056.802773] msm_vfe40_init_qos_parms: NO D/S entries found
+<3>[20056.802777] msm_vfe40_init_vbif_parms: NO VBIF entries found
+<36>[20056.835265] type=1400 audit(1455704891.200:231644): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<36>[20056.857519] type=1400 audit(1455704891.200:231645): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<6>[20056.988652] lowmemorykiller: Killing 'system:ui' (20064), adj 1000,
+<6>[20056.988652]    to free 46188kB on behalf of 'Binder_4' (7319) because
+<6>[20056.988652]    cache 317388kB is below limit 322560kB for oom_score_adj 1000
+<6>[20056.988652]    Free memory is 6100kB above reserved.
+<6>[20056.988652]    Free CMA is 0kB
+<6>[20056.988652]    Total reserve is 19984kB
+<6>[20056.988652]    Total free pages is 6100kB
+<6>[20056.988652]    Total file cache is 321012kB
+<6>[20056.988652]    Slab Reclaimable is 25404kB
+<6>[20056.988652]    Slab UnReclaimable is 68464kB
+<6>[20056.988652]    Total Slab is 93868kB
+<6>[20056.988652]    GFP mask is 0x200da
+<6>[20057.022346] lowmemorykiller: Killing 'tvShareProvider' (20082), adj 1000,
+<6>[20057.022346]    to free 33116kB on behalf of 'CAM_stMachine' (20247) because
+<6>[20057.022346]    cache 308264kB is below limit 322560kB for oom_score_adj 1000
+<6>[20057.022346]    Free memory is 19632kB above reserved.
+<6>[20057.022346]    Free CMA is 0kB
+<6>[20057.022346]    Total reserve is 19984kB
+<6>[20057.022346]    Total free pages is 19632kB
+<6>[20057.022346]    Total file cache is 313092kB
+<6>[20057.022346]    Slab Reclaimable is 25396kB
+<6>[20057.022346]    Slab UnReclaimable is 68464kB
+<6>[20057.022346]    Total Slab is 93860kB
+<6>[20057.022346]    GFP mask is 0x202d2
+<6>[20057.051995] lowmemorykiller: Killing 'id.remotedevice' (15929), adj 1000,
+<6>[20057.051995]    to free 30948kB on behalf of 'kswapd0' (103) because
+<6>[20057.051995]    cache 309552kB is below limit 322560kB for oom_score_adj 1000
+<6>[20057.051995]    Free memory is 21292kB above reserved.
+<6>[20057.051995]    Free CMA is 0kB
+<6>[20057.051995]    Total reserve is 19984kB
+<6>[20057.051995]    Total free pages is 16580kB
+<6>[20057.051995]    Total file cache is 314380kB
+<6>[20057.051995]    Slab Reclaimable is 25396kB
+<6>[20057.051995]    Slab UnReclaimable is 68464kB
+<6>[20057.051995]    Total Slab is 93860kB
+<6>[20057.051995]    GFP mask is 0xd0
+<36>[20057.130122] type=1400 audit(1455704891.530:231646): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<36>[20057.152161] type=1400 audit(1455704891.530:231647): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<3>[20057.161309] msm_isp_send_hw_cmd:946 hi 8 lo 8
+<3>[20057.161321] msm_isp_send_hw_cmd:946 hi 8 lo 8
+<3>[20057.161332] msm_isp_send_hw_cmd:946 hi 8 lo 8
+<36>[20057.189427] type=1400 audit(1455704891.530:231648): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<36>[20057.212110] type=1400 audit(1455704891.530:231649): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<3>[20057.275751] ispif_process_irq: PIX0 frame id: 0
+<3>[20057.279286] msm_isp_sof_notify: PIX0 frame id: 0
+<3>[20057.309234] ispif_process_irq: PIX0 frame id: 1
+<3>[20057.313278] msm_isp_sof_notify: PIX0 frame id: 1
+<3>[20057.342725] ispif_process_irq: PIX0 frame id: 2
+<3>[20057.346264] msm_isp_sof_notify: PIX0 frame id: 2
+<3>[20057.376217] ispif_process_irq: PIX0 frame id: 3
+<6>[20057.377854] MSM-CPP msm_enqueue:244 queue frame new max is 1
+<3>[20057.379989] msm_isp_sof_notify: PIX0 frame id: 3
+<6>[20057.384560] MSM-CPP msm_enqueue:244 queue eventdata new max is 1
+<3>[20057.409705] ispif_process_irq: PIX0 frame id: 4
+<3>[20057.413281] msm_isp_sof_notify: PIX0 frame id: 4
+<6>[20058.452594] MSM-CPP msm_cpp_subdev_ioctl:2101 stream_cnt:2
+<6>[20058.454623] MSM-CPP msm_cpp_subdev_ioctl:2101 stream_cnt:1
+<6>[20060.265289] MSM-CPP msm_cpp_subdev_ioctl:2101 stream_cnt:2
+<6>[20060.276817] MSM-CPP msm_cpp_subdev_ioctl:2101 stream_cnt:1
+<3>[20061.081071] msm_vfe40_init_qos_parms: NO D/S entries found
+<3>[20061.085688] msm_vfe40_init_vbif_parms: NO VBIF entries found
+<6>[20061.113924] MSM-CPP msm_cpp_subdev_ioctl:2101 stream_cnt:0
+<3>[20061.148895] iio_buffer_store_enable: for predisable part
+<3>[20061.162644] iio_buffer_store_enable: for postenable part
+<3>[20061.291641] iio_buffer_store_enable: for predisable part
+<3>[20061.342194] iio_buffer_store_enable: for postenable part
+<3>[20061.354065] iio_buffer_store_enable: for predisable part
+<3>[20061.360263] iio_buffer_store_enable: for postenable part
+<3>[20061.374720] iio_buffer_store_enable: for predisable part
+<3>[20061.384616] iio_buffer_store_enable: for postenable part
+<36>[20061.452551] type=1400 audit(1455704895.850:231650): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<36>[20061.474051] type=1400 audit(1455704895.850:231651): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<36>[20061.496222] type=1400 audit(1455704895.850:231652): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<4>[20061.504015] audit: audit_lost=231467 audit_rate_limit=5 audit_backlog_limit=64
+<3>[20061.504018] audit: rate limit exceeded
+<3>[20061.517453] msm_isp_send_hw_cmd:946 hi 8 lo 8
+<3>[20061.517466] msm_isp_send_hw_cmd:946 hi 8 lo 8
+<3>[20061.517476] msm_isp_send_hw_cmd:946 hi 8 lo 8
+<36>[20061.542399] type=1400 audit(1455704895.850:231653): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<36>[20061.565165] type=1400 audit(1455704895.900:231654): avc: denied { write } for pid=20275 comm="mct_controller" name="property_service" dev="tmpfs" ino=7682 scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+<6>[20062.574159] MSM-CPP msm_cpp_subdev_ioctl:2101 stream_cnt:2
+<6>[20062.580258] MSM-CPP msm_cpp_subdev_ioctl:2101 stream_cnt:1
+<6>[20063.102692] MSM-CPP msm_cpp_subdev_ioctl:2101 stream_cnt:2
+<6>[20063.105395] MSM-CPP msm_cpp_subdev_ioctl:2101 stream_cnt:1
+<3>[20064.500348] msm_vfe40_init_qos_parms: NO D/S entries found
+<3>[20064.504881] msm_vfe40_init_vbif_parms: NO VBIF entries found
+<6>[20064.521853] MSM-CPP msm_cpp_subdev_ioctl:2101 stream_cnt:0
+<3>[20064.536783] iio_buffer_store_enable: for predisable part
+<3>[20064.546587] iio_buffer_store_enable: for postenable part
+<3>[20064.623267] msm_flash_lm3642_led_release:136 called
+<3>[20064.667704] iio_buffer_store_enable: for predisable part
+<3>[20064.673852] iio_buffer_store_enable: for postenable part
+<6>[20064.993545] camera sensor release gpios
+<3>[20093.136389] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4369304, chip->last_soc=-22, batt_temp = 328,current_now=248004
+<12>[20093.164975] healthd: battery l=100 v=4301 t=32.8 h=2 st=5 chg=u
+<6>[20103.440566] lowmemorykiller: Killing 'motecontrol:cde' (20020), adj 1000,
+<6>[20103.440566]    to free 38776kB on behalf of 'kswapd0' (103) because
+<6>[20103.440566]    cache 275872kB is below limit 322560kB for oom_score_adj 1000
+<6>[20103.440566]    Free memory is 18680kB above reserved.
+<6>[20103.440566]    Free CMA is 12kB
+<6>[20103.440566]    Total reserve is 19984kB
+<6>[20103.440566]    Total free pages is 18692kB
+<6>[20103.440566]    Total file cache is 280588kB
+<6>[20103.440566]    Slab Reclaimable is 25468kB
+<6>[20103.440566]    Slab UnReclaimable is 68340kB
+<6>[20103.440566]    Total Slab is 93808kB
+<6>[20103.440566]    GFP mask is 0xd0
+<6>[20103.507859] lowmemorykiller: Killing 'd.process.media' (20110), adj 1000,
+<6>[20103.507859]    to free 37792kB on behalf of 'kswapd0' (103) because
+<6>[20103.507859]    cache 277344kB is below limit 322560kB for oom_score_adj 1000
+<6>[20103.507859]    Free memory is 19120kB above reserved.
+<6>[20103.507859]    Free CMA is 12kB
+<6>[20103.507859]    Total reserve is 19984kB
+<6>[20103.507859]    Total free pages is 19012kB
+<6>[20103.507859]    Total file cache is 282060kB
+<6>[20103.507859]    Slab Reclaimable is 25468kB
+<6>[20103.507859]    Slab UnReclaimable is 68340kB
+<6>[20103.507859]    Total Slab is 93808kB
+<6>[20103.507859]    GFP mask is 0xd0
+<3>[20104.127130] iio_buffer_store_enable: for predisable part
+<3>[20104.140077] iio_buffer_store_enable: for postenable part
+<6>[20104.571074] lowmemorykiller: Killing 'wallpaperonline' (16718), adj 1000,
+<6>[20104.571074]    to free 125284kB on behalf of 'kswapd0' (103) because
+<6>[20104.571074]    cache 285500kB is below limit 322560kB for oom_score_adj 1000
+<6>[20104.571074]    Free memory is 18400kB above reserved.
+<6>[20104.571074]    Free CMA is 52kB
+<6>[20104.571074]    Total reserve is 19984kB
+<6>[20104.571074]    Total free pages is 18452kB
+<6>[20104.571074]    Total file cache is 290220kB
+<6>[20104.571074]    Slab Reclaimable is 25516kB
+<6>[20104.571074]    Slab UnReclaimable is 68460kB
+<6>[20104.571074]    Total Slab is 93976kB
+<6>[20104.571074]    GFP mask is 0xd0
+<2>[20105.985597] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[20105.994370] wlan: [4187:F :CTL] a080eb4: 0
+<2>[20105.998196] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[20106.002970] wlan: [4187:F :CTL] a08040c: 3000
+<2>[20106.006394] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[20106.010670] wlan: [4187:F :CTL] a013c50: 28
+<2>[20106.014729] wlan: [4187:F :CTL] a013c5c: 12
+<2>[20106.018887] wlan: [4187:F :CTL] a013d38: e6
+<2>[20106.023139] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[20106.027748] wlan: [4187:F :CTL] a0801d0: 0
+<3>[20106.627971] iio_buffer_store_enable: for predisable part
+<3>[20106.634208] iio_buffer_store_enable: for postenable part
+<6>[20109.591884] msm_vidc: info: Opening video instance: ffffffc00d57e000, 1
+<6>[20109.625877] subsys-pil-tz 1de0000.qcom,venus: venus: loading from 0x000000008ee00000 to 0x000000008f300000
+<6>[20109.696330] subsys-pil-tz 1de0000.qcom,venus: venus: Brought out of reset
+<6>[20109.902294] msm_vidc:  err: Persist buffers already allocated
+<6>[20110.182231] lowmemorykiller: Killing 'd.remotecontrol' (20001), adj 1000,
+<6>[20110.182231]    to free 55816kB on behalf of 'kswapd0' (103) because
+<6>[20110.182231]    cache 302284kB is below limit 322560kB for oom_score_adj 1000
+<6>[20110.182231]    Free memory is 35796kB above reserved.
+<6>[20110.182231]    Free CMA is 424kB
+<6>[20110.182231]    Total reserve is 19984kB
+<6>[20110.182231]    Total free pages is 35964kB
+<6>[20110.182231]    Total file cache is 307140kB
+<6>[20110.182231]    Slab Reclaimable is 25584kB
+<6>[20110.182231]    Slab UnReclaimable is 68688kB
+<6>[20110.182231]    Total Slab is 94272kB
+<6>[20110.182231]    GFP mask is 0xd0
+<3>[20112.779841] iio_buffer_store_enable: for predisable part
+<3>[20112.785437] iio_buffer_store_enable: for postenable part
+<6>[20113.075586] msm_vidc: info: Closed video instance: ffffffc00d57e000
+<3>[20113.162081] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4369304, chip->last_soc=100, batt_temp = 331,current_now=248004
+<6>[20114.937354] msm_vidc: info: Opening video instance: ffffffc0519e2000, 1
+<6>[20115.028502] msm_vidc:  err: Persist buffers already allocated
+<3>[20119.304238] iio_buffer_store_enable: for predisable part
+<3>[20119.310607] iio_buffer_store_enable: for postenable part
+<6>[20119.555785] msm_vidc: info: Closed video instance: ffffffc0519e2000
+<6>[20122.004222] msm_vidc: info: Opening video instance: ffffffc06cd3a000, 1
+<6>[20122.085078] msm_vidc:  err: Persist buffers already allocated
+<11>[20123.644786] init: untracked pid 13240 killed by signal 15
+<3>[20136.480077] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[20136.987678] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[20137.074958] binder: 1138:1670 transaction failed 29189, size 408-0
+<6>[20137.298397] msm_vidc: info: Closed video instance: ffffffc06cd3a000
+<3>[20141.383757] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4366826, chip->last_soc=100, batt_temp = 329,current_now=295600
+<12>[20172.835868] healthd: battery l=100 v=4317 t=32.8 h=2 st=5 chg=u
+<3>[20189.636125] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4364984, chip->last_soc=100, batt_temp = 328,current_now=250061
+<6>[20190.576645] mmc0: Starting deferred resume
+<6>[20190.647750] mmc0: Deferred resume completed
+<3>[20190.683791] wlan: [4193:E :HDD] hdd_resume_wlan: Ignore resume wlan, Already resumed!
+<3>[20191.142962] wlan: [4187:E :SME] sme_QosPmcDeviceStateUpdateInd: 7443: nothing to process in PMC state BMPS (6)
+<3>[20191.152083] wlan: [4187:E :TL ]  ----> CRegion 0, hRSSI -14, Alpha 5
+<11>[20191.334212] init: cannot find '/system/bin/logredirect', disabling 'logredirect'
+<6>[20193.586615] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<11>[20195.397800] init: cannot find '/system/bin/logredirect', disabling 'logredirect'
+<3>[20197.193559] iio_buffer_store_enable: for predisable part
+<3>[20197.200627] iio_buffer_store_enable: for postenable part
+<3>[20197.317548] --backlight is close add by caiwutang--
+<3>[20197.378163] wlan: [4187:E :SME] sme_QosPmcDeviceStateUpdateInd: 7443: nothing to process in PMC state BMPS (6)
+<3>[20197.387218] wlan: [4187:E :TL ]  ----> CRegion 0, hRSSI -14, Alpha 5
+<3>[20197.422173] mdss_fb_blank: *****LCD panel wakeup begin*************
+<3>[20197.423844] mdss_dsi_panel_off: ctrl=ffffffc074a72018 ndx=0
+<3>[20197.626767] mdss_dsi_panel_off:-
+<3>[20197.650052] --mdss--mdss_dsi_off---enter---
+<3>[20197.671127] --mdss--mdss_dsi_off---exit---
+<6>[20197.673015] <<-GTP-INFO->> Esd cancelled
+<2>[20198.936484] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[20198.943691] wlan: [4187:F :CTL] a080eb4: 0
+<2>[20198.947554] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[20198.952249] wlan: [4187:F :CTL] a08040c: 3000
+<2>[20198.956506] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[20198.960729] wlan: [4187:F :CTL] a013c50: 1e
+<2>[20198.964821] wlan: [4187:F :CTL] a013c5c: 12
+<2>[20198.968987] wlan: [4187:F :CTL] a013d38: aa
+<2>[20198.973319] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[20198.977840] wlan: [4187:F :CTL] a0801d0: 22
+<11>[20199.426790] init: cannot find '/system/bin/logredirect', disabling 'logredirect'
+<11>[20203.471155] init: cannot find '/system/bin/logredirect', disabling 'logredirect'

@@ -1,0 +1,288 @@
+<3>[20237.903871] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4362139, chip->last_soc=100, batt_temp = 335,current_now=539110
+<2>[20257.577961] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[20257.585023] wlan: [4187:F :CTL] a080eb4: 0
+<2>[20257.589011] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[20257.594301] wlan: [4187:F :CTL] a08040c: 3000
+<2>[20257.598164] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[20257.602765] wlan: [4187:F :CTL] a013c50: 28
+<2>[20257.606293] wlan: [4187:F :CTL] a013c5c: 12
+<2>[20257.610507] wlan: [4187:F :CTL] a013d38: f0
+<2>[20257.614621] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[20257.619301] wlan: [4187:F :CTL] a0801d0: 17
+<6>[20281.025702] lowmemorykiller: Killing 'nt.mobileqq:web' (21445), adj 1000,
+<6>[20281.025702]    to free 37252kB on behalf of 'kswapd0' (103) because
+<6>[20281.025702]    cache 314580kB is below limit 322560kB for oom_score_adj 1000
+<6>[20281.025702]    Free memory is 36240kB above reserved.
+<6>[20281.025702]    Free CMA is 0kB
+<6>[20281.025702]    Total reserve is 19984kB
+<6>[20281.025702]    Total free pages is 35496kB
+<6>[20281.025702]    Total file cache is 317336kB
+<6>[20281.025702]    Slab Reclaimable is 26292kB
+<6>[20281.025702]    Slab UnReclaimable is 69624kB
+<6>[20281.025702]    Total Slab is 95916kB
+<6>[20281.025702]    GFP mask is 0xd0
+<6>[20281.582616] lowmemorykiller: Killing 'encent.mobileqq' (21486), adj 1000,
+<6>[20281.582616]    to free 34012kB on behalf of 'kswapd0' (103) because
+<6>[20281.582616]    cache 316760kB is below limit 322560kB for oom_score_adj 1000
+<6>[20281.582616]    Free memory is 37220kB above reserved.
+<6>[20281.582616]    Free CMA is 44kB
+<6>[20281.582616]    Total reserve is 19984kB
+<6>[20281.582616]    Total free pages is 37264kB
+<6>[20281.582616]    Total file cache is 319516kB
+<6>[20281.582616]    Slab Reclaimable is 26292kB
+<6>[20281.582616]    Slab UnReclaimable is 68940kB
+<6>[20281.582616]    Total Slab is 95232kB
+<6>[20281.582616]    GFP mask is 0xd0
+<6>[20282.567583] lowmemorykiller: Killing 'd.process.media' (20551), adj 1000,
+<6>[20282.567583]    to free 32524kB on behalf of 'kswapd0' (103) because
+<6>[20282.567583]    cache 322012kB is below limit 322560kB for oom_score_adj 1000
+<6>[20282.567583]    Free memory is 31956kB above reserved.
+<6>[20282.567583]    Free CMA is 0kB
+<6>[20282.567583]    Total reserve is 19984kB
+<6>[20282.567583]    Total free pages is 31460kB
+<6>[20282.567583]    Total file cache is 324808kB
+<6>[20282.567583]    Slab Reclaimable is 26292kB
+<6>[20282.567583]    Slab UnReclaimable is 70336kB
+<6>[20282.567583]    Total Slab is 96628kB
+<6>[20282.567583]    GFP mask is 0xd0
+<6>[20283.114173] lowmemorykiller: Killing '.weather:widget' (5158), adj 1000,
+<6>[20283.114173]    to free 31084kB on behalf of 'kswapd0' (103) because
+<6>[20283.114173]    cache 320040kB is below limit 322560kB for oom_score_adj 1000
+<6>[20283.114173]    Free memory is 33132kB above reserved.
+<6>[20283.114173]    Free CMA is 0kB
+<6>[20283.114173]    Total reserve is 19984kB
+<6>[20283.114173]    Total free pages is 32508kB
+<6>[20283.114173]    Total file cache is 323164kB
+<6>[20283.114173]    Slab Reclaimable is 26292kB
+<6>[20283.114173]    Slab UnReclaimable is 70076kB
+<6>[20283.114173]    Total Slab is 96368kB
+<6>[20283.114173]    GFP mask is 0xd0
+<6>[20283.670682] lowmemorykiller: Killing 'roid.usagestats' (11291), adj 1000,
+<6>[20283.670682]    to free 29760kB on behalf of 'kswapd0' (103) because
+<6>[20283.670682]    cache 322248kB is below limit 322560kB for oom_score_adj 1000
+<6>[20283.670682]    Free memory is 22056kB above reserved.
+<6>[20283.670682]    Free CMA is 0kB
+<6>[20283.670682]    Total reserve is 19984kB
+<6>[20283.670682]    Total free pages is 22304kB
+<6>[20283.670682]    Total file cache is 324820kB
+<6>[20283.670682]    Slab Reclaimable is 26660kB
+<6>[20283.670682]    Slab UnReclaimable is 82432kB
+<6>[20283.670682]    Total Slab is 109092kB
+<6>[20283.670682]    GFP mask is 0xd0
+<6>[20283.764459] lowmemorykiller: Killing 'com.svox.pico' (21537), adj 1000,
+<6>[20283.764459]    to free 28476kB on behalf of 'kswapd0' (103) because
+<6>[20283.764459]    cache 321880kB is below limit 322560kB for oom_score_adj 1000
+<6>[20283.764459]    Free memory is 32584kB above reserved.
+<6>[20283.764459]    Free CMA is 0kB
+<6>[20283.764459]    Total reserve is 19984kB
+<6>[20283.764459]    Total free pages is 32584kB
+<6>[20283.764459]    Total file cache is 324636kB
+<6>[20283.764459]    Slab Reclaimable is 26660kB
+<6>[20283.764459]    Slab UnReclaimable is 74856kB
+<6>[20283.764459]    Total Slab is 101516kB
+<6>[20283.764459]    GFP mask is 0xd0
+<6>[20286.135136] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<6>[20286.135693] smb135x-charger 6-0057: status = CHARGING chg_done_batt_full = 0
+<6>[20286.135703] BMS: check_recharge_condition: soc dropped below resume_soc soc=100 last_ocv_uv=4358525 resume_soc=99, restart charging
+<3>[20286.136945] power_ok_handler: rt_stat = 0x01
+<3>[20286.140343] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4358525, chip->last_soc=100, batt_temp = 331,current_now=488590
+<3>[20286.165920] CHARGE:smb135x_battery_get_property:  __get battery temp=33___
+<12>[20286.173339] healthd: battery l=100 v=4328 t=33.0 h=2 st=2 chg=u
+<12>[20286.190806] healthd: battery l=100 v=4315 t=33.0 h=2 st=2 chg=u
+<3>[20286.247882] fast_chg_handler: rt_stat = 0x40
+<12>[20286.267850] healthd: battery l=100 v=4339 t=33.0 h=2 st=2 chg=u
+<3>[20286.278033] CHARGE:smb135x_battery_get_property:  __get battery temp=32___
+<3>[20286.298157] CHARGE:smb135x_battery_get_property:  __get battery temp=33___
+<12>[20286.305457] healthd: battery l=100 v=4314 t=33.0 h=2 st=2 chg=u
+<11>[20300.753255] init: untracked pid 22066 killed by signal 9
+<11>[20300.812832] init: untracked pid 22069 killed by signal 9
+<11>[20300.817231] init: untracked pid 22071 exited with status 1
+<3>[20311.829877] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[20318.842647] lowmemorykiller: Killing 'nt.mobileqq:web' (21966), adj 1000,
+<6>[20318.842647]    to free 38672kB on behalf of 'kswapd0' (103) because
+<6>[20318.842647]    cache 322440kB is below limit 322560kB for oom_score_adj 1000
+<6>[20318.842647]    Free memory is 20396kB above reserved.
+<6>[20318.842647]    Free CMA is 0kB
+<6>[20318.842647]    Total reserve is 19984kB
+<6>[20318.842647]    Total free pages is 19528kB
+<6>[20318.842647]    Total file cache is 325196kB
+<6>[20318.842647]    Slab Reclaimable is 26472kB
+<6>[20318.842647]    Slab UnReclaimable is 74724kB
+<6>[20318.842647]    Total Slab is 101196kB
+<6>[20318.842647]    GFP mask is 0xd0
+<6>[20318.872154] lowmemorykiller: Killing 'encent.mobileqq' (21997), adj 1000,
+<6>[20318.872154]    to free 33416kB on behalf of 'kswapd0' (103) because
+<6>[20318.872154]    cache 322256kB is below limit 322560kB for oom_score_adj 1000
+<6>[20318.872154]    Free memory is 14984kB above reserved.
+<6>[20318.872154]    Free CMA is 1240kB
+<6>[20318.872154]    Total reserve is 19984kB
+<6>[20318.872154]    Total free pages is 16224kB
+<6>[20318.872154]    Total file cache is 325012kB
+<6>[20318.872154]    Slab Reclaimable is 26596kB
+<6>[20318.872154]    Slab UnReclaimable is 82164kB
+<6>[20318.872154]    Total Slab is 108760kB
+<6>[20318.872154]    GFP mask is 0xd0
+<11>[20332.561494] init: untracked pid 22299 killed by signal 9
+<11>[20332.631031] init: untracked pid 22302 killed by signal 9
+<11>[20332.635407] init: untracked pid 22305 exited with status 1
+<3>[20334.413171] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4358648, chip->last_soc=100, batt_temp = 325,current_now=-79127
+<6>[20373.716093] lowmemorykiller: Killing 'qpimsecure:task' (22333), adj 1000,
+<6>[20373.716093]    to free 39884kB on behalf of 'kswapd0' (103) because
+<6>[20373.716093]    cache 319684kB is below limit 322560kB for oom_score_adj 1000
+<6>[20373.716093]    Free memory is 20660kB above reserved.
+<6>[20373.716093]    Free CMA is 0kB
+<6>[20373.716093]    Total reserve is 19984kB
+<6>[20373.716093]    Total free pages is 20784kB
+<6>[20373.716093]    Total file cache is 322444kB
+<6>[20373.716093]    Slab Reclaimable is 26544kB
+<6>[20373.716093]    Slab UnReclaimable is 85692kB
+<6>[20373.716093]    Total Slab is 112236kB
+<6>[20373.716093]    GFP mask is 0xd0
+<3>[20382.663887] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4359030, chip->last_soc=100, batt_temp = 321,current_now=-103561
+<11>[20389.526413] init: untracked pid 22473 exited with status 1
+<11>[20389.571013] init: untracked pid 22466 killed by signal 9
+<11>[20389.575436] init: untracked pid 22472 killed by signal 9
+<3>[20430.906970] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4359552, chip->last_soc=100, batt_temp = 320,current_now=-106003
+<3>[20442.089900] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<11>[20445.690380] init: untracked pid 22693 killed by signal 9
+<11>[20445.741595] init: untracked pid 22697 killed by signal 9
+<11>[20445.748406] init: untracked pid 22700 exited with status 1
+<3>[20479.179187] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4360216, chip->last_soc=100, batt_temp = 320,current_now=-81210
+<6>[20498.729837] lowmemorykiller: Killing 'nt.mobileqq:web' (22552), adj 1000,
+<6>[20498.729837]    to free 42460kB on behalf of 'kswapd0' (103) because
+<6>[20498.729837]    cache 319832kB is below limit 322560kB for oom_score_adj 1000
+<6>[20498.729837]    Free memory is 23292kB above reserved.
+<6>[20498.729837]    Free CMA is 0kB
+<6>[20498.729837]    Total reserve is 19984kB
+<6>[20498.729837]    Total free pages is 23168kB
+<6>[20498.729837]    Total file cache is 322772kB
+<6>[20498.729837]    Slab Reclaimable is 26432kB
+<6>[20498.729837]    Slab UnReclaimable is 85080kB
+<6>[20498.729837]    Total Slab is 111512kB
+<6>[20498.729837]    GFP mask is 0xd0
+<2>[20499.826357] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[20499.833410] wlan: [4187:F :CTL] a080eb4: 0
+<2>[20499.837410] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[20499.842088] wlan: [4187:F :CTL] a08040c: 3000
+<2>[20499.846376] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[20499.850571] wlan: [4187:F :CTL] a013c50: f
+<2>[20499.854832] wlan: [4187:F :CTL] a013c5c: 12
+<2>[20499.858760] wlan: [4187:F :CTL] a013d38: 9b
+<2>[20499.862997] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[20499.867612] wlan: [4187:F :CTL] a0801d0: 9
+<11>[20513.403469] init: untracked pid 22922 killed by signal 9
+<11>[20513.481691] init: untracked pid 22925 killed by signal 9
+<11>[20513.486094] init: untracked pid 22926 exited with status 1
+<3>[20527.424574] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4360684, chip->last_soc=100, batt_temp = 320,current_now=-50206
+<11>[20544.629643] init: untracked pid 23072 killed by signal 9
+<11>[20544.689709] init: untracked pid 23076 killed by signal 9
+<11>[20544.694924] init: untracked pid 23078 exited with status 1
+<2>[20559.660370] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[20559.667347] wlan: [4187:F :CTL] a080eb4: 0
+<2>[20559.671467] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[20559.676027] wlan: [4187:F :CTL] a08040c: 3000
+<2>[20559.680426] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[20559.684534] wlan: [4187:F :CTL] a013c50: 28
+<2>[20559.688699] wlan: [4187:F :CTL] a013c5c: 12
+<2>[20559.692924] wlan: [4187:F :CTL] a013d38: f0
+<2>[20559.697032] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[20559.701754] wlan: [4187:F :CTL] a0801d0: 0
+<3>[20575.667535] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4362362, chip->last_soc=100, batt_temp = 320,current_now=-263942
+<3>[20611.882483] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[20613.915435] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[20614.787233] taper_handler: rt_stat = 0x04
+<3>[20614.801460] CHARGE:smb135x_battery_get_property: __get battery voltage=4411089___
+<3>[20614.811617] CHARGE:smb135x_battery_get_property:  __get battery temp=32___
+<12>[20614.825644] healthd: battery l=100 v=4420 t=32.0 h=2 st=2 chg=u
+<12>[20614.851569] healthd: battery l=100 v=4406 t=32.1 h=2 st=2 chg=u
+<3>[20622.450084] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[20623.935076] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4364321, chip->last_soc=100, batt_temp = 321,current_now=-289285
+<2>[20631.219588] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[20631.226626] wlan: [4187:F :CTL] a080eb4: 0
+<2>[20631.230734] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[20631.235857] wlan: [4187:F :CTL] a08040c: 3000
+<2>[20631.239848] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[20631.243795] wlan: [4187:F :CTL] a013c50: 28
+<2>[20631.247940] wlan: [4187:F :CTL] a013c5c: 12
+<2>[20631.252249] wlan: [4187:F :CTL] a013d38: d7
+<2>[20631.256346] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[20631.261449] wlan: [4187:F :CTL] a0801d0: 4
+<3>[20672.175496] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4366422, chip->last_soc=100, batt_temp = 320,current_now=-287190
+<3>[20672.550101] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<2>[20696.293494] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[20696.300706] wlan: [4187:F :CTL] a080eb4: 40
+<2>[20696.304859] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[20696.309840] wlan: [4187:F :CTL] a08040c: 3000
+<2>[20696.313572] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[20696.317738] wlan: [4187:F :CTL] a013c50: 28
+<2>[20696.322537] wlan: [4187:F :CTL] a013c5c: 12
+<2>[20696.326072] wlan: [4187:F :CTL] a013d38: cd
+<2>[20696.330288] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[20696.334927] wlan: [4187:F :CTL] a0801d0: 0
+<3>[20720.435796] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4368427, chip->last_soc=100, batt_temp = 320,current_now=-270240
+<2>[20755.381347] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[20755.388459] wlan: [4187:F :CTL] a080eb4: 0
+<2>[20755.392553] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[20755.397445] wlan: [4187:F :CTL] a08040c: 3000
+<2>[20755.401469] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[20755.405533] wlan: [4187:F :CTL] a013c50: 28
+<2>[20755.409904] wlan: [4187:F :CTL] a013c5c: 12
+<2>[20755.413961] wlan: [4187:F :CTL] a013d38: f0
+<2>[20755.418542] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[20755.422726] wlan: [4187:F :CTL] a0801d0: 0
+<3>[20767.740127] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[20768.695125] BMS: report_eoc: Report EOC to charger,chip->last_ocv_uv=4370370
+<6>[20768.695140] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[20768.696937] power_ok_handler: rt_stat = 0x00
+<3>[20768.704891] taper_handler: rt_stat = 0x00
+<3>[20768.707898] fast_chg_handler: rt_stat = 0x00
+<6>[20768.713239] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<6>[20768.714579] smb135x-charger 6-0057: status = FULL chg_done_batt_full = 1
+<3>[20768.714984] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4370370, chip->last_soc=100, batt_temp = 320,current_now=-271432
+<3>[20768.734380] CHARGE:smb135x_battery_get_property: __get battery voltage=4367250___
+<12>[20768.744795] healthd: battery l=100 v=4367 t=32.1 h=2 st=5 chg=u
+<12>[20768.780373] healthd: battery l=100 v=4347 t=32.3 h=2 st=5 chg=u
+<12>[20768.797844] healthd: battery l=100 v=4345 t=32.3 h=2 st=5 chg=u
+<12>[20768.817819] healthd: battery l=100 v=4344 t=32.3 h=2 st=5 chg=u
+<12>[20772.835850] healthd: battery l=100 v=4366 t=32.1 h=2 st=5 chg=u
+<6>[20788.473367] mmc0: Starting deferred resume
+<6>[20788.543737] mmc0: Deferred resume completed
+<6>[20797.913723] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[20810.084377] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[20811.098709] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<2>[20814.874346] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[20814.881735] wlan: [4187:F :CTL] a080eb4: 160
+<2>[20814.885695] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[20814.890755] wlan: [4187:F :CTL] a08040c: 3000
+<2>[20814.894507] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[20814.898815] wlan: [4187:F :CTL] a013c50: 28
+<2>[20814.903024] wlan: [4187:F :CTL] a013c5c: 12
+<2>[20814.907112] wlan: [4187:F :CTL] a013d38: f0
+<2>[20814.911246] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[20814.915860] wlan: [4187:F :CTL] a0801d0: 1
+<3>[20816.939883] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4369841, chip->last_soc=100, batt_temp = 321,current_now=124752
+<0>[20823.481176] YLLOG: powerkey is pressed down
+<3>[20823.580047] iio_buffer_store_enable: for predisable part
+<3>[20823.589557] iio_buffer_store_enable: for postenable part
+<3>[20823.638967] ltr559_proximity_enable: i2c_read 0x81, ret = 0, ps_gain = 3
+<3>[20823.653715] mdss_fb_blank: *****LCD panel wakeup begin*************
+<3>[20823.658229] --mdss--mdss_dsi_on---enter---
+<3>[20823.687838] mdss_dsi_panel_reset: Continuous splash disabled
+<0>[20823.698897] YLLOG: powerkey is up
+<3>[20823.750061] --mdss--mdss_dsi_on---exit---
+<3>[20823.750082] mdss_dsi_panel_on: ctrl=ffffffc074a72018 ndx=0
+<3>[20823.917907] mdss_dsi_panel_on:-
+<3>[20823.918360] mdss_fb_unblank_sub: *****LCD panel wakeup time = [264 ms]*****
+<3>[20823.957540] --backlight level after optimize is [**60**]
+<3>[20824.000804] ltr559_proximity_crosstalk: sum=132, invalid_num=6, struct_noise=22
+<3>[20824.007074] ltr559_set_prox_threshold: thres_hi = [72], thres_lo = [52], prox_avg = [22]
+<6>[20824.112650] <<-GTP-INFO->> GTP wakeup sleep
+<6>[20824.112677] <<-GTP-INFO->> Esd started
+<6>[20824.154754] ltr559: report_ps_input_event: psdata: 19 isproximity: 5, hi: 72, lo:52
+<3>[20824.171700] wlan: [4187:E :SME] sme_QosPmcDeviceStateUpdateInd: 7443: nothing to process in PMC state BMPS (6)
+<3>[20824.180781] wlan: [4187:E :TL ]  ----> CRegion 0, hRSSI -17, Alpha 5
+<3>[20842.889817] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[20865.211400] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4367656, chip->last_soc=100, batt_temp = 315,current_now=327639
+<3>[20867.939969] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[20873.155351] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[20875.170871] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category

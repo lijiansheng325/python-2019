@@ -1,0 +1,66 @@
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.TDLTE.WebBrowsing#testBrowsingSim1
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.letv.cases.leui.TDLTE.WebBrowsing:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testBrowsingSim1
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.TDLTE.WebBrowsing
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+================process: rm -rf /data/anrreturn!!!================
+================Call shell function return!!!================
+================process: rm -rf /data/tombstonesreturn!!!================
+================Call shell function return!!!================
+INSTRUMENTATION_STATUS: title=SIM1: WEB Browsing 
+INSTRUMENTATION_STATUS_CODE: 16
+The folder /sdcard/AutoSmoke_UI30/testBrowsingSim1_20151207_074239 has existed!
+current_case_root_folder=testBrowsingSim1_20151207_074239
+INSTRUMENTATION_STATUS: caseStep=step1:SIM1切换到3G网络下
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=step2:使用SIM1浏览网页
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=打开浏览器
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=清除浏览器缓存，历史记录和cookie数据
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=打开浏览器并正常显示
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=输入特定网址（例如：http://sina.cn/）并登陆
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=确认登陆网页显示正常
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=返回到浏览器首页
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=退出浏览器
+INSTRUMENTATION_STATUS_CODE: 15
+The phone type is: X900
+================process: /system/bin/sh /data/local/tmp/PullLog.sh testBrowsingSim1_20151207_074239return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: mv /data/tombstones /sdcard/AutoSmoke_UI30/testBrowsingSim1_20151207_074239/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: mv -r /data/anr /sdcard/AutoSmoke_UI30/testBrowsingSim1_20151207_074239/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: logcat -creturn!!!================
+================Call shell function return!!!================
+================process: mv /data/tombstones /sdcard/AutoSmoke_UI30/testBrowsingSim1_20151207_074239/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testBrowsingSim1
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.TDLTE.WebBrowsing
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 197.885
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+==========There are no error happend==========

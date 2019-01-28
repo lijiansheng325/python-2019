@@ -1,0 +1,710 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="head/jquery.multiselect.css" />
+<link rel="stylesheet" type="text/css" href="head/jquery.multiselect.filter.css" />
+<link rel="stylesheet" type="text/css" href="head/style.css" />
+<link rel="stylesheet" type="text/css" href="head/jquery-ui.css" />
+<script type="text/javascript" src="head/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="head/highcharts_4.14.js"></script>
+<script type="text/javascript" src="head/exporting.js"></script>
+<script type="text/javascript" src="head/jquery-ui.min.js"></script>
+<script type="text/javascript" src="head/jquery.multiselect.js"></script>
+<script type="text/javascript" src="head/jquery.multiselect.filter.js"></script>
+<script type="text/javascript" src="head/theme.js"></script>
+<script type="text/javascript" src="head/function.js"></script>
+<script type="text/javascript" src="head/mcm.js"></script>
+</head>
+
+<script>
+window.onscroll=function(){ 
+	var t=document.documentElement.scrollTop||document.body.scrollTop;
+	var div2=document.getElementById("div2");
+	if(t>=50){ 
+		div2.className="div2_1";
+	}else{
+		div2.className="div2";
+	} 
+}
+
+$(function(){
+	$("#theme_select").multiselect({
+		multiple: false,
+		header: false,
+		noneSelectedText: "选择主题",
+		minWidth: 150,
+		height: 238,
+		selectedList: 1,
+	});
+});
+
+$(function() {
+    $( "#changeX" ).button().height(14);
+	var el=$("#hour_select").multiselect({
+		multiple: false,
+		header: false,
+		noneSelectedText: "选择时间段",
+		minWidth: 50,
+		height: 110,
+		selectedList: 1,
+	});
+	for (var i=1; i <= map_times; i++) {
+		var v=i, opt=$('<option />', {
+			value: v,
+			text: v
+		});
+		opt.appendTo(el);
+	};
+	el.multiselect('refresh');
+});
+
+$(function(){
+	$("#mem_select").multiselect({
+		multiple: false,
+		header: false,
+		noneSelectedText: "选择一组数据",
+		minWidth: 235,
+		height: 140,
+		selectedList: 1,
+	});
+});
+
+var hour=1;
+var act_data=getact(hour);
+var data_time=getdata(hour);
+var chart_cpu=null;
+var x_data='loop';
+var x_name='Loop*Sleep(s)';
+var x_p=0;
+var color='#FFF'
+function cpu() {
+	if(chart_cpu != null){
+        chart_cpu.destroy();
+    }
+	var data=getcpu(x_data,hour);
+	chart_cpu=new Highcharts.Chart({
+		chart: {
+			renderTo: 'cpu',
+			type: 'line'
+		},
+		title: {
+			text: '系统CPU走势图'
+		},
+		credits: {
+			enabled: false
+		},
+		xAxis: {
+			title: {text: x_name},
+			min: data[0][0]
+		},
+		yAxis: {
+			title: {text:'cpu(%)'},
+			floor: 0
+		},
+		legend: {
+			layout: 'vertical',
+			align: 'right',
+			verticalAlign: 'top',
+			x: 0,
+			y: 40,
+		},
+		tooltip: {
+			shared: true,
+			crosshairs: true,
+			useHTML: true,
+			formatter: function () {
+				var s='<small>' + this.x + 's</small><table>';
+				$.each(this.points, function () {
+					s += '<tr><td style="color: ' + this.series.color + '">' + this.series.name + ':</td>' +
+						'<td style="text-align: left; color: '+ color + '"><b>' + this.y + '%</b></td></tr>';
+				});
+				s += '<tr><td style="color: '+ color + '">Data_Time:</td>' + '<td style="text-align: left; color: '+ color + '"><b>' + isHasElementIn(data[0],this.x,data_time) + '</b></td></tr>';
+				s += '<tr><td style="color: '+ color + '">Activity:</td>' + '<td style="text-align: left; color: '+ color + '"><b>' + isHasElementIn(data[0],this.x,act_data) + '</b></td></tr></table>';
+				return s;
+			}
+		},
+		series: data[1],
+		exporting: {
+			sourceWidth: 1200,
+            sourceHeight: 300,
+            buttons: {
+                contextButton: {
+                    menuItems: [{
+                        text: '输出PNG格式图片',
+                        onclick: function () {
+							this.exportChart({width: 1300,filename: 'System_CPU'});
+						}},{
+                        text: '输出JPEG格式图片',
+                        onclick: function () {
+							this.exportChart({type: 'image/jpeg',filename: 'System_CPU'});
+						}},{
+                        text: '输出PDF格式图片',
+                        onclick: function () {
+							this.exportChart({type: 'application/pdf',filename: 'System_CPU',});
+						}}]
+                }
+            }
+        }
+	});
+}
+
+function cpuinfolist() {
+	var el=$("#cpuinfolist").multiselect({
+		selectedText: function(numChecked, numTotal, checkedItems){
+			return '已选：' + numChecked + '/' + numTotal;
+		},
+		header: "最多选5个进程!",
+		minWidth: 160,
+		height: 140,
+		show: ["bounce", 200],
+		hide: ["explode", 1000],
+		click: function(e){
+			if( $("#cpuinfolist").multiselect("widget").find("input:checked").length > 5 ){
+				return false;
+			}
+		},
+		close: function(){
+			var list=jQuery("#cpuinfolist").val();
+			if(list != null){cpuinfo_list=list}
+			cpuinfo(cpuinfo_list)
+		}
+	}).multiselectfilter({
+		label: '查找:',
+		placeholder: '输入关键字'
+	});
+	var maxlist=getcpuline(-1,hour);
+	for (var i=0; i < maxlist.length; i++) {
+		var v=maxlist[i], opt=$('<option />', {
+			value: v[0],
+			text: v[0] + '(' + v[1] + ')'
+		});
+		opt.appendTo(el);
+		if(i<5){opt.attr('selected',true)}
+	};
+	el.multiselect('refresh');
+}
+
+var chart_cpuinfo=null;
+var cpuinfo_list=getcpuline(5,hour);
+function cpuinfo(a) {
+	if(chart_cpuinfo != null){
+        chart_cpuinfo.destroy();
+    }
+	var data=getcpuinfo(x_data,a,hour);
+	var x_min=data[0][0][x_p][0];
+	for (var i=1; i < data[0].length; i++) {
+		if(data[0][i][x_p][0]<x_min){x_min=data[0][i][x_p][0]}
+	}
+	chart_cpuinfo=new Highcharts.Chart({
+		chart: {
+			renderTo: 'cpuinfo',
+			type: 'line'
+		},
+		title: {
+			text: '进程CPU走势图'
+		},
+		credits: {
+			enabled: false
+		},
+		xAxis: {
+			title: {text: x_name},
+			min: x_min
+		},
+		yAxis: {
+			title: {text:'cpu(%)'},
+			floor: 0
+		},
+		legend: {
+			layout: 'vertical',
+			align: 'right',
+			verticalAlign: 'top',
+			x: 0,
+			y: 40,
+		},
+		tooltip: {
+			shared: true,
+			crosshairs: true,
+			useHTML: true,
+			formatter: function () {
+				var p1,p2;
+				var s='<small>' + this.x + 's</small><table>';
+				$.each(this.points, function () {
+					p1=isHasElementOne(cpuinfo_list,this.series.name)
+					switch (x_data)
+					{
+						case 'loop':
+							p2=parseInt((this.x+3600-3600*hour)/sleep)
+							break;
+						case 'time':
+							p2=parseInt((isHasElementIn(data[0][p1][1],this.x,data[0][p1][0])+3600-3600*hour)/sleep)
+							break;
+					};
+					s += '<tr><td style="color: ' + this.series.color + '">' + this.series.name + ':</td>' +
+						'<td style="text-align: left; color: '+ color + '"><b>' + this.y + '%</b></td></tr>';
+					if(data[0][p1][2][p2]!=null){
+						s += '<tr><td style="color: ' + this.series.color + '">' + 'cmdline:</td>' +
+							'<td style="text-align: left; color: '+ color + '"><b>' + data[0][p1][2][p2] +'</td>' + '</b></td></tr>';
+					}
+				});
+				s += '<tr><td style="color: '+ color + '">Data_Time:</td>' + '<td style="text-align: left; color: '+ color + '"><b>' + data_time[p2] + '</b></td></tr>';
+				s += '<tr><td style="color: '+ color + '">Activity:</td>' + '<td style="text-align: left; color: '+ color + '"><b>' + act_data[p2] + '</b></td></tr></table>';
+				return s;
+			}
+		},
+		series: data[1],
+		exporting: {
+			sourceWidth: 1200,
+            sourceHeight: 300,
+            buttons: {
+                contextButton: {
+                    menuItems: [{
+                        text: '输出PNG格式图片',
+                        onclick: function () {
+							this.exportChart({width: 1300,filename: 'Process_CPU'});
+						}},{
+                        text: '输出JPEG格式图片',
+                        onclick: function () {
+							this.exportChart({type: 'image/jpeg',filename: 'Process_CPU'});
+						}},{
+                        text: '输出PDF格式图片',
+                        onclick: function () {
+							this.exportChart({type: 'application/pdf',filename: 'Process_CPU',});
+						}}]
+                }
+            }
+        }
+	});
+}
+
+var chart_mem=null;
+var mem_map='all';
+function mem(a) {
+	mem_map=a
+	if(chart_mem != null){
+        chart_mem.destroy();
+    }
+	var data=getmem(x_data,a,hour);
+	chart_mem=new Highcharts.Chart({
+		chart: {
+			renderTo: 'mem',
+			type: 'line'
+		},
+		title: {
+			text: '系统内存走势图'
+		},
+		credits: {
+			enabled: false
+		},
+		xAxis: {
+			title: {text: x_name},
+			min: data[0][0]
+		},
+		yAxis: {
+			title: {text:'内存(M)'},
+			floor: 0
+		},
+		legend: {
+			layout: 'vertical',
+			align: 'right',
+			verticalAlign: 'top',
+			x: 0,
+			y: 40,
+		},
+		tooltip: {
+			shared: true,
+			crosshairs: true,
+			useHTML: true,
+			formatter: function () {
+				var s='<small>' + this.x + 's</small><table>';
+				$.each(this.points, function () {
+					s += '<tr><td style="color: ' + this.series.color + '">' + this.series.name + ':</td>' +
+						'<td style="text-align: left; color: '+ color + '"><b>' + this.y + 'M</b></td></tr>';
+				});
+				s += '<tr><td style="color: '+ color + '">Data_Time:</td>' + '<td style="text-align: left; color: '+ color + '"><b>' + isHasElementIn(data[0],this.x,data_time) + '</b></td></tr>';
+				s += '<tr><td style="color: '+ color + '">Activity:</td>' + '<td style="text-align: left; color: '+ color + '"><b>' + isHasElementIn(data[0],this.x,act_data) + '</b></td></tr></table>';
+				return s;
+			}
+		},
+		series: data[1],
+		exporting: {
+			sourceWidth: 1200,
+            sourceHeight: 300,
+            buttons: {
+                contextButton: {
+                    menuItems: [{
+                        text: '输出PNG格式图片',
+                        onclick: function () {
+							this.exportChart({width: 1300,filename: 'System_Memory'});
+						}},{
+                        text: '输出JPEG格式图片',
+                        onclick: function () {
+							this.exportChart({type: 'image/jpeg',filename: 'System_Memory'});
+						}},{
+                        text: '输出PDF格式图片',
+                        onclick: function () {
+							this.exportChart({type: 'application/pdf',filename: 'System_Memory',});
+						}}]
+                }
+            }
+        }
+	});
+}
+
+function meminfo_select1() {
+	var el=$("#meminfo_select1").multiselect({
+		selectedText: function(numChecked, numTotal, checkedItems){
+			return '已选：' + numChecked + '/' + numTotal;
+		},
+		header: "最多选5个进程!",
+		minWidth: 160,
+		height: 140,
+		show: ["bounce", 200],
+		hide: ["explode", 1000],
+		click: function(e){
+			if( $("#meminfo_select1").multiselect("widget").find("input:checked").length > 5 ){
+				return false;
+			}
+		},
+		close: function(){
+			var list=jQuery("#meminfo_select1").val()
+			if(list != null){meminfo_list1=list}
+			meminfo1(meminfo_list1)
+		}
+	}).multiselectfilter({
+		label: '查找:',
+		placeholder: '输入关键字'
+	});
+	var maxlist=getmemline(1,-1,hour);
+	for (var i=0; i < maxlist.length; i++) {
+		var v=maxlist[i], opt=$('<option />', {
+			value: v[0],
+			text: v[0] + '(' + v[1] + ')'
+		});
+		opt.appendTo(el);
+		if(i<5){opt.attr('selected',true)}
+	};
+	el.multiselect('refresh');
+}
+
+var chart_meminfo1=null;
+var meminfo_list1=getmemline(1,5,hour);
+function meminfo1(a) {
+	var data=getmeminfo(x_data,a,0,hour);
+	var x_min=data[0][0][x_p][0];
+	for (var i=1; i < data[0].length; i++) {
+		if(data[0][i][x_p][0]<x_min){x_min=data[0][i][x_p][0]}
+	}
+	chart_meminfo1=new Highcharts.Chart({
+		chart: {
+			renderTo: 'meminfo1',
+			type: 'line'
+		},
+		title: {
+			text: '进程内存PSS走势图'
+		},
+		credits: {
+			enabled: false
+		},
+		xAxis: {
+			title: {text: x_name},
+			min: x_min
+		},
+		yAxis: {
+			title: {text:'memory(M)'},
+			floor: 0
+		},
+		legend: {
+			layout: 'vertical',
+			align: 'right',
+			verticalAlign: 'top',
+			x: 0,
+			y: 40,
+		},
+		tooltip: {
+			shared: true,
+			crosshairs: true,
+			useHTML: true,
+			formatter: function () {
+				var p1,p2;
+				var s='<small>' + this.x + 's</small><table>';
+				$.each(this.points, function () {
+					p1=isHasElementOne(meminfo_list1,this.series.name);
+					switch (x_data)
+					{
+						case 'loop':
+							p2=parseInt((this.x+3600-3600*hour)/sleep)
+							break;
+						case 'time':
+							p2=parseInt((isHasElementIn(data[0][p1][1],this.x,data[0][p1][0])+3600-3600*hour)/sleep)
+							break;
+					};
+					s += '<tr><td style="color: ' + this.series.color + '">' + this.series.name + ':</td>' +
+						'<td style="text-align: left; color: '+ color + '"><b>' + this.y + 'M</b></td></tr>';
+					if(data[0][p1][2][p2]!=null){
+						s += '<tr><td style="color: ' + this.series.color + '">' + 'cmdline:</td>' +
+							'<td style="text-align: left; color: '+ color + '"><b>' + data[0][p1][2][p2] +'</td>' + '</b></td></tr>';
+					}
+				});
+				s += '<tr><td style="color: '+ color + '">Data_Time:</td>' + '<td style="text-align: left; color: '+ color + '"><b>' + data_time[p2] + '</b></td></tr>';
+				s += '<tr><td style="color: '+ color + '">Activity:</td>' + '<td style="text-align: left; color: '+ color + '"><b>' + act_data[p2] + '</b></td></tr></table>';
+				return s;
+			}
+		},
+		series: data[1],
+		exporting: {
+			sourceWidth: 1200,
+            sourceHeight: 300,
+            buttons: {
+                contextButton: {
+                    menuItems: [{
+                        text: '输出PNG格式图片',
+                        onclick: function () {
+							this.exportChart({width: 1300,filename: 'Process_Pss'});
+						}},{
+                        text: '输出JPEG格式图片',
+                        onclick: function () {
+							this.exportChart({type: 'image/jpeg',filename: 'Process_Pss'});
+						}},{
+                        text: '输出PDF格式图片',
+                        onclick: function () {
+							this.exportChart({type: 'application/pdf',filename: 'Process_Pss',});
+						}}]
+                }
+            }
+        }
+	});
+}
+
+function meminfo_select2() {
+	var el=$("#meminfo_select2").multiselect({
+		multiple: false,
+		noneSelectedText: "选择进程",
+		minWidth: 160,
+		height: 140,
+		selectedList: 1,
+	}).multiselectfilter({
+		label: '查找:',
+		placeholder: '输入关键字'
+	});
+	var maxlist=getmemline(2,-1,hour);
+	for (var i=0; i < maxlist.length; i++) {
+		var v=maxlist[i], opt=$('<option />', {
+			value: v[0],
+			text: v[0] + '(' + v[1] + ')'
+		});
+		opt.appendTo(el);
+		if(i==0){opt.attr('selected',true)}
+	};
+	el.multiselect('refresh');
+}
+
+var chart_meminfo2=null;
+var meminfo_list2=getmemline(2,1,hour);
+function meminfo2(a) {
+	meminfo_list2=a;
+	var data=getmeminfo(x_data,a,1,hour);
+	chart_meminfo2=new Highcharts.Chart({
+		chart: {
+			renderTo: 'meminfo2',
+			type: 'line'
+		},
+		title: {
+			text: '单进程内存走势图'
+		},
+		credits: {
+			enabled: false
+		},
+		xAxis: {
+			title: {text: x_name},
+			min: data[0][0][x_p][0]
+		},
+		yAxis: {
+			title: {text:'memory(M)'},
+			floor: 0
+		},
+		legend: {
+			layout: 'vertical',
+			align: 'right',
+			verticalAlign: 'top',
+			x: 0,
+			y: 40,
+		},
+		tooltip: {
+			shared: true,
+			crosshairs: true,
+			useHTML: true,
+			formatter: function () {
+				var p2;
+				var s='<small>' + this.x + 's</small><table>';
+				$.each(this.points, function () {
+					switch (x_data)
+					{
+						case 'loop':
+							p2=parseInt((this.x+3600-3600*hour)/sleep)
+							break;
+						case 'time':
+							p2=parseInt((isHasElementIn(data[0][0][1],this.x,data[0][0][0])+3600-3600*hour)/sleep)
+							
+							break;
+					};
+					s += '<tr><td style="color: ' + this.series.color + '">' + this.series.name + ':</td>' +
+						'<td style="text-align: left; color: '+ color + '"><b>' + this.y + 'M</b></td></tr>';
+					if(data[0][0][2][p2]!=null){
+						s += '<tr><td style="color: ' + this.series.color + '">' + 'cmdline:</td>' +
+							'<td style="text-align: left"><b>' + data[0][0][2][p2] +'</td>' + '</b></td></tr>';
+					}
+				});
+				s += '<tr><td style="color: '+ color + '">Data_Time:</td>' + '<td style="text-align: left; color: '+ color + '"><b>' + data_time[p2] + '</b></td></tr>';
+				s += '<tr><td style="color: '+ color + '">Activity:</td>' + '<td style="text-align: left; color: '+ color + '"><b>' + act_data[p2] + '</b></td></tr></table>';
+				return s;
+			}
+		},
+		series: data[1],
+		exporting: {
+			sourceWidth: 1200,
+            sourceHeight: 300,
+            buttons: {
+                contextButton: {
+                    menuItems: [{
+                        text: '输出PNG格式图片',
+                        onclick: function () {
+							this.exportChart({width: 1300,filename: 'Process_Memory'});
+						}},{
+                        text: '输出JPEG格式图片',
+                        onclick: function () {
+							this.exportChart({type: 'image/jpeg',filename: 'Process_Memory'});
+						}},{
+                        text: '输出PDF格式图片',
+                        onclick: function () {
+							this.exportChart({type: 'application/pdf',filename: 'Process_Memory',});
+						}}]
+                }
+            }
+        }
+	});
+}
+
+$(document).ready(function() {
+	Highcharts.setOptions(themeArr[4]);
+	cpuinfolist();
+	meminfo_select1();
+	meminfo_select2();
+	cpu();
+	cpuinfo(cpuinfo_list);
+	mem(mem_map);
+	meminfo1(meminfo_list1);
+	meminfo2(meminfo_list2)
+})
+
+function change_x() {
+	switch (x_data)
+	{
+		case 'loop':
+			x_data='time'
+			x_name='Time(s)'
+			x_p=1
+			break;
+		case 'time':
+			x_data='loop'
+			x_name='Loop*Sleep(s)'
+			x_p=0
+			break;
+	}
+	cpu();
+	cpuinfo(cpuinfo_list);
+	mem(mem_map);
+	meminfo1(meminfo_list1);
+	meminfo2(meminfo_list2)
+}
+
+function ChangeThemes(option) {
+	var background_img;
+	ResetOptions();
+	Highcharts.setOptions(themeArr[0]);
+	if (option.value == "6"||option.value == "8" ){document.bgColor = '#FFFFFF'}else{document.bgColor = '#DCDCDC'}
+	if (option.value == "1"||option.value == "2"||option.value == "3"||option.value == "4"){color='#FFF'}else{color='#333333'}
+	console.log(color);
+	if (option.value == "7" ) {
+		background_img='url(http://www.highcharts.com/samples/graphics/sand.png)'
+	}else{
+		background_img=null
+	}
+	Highcharts.wrap(Highcharts.Chart.prototype, 'getContainer', function (proceed) {
+		proceed.call(this);
+		this.container.style.background=background_img
+	});
+	Highcharts.setOptions(themeArr[option.value]);
+	cpu();
+	cpuinfo(cpuinfo_list);
+	mem(mem_map);
+	meminfo1(meminfo_list1);
+	meminfo2(meminfo_list2)
+}
+
+function ChangeHour(option) {
+	var list;
+	hour=parseInt(option.value);
+	act_data=getact(hour);
+	data_time=getdata(hour);
+	$("#cpuinfolist").empty();
+	cpuinfolist();
+	$("#meminfo_select1").empty();
+	meminfo_select1();
+	$("#meminfo_select2").empty();
+	meminfo_select2();
+	list=jQuery("#cpuinfolist").val();
+	if(list != null){cpuinfo_list=list};
+	list=jQuery("#meminfo_select1").val();
+	if(list != null){meminfo_list1=list};
+	list=null;
+	meminfo_list2=getmemline(2,1,hour);
+	cpu();
+	cpuinfo(cpuinfo_list);
+	mem(mem_map);
+	meminfo1(meminfo_list1);
+	meminfo2(meminfo_list2)
+}
+
+</script>
+
+<body bgColor="#DCDCDC">
+<div class="div1">
+	<div id="div2" class="div2">
+		<div style="position:fixed; top:0; left: 0"></div>
+		<input id="changeX" type="button" style="margin-top:5px;margin-left:1%;float:left" value="切换横坐标(Loop*Sleep/Time)" onclick="change_x()">
+		<div class="div3">
+			选择主题：
+			<select id="theme_select" onchange="ChangeThemes(this)">
+				<option value="0">默认</option>
+				<option value="1">深蓝 (dark-blue)</option>
+				<option value="2">深绿 (dark-green)</option>
+				<option value="3">dark-unica</option>
+				<option value="4" selected>灰色(gray)</option>
+				<option value="5">网格(grid)</option>
+				<option value="6">grid-light</option>
+				<option value="7">sand-signika</option>
+				<option value="8">天空(skies)</option>
+			</select>
+		</div>
+		<div class="div3">选择时间段（小时）：<select id="hour_select" onchange="ChangeHour(this)"></select></div>
+	</div>
+	<div id="cpu" class="div4"></div>
+	<div class="div5"><select id="cpuinfolist" multiple="multiple" size="5"></select>（排序方式：CPU最大值降序排列，括号中数字。）</div>
+	<div id="cpuinfo" class="div4"></div>
+	<div class="div5">
+		<select id="mem_select" onchange="mem(this.value)">
+			<option value="all" selected>总内存图</option>
+			<option value="free">剩余内存图</option>
+			<option value="io">Dirty和Writeback内存图</option>
+			<option value="AI">Active和Inactive内存图</option>
+			<option value="MS">Mapped和Slab内存图</option>
+		</select>
+	</div>
+	<div id="mem" class="div4"></div>
+	<div class="div5"><select id="meminfo_select1" multiple="multiple" size="5"></select>（排序方式：Pss最大值降序排列，括号中数字。）</div>
+	<div id="meminfo1" class="div4"></div>
+	<div class="div5"><select id="meminfo_select2" multiple="multiple" size="5" onchange="meminfo2([this.value])"></select>（排序方式：Pss最大值-最小值降序排列，括号中数字。）</div>
+	<div id="meminfo2" class="div4"></div>
+</div>
+</body>
+</html>

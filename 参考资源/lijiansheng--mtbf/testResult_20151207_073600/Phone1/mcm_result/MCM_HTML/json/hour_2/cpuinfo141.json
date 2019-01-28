@@ -1,0 +1,1 @@
+{"name":"/system/bin/msm_irqbalance","loop":[3940,3941,3999,4000],"time":[4231,4232,4290,4291],"avg":["-f /system/vendor/etc/msm_irqbalance.conf","-f /system/vendor/etc/msm_irqbalance.conf","-f /system/vendor/etc/msm_irqbalance.conf","-f /system/vendor/etc/msm_irqbalance.conf"],"cpu":[1.5,0,0,1.4]}

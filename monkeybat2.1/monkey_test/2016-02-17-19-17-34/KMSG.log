@@ -1,0 +1,88 @@
+<6>[22646.256496] mmc0: Starting deferred resume
+<6>[22646.318709] mmc0: Deferred resume completed
+<3>[22650.610845] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4363760, chip->last_soc=100, batt_temp = 287,current_now=-285312
+<3>[22698.845075] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4365806, chip->last_soc=100, batt_temp = 288,current_now=-277401
+<6>[22710.186139] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[22729.240290] mmc0: Starting deferred resume
+<6>[22729.319406] mmc0: Deferred resume completed
+<3>[22747.104333] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4367778, chip->last_soc=100, batt_temp = 287,current_now=-270205
+<6>[22772.711283] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[22789.390199] mmc0: Starting deferred resume
+<6>[22789.462418] mmc0: Deferred resume completed
+<3>[22795.368808] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4369714, chip->last_soc=100, batt_temp = 287,current_now=-262887
+<6>[22843.604216] BMS: report_eoc: Report EOC to charger,chip->last_ocv_uv=4371592
+<6>[22843.604231] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[22843.605921] power_ok_handler: rt_stat = 0x00
+<3>[22843.613196] taper_handler: rt_stat = 0x00
+<6>[22843.613709] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<6>[22843.614007] smb135x-charger 6-0057: status = FULL chg_done_batt_full = 1
+<3>[22843.614223] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4371592, chip->last_soc=100, batt_temp = 287,current_now=-254794
+<3>[22843.620764] CHARGE:smb135x_battery_get_property: __get battery voltage=4362249___
+<3>[22843.624404] CHARGE:smb135x_battery_get_property:  __get battery temp=29___
+<12>[22843.624770] healthd: battery l=100 v=4362 t=29.0 h=2 st=5 chg=u
+<3>[22843.648357] fast_chg_handler: rt_stat = 0x00
+<3>[22843.665558] CHARGE:smb135x_battery_get_property:  __get battery temp=28___
+<12>[22843.675117] healthd: battery l=100 v=4368 t=28.9 h=2 st=5 chg=u
+<3>[22843.693907] CHARGE:smb135x_battery_get_property:  __get battery temp=29___
+<12>[22843.701208] healthd: battery l=100 v=4368 t=29.0 h=2 st=5 chg=u
+<3>[22843.718248] CHARGE:smb135x_battery_get_property:  __get battery temp=28___
+<12>[22843.724947] healthd: battery l=100 v=4364 t=28.9 h=2 st=5 chg=u
+<12>[22843.742583] healthd: battery l=100 v=4366 t=28.9 h=2 st=5 chg=u
+<6>[22849.540031] mmc0: Starting deferred resume
+<6>[22849.612334] mmc0: Deferred resume completed
+<3>[22891.880826] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4371347, chip->last_soc=100, batt_temp = 287,current_now=51724
+<6>[22904.680951] mmc0: Starting deferred resume
+<6>[22904.739062] mmc0: Deferred resume completed
+<3>[22940.123216] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4370850, chip->last_soc=100, batt_temp = 287,current_now=75299
+<6>[22940.894481] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<0>[22968.924656] YLLOG: powerkey is pressed down
+<3>[22968.986990] ltr559_proximity_enable: i2c_read 0x81, ret = 0, ps_gain = 3
+<0>[22969.132121] YLLOG: powerkey is up
+<3>[22969.350707] ltr559_proximity_crosstalk: sum=140, invalid_num=6, struct_noise=23
+<3>[22969.356978] ltr559_set_prox_threshold: thres_hi = [73], thres_lo = [53], prox_avg = [23]
+<3>[22969.368578] iio_buffer_store_enable: for predisable part
+<3>[22969.375525] iio_buffer_store_enable: for postenable part
+<3>[22969.389096] mdss_fb_blank: *****LCD panel wakeup begin*************
+<3>[22969.393629] --mdss--mdss_dsi_on---enter---
+<3>[22969.428055] mdss_dsi_panel_reset: Continuous splash disabled
+<3>[22969.486662] --mdss--mdss_dsi_on---exit---
+<3>[22969.486722] mdss_dsi_panel_on: ctrl=ffffffc074a72018 ndx=0
+<6>[22969.498982] ltr559: report_ps_input_event: psdata: 19 isproximity: 5, hi: 73, lo:53
+<3>[22969.533697] wlan: [4187:E :SME] sme_QosPmcDeviceStateUpdateInd: 7443: nothing to process in PMC state BMPS (6)
+<3>[22969.533707] wlan: [4187:E :TL ]  ----> CRegion 0, hRSSI -11, Alpha 5
+<3>[22969.653647] mdss_dsi_panel_on:-
+<3>[22969.654234] mdss_fb_unblank_sub: *****LCD panel wakeup time = [265 ms]*****
+<3>[22969.740562] --backlight level after optimize is [**60**]
+<6>[22969.833243] <<-GTP-INFO->> GTP wakeup sleep
+<6>[22969.833276] <<-GTP-INFO->> Esd started
+<6>[22973.838051] lowmemorykiller: Killing '.moji.mjweather' (19740), adj 1000,
+<6>[22973.838051]    to free 68160kB on behalf of 'kswapd0' (103) because
+<6>[22973.838051]    cache 321340kB is below limit 322560kB for oom_score_adj 1000
+<6>[22973.838051]    Free memory is 20572kB above reserved.
+<6>[22973.838051]    Free CMA is 0kB
+<6>[22973.838051]    Total reserve is 19984kB
+<6>[22973.838051]    Total free pages is 20572kB
+<6>[22973.838051]    Total file cache is 324096kB
+<6>[22973.838051]    Slab Reclaimable is 24712kB
+<6>[22973.838051]    Slab UnReclaimable is 69284kB
+<6>[22973.838051]    Total Slab is 93996kB
+<6>[22973.838051]    GFP mask is 0xd0
+<2>[22974.836112] wlan: [4187:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+<2>[22974.843535] wlan: [4187:F :CTL] a080eb4: 141
+<2>[22974.847467] wlan: [4187:F :CTL] a080e20: 10ea500
+<2>[22974.852055] wlan: [4187:F :CTL] a08040c: 3000
+<2>[22974.856334] wlan: [4187:F :CTL] a0821b8: 8f
+<2>[22974.860566] wlan: [4187:F :CTL] a013c50: 28
+<2>[22974.864602] wlan: [4187:F :CTL] a013c5c: 12
+<2>[22974.868789] wlan: [4187:F :CTL] a013d38: b9
+<2>[22974.873010] wlan: [4187:F :CTL] a0800f4: 800007ff
+<2>[22974.877624] wlan: [4187:F :CTL] a0801d0: 1d
+<6>[22977.946330] binder: release 26365:26365 transaction 3062108 out, still active
+<6>[22978.183533] binder: 1138:2888 transaction failed 29189, size 8-0
+<6>[22978.183547] binder: send failed reply for transaction 3062108, target dead
+<3>[22981.168738] iio_buffer_store_enable: for predisable part
+<3>[22981.175289] iio_buffer_store_enable: for postenable part
+<3>[22981.990378] iio_buffer_store_enable: for predisable part
+<3>[22981.996721] iio_buffer_store_enable: for postenable part
+<3>[22987.169815] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[22988.375996] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4369515, chip->last_soc=100, batt_temp = 290,current_now=283223

@@ -1,0 +1,5 @@
+d:\apk\apk\com.microsoft.office.outlook_215.apk
+d:\apk\apk\excelchina-release.apk
+d:\apk\apk\powerpointchina-release.apk
+d:\apk\apk\wordchina-release.apk
+d:\apk\apk\新建文件夹.7z

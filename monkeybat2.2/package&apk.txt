@@ -1,0 +1,70 @@
+SecureSampleAuthService.apk=com.qualcomm.qti.auth.securesampleauthservice
+FidoCryptoService.apk=com.qualcomm.qti.auth.fidocryptoservice
+CellBroadcastReceiver.apk=com.android.cellbroadcastreceiver
+Dialer.apk=com.android.dialer
+Protips.apk=com.android.protips
+CABLService.apk=com.qualcomm.cabl
+GoogleMusic.apk=com.google.android.music
+FusedLocation.apk=com.android.location.fused
+BackupRestoreConfirmation.apk=com.android.backupconfirm
+BluetoothExt.apk=org.codeaurora.bluetooth
+QtiBackupAgent.apk=com.qti.backupagent
+LetvAccount.apk=com.letv.account
+PackageInstaller.apk=com.android.packageinstaller
+AntHalService.apk=com.dsi.ant.server
+PPPreference.apk=com.qualcomm.display
+InterfacePermissions.apk=com.qualcomm.interfacepermissions
+ContactsProvider.apk=com.android.providers.contacts
+moffice.apk=cn.wps.moffice_eng
+SogouNav.apk=com.sogou.map.android.sogounav
+GoogleQuickSearchBox.apk=com.google.android.googlequicksearchbox
+LetvMms.apk=com.letv.sms
+LetvVideo.apk=com.letv.videoplayer
+LetvLive.apk=com.letv.android.autolive
+Shell.apk=com.android.shell
+Settings.apk=com.android.settings
+WfdService.apk=com.qualcomm.wfd.service
+LetvLauncher.apk=eui.auto.letvlauncher
+TravelGroup.apk=com.letv.travel
+PicoTts.apk=com.svox.pico
+colorservice.apk=com.qti.service.colorservice
+InputDevices.apk=com.android.inputdevices
+TimeService.apk=com.qualcomm.timeservice
+Bluetooth.apk=com.android.bluetooth
+SettingsProvider.apk=com.android.providers.settings
+LetvCalendar.apk=com.letv.calendar
+LetvWeather.apk=com.letv.weather
+LetvVehicle.apk=com.letv.vehicle
+LetvVoice.apk=com.letv.voice
+GooglePlayService.apk=com.google.android.gms
+RootPA.apk=com.gd.mobicore.pa
+GoogleMaps.apk=com.google.android.apps.maps
+Contacts.apk=com.android.contacts
+SystemUpgrade.apk=com.letv.systemupgrade
+LetvSearch.apk=com.letv.lesophoneclient
+LetvFileManager.apk=com.letv.filemanager
+PacProcessor.apk=com.android.pacprocessor
+Telecom.apk=com.android.server.telecom
+LetvSetting.apk=com.letv.settings
+DefaultContainerService.apk=com.android.defcontainer
+LetvMusic.apk=com.letv.music
+SogouInput.apk=com.sohu.inputmethod.sogou
+MmsService.apk=com.android.mms.service
+SystemUI.apk=com.android.systemui
+MultiScreenServerStub.apk=com.letv.multiscreen.server
+TeleService.apk=com.android.phone
+MediaProvider.apk=com.android.providers.media
+QComQMIPermissions.apk=com.qualcomm.qcom_qmi
+SampleAuthenticatorService.apk=com.qualcomm.qti.auth.sampleauthenticatorservice
+CalendarProvider.apk=com.android.providers.calendar
+GooglePlayStore.apk=com.android.vending
+webview.apk=com.android.webview
+QuickBoot.apk=com.qapp.quickboot
+CertInstaller.apk=com.android.certinstaller
+framework-res.apk=android
+TelephonyProvider.apk=com.android.providers.telephony
+DownloadProvider.apk=com.android.providers.downloads
+Browser.apk=com.android.browser
+Stk.apk=com.android.stk
+GoogleServiceFramework.apk=com.google.android.gsf
+LetvClient.apk=com.letv.android.autoclient

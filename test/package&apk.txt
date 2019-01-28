@@ -1,0 +1,136 @@
+UEIQuicksetSDKLeTV.apk=com.uei.quicksetsdk.letv
+supersearch.apk=com.letv.android.quicksearchbox
+CP_FactoryPattern.apk=com.yulong.android.factorypattern
+TelephonyProvider.apk=com.android.providers.telephony
+LetvVoiceAssistant.apk=com.letv.android.voiceassistant
+LetvAccountAgent.apk=com.letv.android.agent
+LetvTheme.apk=com.letv.android.theme
+CalendarProvider.apk=com.android.providers.calendar
+MediaProvider.apk=com.android.providers.media
+LetvAccount.apk=com.letv.android.account
+CP_logredirect.apk=com.yulong.logredirect
+ModemTestMode.apk=com.qualcomm.qti.modemtestmode
+WallpaperCropper.apk=com.android.wallpapercropper
+CP_OTA.apk=com.yulong.android.ota
+Protips.apk=com.android.protips
+LetvWallpaperSettings.apk=com.letv.android.wallpaper
+LetvSchedulePowerOnOff.apk=com.letv.leui.schpwronoff
+LetvWallpaperOnline.apk=com.letv.android.wallpaperonline
+DocumentsUI.apk=com.android.documentsui
+CP_3RD_SougouIME.apk=com.sohu.inputmethod.sogouoem
+Galaxy4.apk=com.android.galaxy4
+superlive.apk=com.letv.android.letvlive
+LetvSafe.apk=com.letv.android.letvsafe
+ExternalStorageProvider.apk=com.android.externalstorage
+leSport.apk=com.lesports.glivesports
+HTMLViewer.apk=com.android.htmlviewer
+LetvThemeSettings.apk=com.letv.android.themesettings
+MmsService.apk=com.android.mms.service
+DownloadProvider.apk=com.android.providers.downloads
+LetvNote.apk=com.letv.android.note
+CP_3RD_TencentBrowser.apk=com.android.browser
+LetvUsageStatsReporter.apk=com.letv.android.usagestats
+CP_AudioElectric.apk=com.yulong.audioelectric
+DefaultContainerService.apk=com.android.defcontainer
+LetvStore.apk=com.letv.app.appstore
+DownloadProviderUi.apk=com.android.providers.downloads.ui
+PacProcessor.apk=com.android.pacprocessor
+StvPush.apk=com.stv.stvpush
+CP_3RD_WeChat.apk=com.tencent.mm
+LetvFreeFlow.apk=com.letv.android.freeflow
+CertInstaller.apk=com.android.certinstaller
+BluetoothExt.apk=org.codeaurora.bluetooth
+framework-res.apk=android
+Contacts.apk=com.android.contacts
+WfdService.apk=com.qualcomm.wfd.service
+LetvRemoteControl_preinstall.apk=com.letv.android.remotecontrol
+LetvMms.apk=com.android.mms
+Stk.apk=com.android.stk
+Launcher3.apk=com.android.launcher3
+BackupRestoreConfirmation.apk=com.android.backupconfirm
+LetvVideoLeading.apk=com.letv.android.client
+LetvSetupWizard.apk=com.letv.android.setupwizard
+HoloSpiralWallpaper.apk=com.android.wallpaper.holospiral
+LeShareLeadingPro.apk=com.letv.android.share.pro
+Calendar.apk=com.android.calendar
+PhaseBeam.apk=com.android.phasebeam
+RemoteDeviceManagerService.apk=com.letv.android.remotedevice
+qcrilmsgtunnel.apk=com.qualcomm.qcrilmsgtunnel
+SettingsProvider.apk=com.android.providers.settings
+SharedStorageBackup.apk=com.android.sharedstoragebackup
+CP_PackageInstall.apk=cloneit.pkg.install
+PrintSpooler.apk=com.android.printspooler
+LetvVideoPlayer2.apk=com.android.videoplayer
+CP_3RD_TencentPhoneManager.apk=com.tencent.qqpimsecure
+BasicDreams.apk=com.android.dreams.basic
+LetvRecorder.apk=com.letv.android.recorder
+CP_3RD_TencentVideo.apk=com.tencent.qqlive
+webview.apk=com.android.webview
+InputDevices.apk=com.android.inputdevices
+XY_CP_IcmWeather.apk=com.icoolme.android.weather
+BugPostbox.apk=com.letv.bugpostbox
+CellBroadcastReceiver.apk=com.android.cellbroadcastreceiver
+OneTimeInitializer.apk=com.android.onetimeinitializer
+Telecom.apk=com.android.server.telecom
+FaceLock.apk=com.android.facelock
+KeyChain.apk=com.android.keychain
+CP_Camera.apk=com.android.camera
+Dialer.apk=com.android.dialer
+Gallery2.apk=com.android.gallery3d
+CP_3RD_MobileQQ.apk=com.tencent.mobileqq
+PackageInstaller.apk=com.android.packageinstaller
+PicoTts.apk=com.svox.pico
+AntHalService.apk=com.dsi.ant.server
+Home.apk=com.example.android.home
+ProxyHandler.apk=com.android.proxyhandler
+LatinIME.apk=com.android.inputmethod.latin
+TestSetting.apk=com.yulong.TestSetting
+QtiBackupAgent.apk=com.qti.backupagent
+agnes_service.apk=com.letv.agnes
+VisualizationWallpapers.apk=com.android.musicvis
+ManagedProvisioning.apk=com.android.managedprovisioning
+PhotoTable.apk=com.android.dreams.phototable
+LeSo.apk=com.letv.lesophoneclient
+BY_3RD_BaiduMap.apk=com.baidu.BaiduMap
+NoiseField.apk=com.android.noisefield
+WAPPushManager.apk=com.android.smspush
+LetvBugServices.apk=com.letv.android.bugreporter
+LetvAccountInfo.apk=com.letv.android.accountinfo
+LiveWallpapersPicker.apk=com.android.wallpaper.livepicker
+base.apk=com.netease.dhxy.leshi
+NetworkLocation_Baidu.apk=com.baidu.map.location
+CP_Cloneit.apk=com.yulong.cloneit
+LetvFileManager.apk=com.letv.android.filemanager
+CP_3RD_TencentNews.apk=com.tencent.news
+Settings.apk=com.android.settings
+CP_3RD_IvviAppStore.apk=com.ivvi.android.appstore
+LetvEcoProvider.apk=com.letv.android.ecoProvider
+CP_EngMode.apk=com.yulong.android.cp_engmode
+Calculator.apk=com.android.calculator2
+com.qualcomm.location.apk=com.qualcomm.location
+CP_IvviBuluo.apk=com.example.testivvibuluo
+CP_IvviShare.apk=com.android.ivvi.share
+LetvCloudService.apk=com.letv.android.cloudservice
+LiveWallpapers.apk=com.android.wallpaper
+com.qualcomm.qti.services.secureui.apk=com.qualcomm.qti.services.secureui
+VpnDialogs.apk=com.android.vpndialogs
+Email.apk=com.android.email
+BY_3RD_sinaWeibo.apk=com.sina.weibo
+Music.apk=com.android.music
+TeleService.apk=com.android.phone
+Shell.apk=com.android.shell
+FusedLocation.apk=com.android.location.fused
+DeskClock.apk=com.android.deskclock
+SystemUI.apk=com.android.systemui
+Exchange2.apk=com.android.exchange
+QcCrashHandler.apk=com.letv.bsp.qccrashhandler
+FMRecord.apk=com.codeaurora.fmrecording
+CP_GPSView.apk=com.yulong.android.gpsview
+Bluetooth.apk=com.android.bluetooth
+TimeService.apk=com.qualcomm.timeservice
+ContactsProvider.apk=com.android.providers.contacts
+CaptivePortalLogin.apk=com.android.captiveportallogin
+CP_3RD_QQIncall.apk=com.tencent.lightalk
+CP_3RD_WPSOffice.apk=cn.wps.moffice_eng
+LetvShareProvider.apk=com.letv.android.LetvShareProvider
+LetvPhoneControl.apk=com.letv.android.phonecontrol

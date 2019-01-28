@@ -1,0 +1,18 @@
+﻿{
+"name": "mcm_result",
+"main": "mcm.html",
+"description": "MCM result to chart.",
+"version": "0.1.0",
+"window": {
+"title": "MCM结果展示",
+"icon": "icon.png",
+"toolbar": false,
+"width": 800,
+"height": 600,
+"position": "center",
+"resizable": true,
+"show_in_taskbar": true,
+"min_width": 800,
+"min_height": 600
+}
+}

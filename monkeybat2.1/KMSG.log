@@ -1,0 +1,173 @@
+<6>[23030.036198] mmc0: Starting deferred resume
+<6>[23030.106541] mmc0: Deferred resume completed
+<3>[23036.624407] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[23036.641558] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4367652, chip->last_soc=100, batt_temp = 290,current_now=248962
+<3>[23037.653291] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[23042.750832] iio_buffer_store_enable: for predisable part
+<3>[23042.759436] iio_buffer_store_enable: for postenable part
+<3>[23042.814034] --backlight is close add by caiwutang--
+<3>[23042.872021] mdss_fb_blank: *****LCD panel wakeup begin*************
+<3>[23042.874622] wlan: [4187:E :SME] sme_QosPmcDeviceStateUpdateInd: 7443: nothing to process in PMC state BMPS (6)
+<3>[23042.874633] wlan: [4187:E :TL ]  ----> CRegion 0, hRSSI -8, Alpha 5
+<3>[23042.888557] mdss_dsi_panel_off: ctrl=ffffffc074a72018 ndx=0
+<3>[23043.091438] mdss_dsi_panel_off:-
+<3>[23043.120049] --mdss--mdss_dsi_off---enter---
+<3>[23043.138141] --mdss--mdss_dsi_off---exit---
+<6>[23043.139177] <<-GTP-INFO->> Esd cancelled
+<6>[23073.903149] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[23084.884379] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4366157, chip->last_soc=100, batt_temp = 290,current_now=116586
+<0>[23095.127620] YLLOG: powerkey is pressed down
+<3>[23095.140273] iio_buffer_store_enable: for predisable part
+<3>[23095.146186] iio_buffer_store_enable: for postenable part
+<3>[23095.157812] mdss_fb_blank: *****LCD panel wakeup begin*************
+<3>[23095.164462] --mdss--mdss_dsi_on---enter---
+<3>[23095.197689] mdss_dsi_panel_reset: Continuous splash disabled
+<3>[23095.203628] ltr559_proximity_enable: i2c_read 0x81, ret = 0, ps_gain = 3
+<3>[23095.255746] --mdss--mdss_dsi_on---exit---
+<3>[23095.255773] mdss_dsi_panel_on: ctrl=ffffffc074a72018 ndx=0
+<0>[23095.371733] YLLOG: powerkey is up
+<3>[23095.423566] mdss_dsi_panel_on:-
+<3>[23095.424113] mdss_fb_unblank_sub: *****LCD panel wakeup time = [266 ms]*****
+<3>[23095.494641] --backlight level after optimize is [**57**]
+<3>[23095.580904] ltr559_proximity_crosstalk: sum=126, invalid_num=6, struct_noise=21
+<3>[23095.587178] ltr559_set_prox_threshold: thres_hi = [71], thres_lo = [51], prox_avg = [21]
+<6>[23095.612855] <<-GTP-INFO->> GTP wakeup sleep
+<6>[23095.612929] <<-GTP-INFO->> Esd started
+<3>[23095.694041] wlan: [4187:E :SME] sme_QosPmcDeviceStateUpdateInd: 7443: nothing to process in PMC state BMPS (6)
+<3>[23095.703555] wlan: [4187:E :TL ]  ----> CRegion 0, hRSSI -14, Alpha 5
+<6>[23095.714000] ltr559: report_ps_input_event: psdata: 25 isproximity: 5, hi: 71, lo:51
+<3>[23112.419812] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<6>[23129.790009] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23130.293736] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23132.353029] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23132.871248] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[23133.137232] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4364094, chip->last_soc=100, batt_temp = 294,current_now=319087
+<6>[23133.891429] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23133.900207] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23135.450901] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23135.956504] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23136.481004] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23137.002190] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[23172.832222] CHARGE:smb135x_battery_get_property: __get battery voltage=4302525___
+<3>[23172.842437] CHARGE:smb135x_battery_get_property:  __get battery temp=29___
+<12>[23172.851174] healthd: battery l=100 v=4302 t=29.6 h=2 st=5 chg=u
+<6>[23176.586464] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23177.041934] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23178.050226] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23178.560897] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23179.601222] [ vibrator_set_level] set vib_level to 2500 mV
+<6>[23181.132854] [ vibrator_set_level] set vib_level to 2500 mV
+<3>[23181.403449] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4361418, chip->last_soc=100, batt_temp = 296,current_now=343787
+<6>[23212.570277] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[23229.643655] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<6>[23229.644245] smb135x-charger 6-0057: status = CHARGING chg_done_batt_full = 0
+<6>[23229.644264] BMS: check_recharge_condition: soc dropped below resume_soc soc=100 last_ocv_uv=4358584 resume_soc=99, restart charging
+<3>[23229.645680] power_ok_handler: rt_stat = 0x01
+<3>[23229.649615] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4358584, chip->last_soc=100, batt_temp = 300,current_now=403813
+<12>[23229.676845] healthd: battery l=100 v=4312 t=29.7 h=2 st=2 chg=u
+<12>[23229.702127] healthd: battery l=100 v=4327 t=29.7 h=2 st=2 chg=u
+<3>[23229.756281] fast_chg_handler: rt_stat = 0x40
+<3>[23229.769491] CHARGE:smb135x_battery_get_property: __get battery voltage=4339008___
+<12>[23229.785399] healthd: battery l=100 v=4339 t=29.6 h=2 st=2 chg=u
+<12>[23229.803955] healthd: battery l=100 v=4322 t=29.6 h=2 st=2 chg=u
+<6>[23230.879463] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[23254.266573] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[23256.156277] mmc0: Starting deferred resume
+<6>[23256.240465] mmc0: Deferred resume completed
+<6>[23270.799945] mmc0: Starting deferred resume
+<6>[23270.861410] mmc0: Deferred resume completed
+<3>[23272.591418] iio_buffer_store_enable: for predisable part
+<3>[23272.597160] iio_buffer_store_enable: for postenable part
+<3>[23272.664524] --backlight is close add by caiwutang--
+<3>[23272.734421] mdss_fb_blank: *****LCD panel wakeup begin*************
+<3>[23272.742238] mdss_dsi_panel_off: ctrl=ffffffc074a72018 ndx=0
+<3>[23272.832280] wlan: [4187:E :SME] sme_QosPmcDeviceStateUpdateInd: 7443: nothing to process in PMC state BMPS (6)
+<3>[23272.832290] wlan: [4187:E :TL ]  ----> CRegion 0, hRSSI -13, Alpha 5
+<3>[23272.945095] mdss_dsi_panel_off:-
+<3>[23272.970086] --mdss--mdss_dsi_off---enter---
+<3>[23272.988107] --mdss--mdss_dsi_off---exit---
+<6>[23272.989076] <<-GTP-INFO->> Esd cancelled
+<3>[23277.906963] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4359122, chip->last_soc=100, batt_temp = 294,current_now=-190883
+<3>[23315.885641] taper_handler: rt_stat = 0x04
+<3>[23315.899066] CHARGE:smb135x_battery_get_property: __get battery voltage=4416384___
+<12>[23315.913941] healthd: battery l=100 v=4416 t=29.6 h=2 st=2 chg=u
+<12>[23315.938280] healthd: battery l=100 v=4419 t=29.6 h=2 st=2 chg=u
+<6>[23316.618921] mmc0: Starting deferred resume
+<6>[23316.689927] mmc0: Deferred resume completed
+<3>[23326.166054] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4361328, chip->last_soc=100, batt_temp = 296,current_now=-302916
+<6>[23330.870244] mmc0: Starting deferred resume
+<6>[23330.928915] mmc0: Deferred resume completed
+<6>[23364.740622] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[23374.406148] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4363502, chip->last_soc=100, batt_temp = 296,current_now=-293745
+<6>[23391.070176] mmc0: Starting deferred resume
+<6>[23391.130480] mmc0: Deferred resume completed
+<6>[23410.364852] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[23422.665105] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4365557, chip->last_soc=100, batt_temp = 295,current_now=-279944
+<6>[23451.159991] mmc0: Starting deferred resume
+<6>[23451.222420] mmc0: Deferred resume completed
+<6>[23453.800714] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[23470.925163] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4367584, chip->last_soc=100, batt_temp = 293,current_now=-275666
+<6>[23511.310286] mmc0: Starting deferred resume
+<6>[23511.368257] mmc0: Deferred resume completed
+<3>[23519.165741] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4369526, chip->last_soc=100, batt_temp = 293,current_now=-263542
+<6>[23524.181312] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[23567.424470] BMS: report_eoc: Report EOC to charger,chip->last_ocv_uv=4371427
+<6>[23567.424486] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[23567.426177] power_ok_handler: rt_stat = 0x00
+<3>[23567.432525] taper_handler: rt_stat = 0x00
+<3>[23567.435494] fast_chg_handler: rt_stat = 0x00
+<6>[23567.441764] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<6>[23567.442098] smb135x-charger 6-0057: status = FULL chg_done_batt_full = 1
+<3>[23567.442339] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4371427, chip->last_soc=100, batt_temp = 292,current_now=-257847
+<3>[23567.460276] CHARGE:smb135x_battery_get_property: __get battery voltage=4371957___
+<12>[23567.479399] healthd: battery l=100 v=4371 t=29.4 h=2 st=5 chg=u
+<12>[23567.504454] healthd: battery l=100 v=4369 t=29.4 h=2 st=5 chg=u
+<12>[23567.523089] healthd: battery l=100 v=4354 t=29.4 h=2 st=5 chg=u
+<12>[23567.544184] healthd: battery l=100 v=4369 t=29.4 h=2 st=5 chg=u
+<6>[23571.460202] mmc0: Starting deferred resume
+<6>[23571.534750] mmc0: Deferred resume completed
+<6>[23577.119397] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[23600.772792] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[23615.684343] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4371068, chip->last_soc=100, batt_temp = 292,current_now=59430
+<6>[23626.758803] mmc0: Starting deferred resume
+<6>[23626.818053] mmc0: Deferred resume completed
+<3>[23647.206063] wlan: [4187:E :SME] sme_QosPmcDeviceStateUpdateInd: 7443: nothing to process in PMC state BMPS (6)
+<3>[23647.216582] wlan: [4187:E :TL ]  ----> CRegion 0, hRSSI -13, Alpha 5
+<3>[23647.710137] wlan: [4187:E :SME] sme_QosPmcDeviceStateUpdateInd: 7443: nothing to process in PMC state BMPS (6)
+<3>[23647.719376] wlan: [4187:E :TL ]  ----> CRegion 0, hRSSI -13, Alpha 5
+<11>[23647.871380] init: cannot find '/system/bin/logredirect', disabling 'logredirect'
+<11>[23651.905783] init: cannot find '/system/bin/logredirect', disabling 'logredirect'
+<11>[23655.935181] init: cannot find '/system/bin/logredirect', disabling 'logredirect'
+<11>[23659.963637] init: cannot find '/system/bin/logredirect', disabling 'logredirect'
+<3>[23663.934885] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4370558, chip->last_soc=100, batt_temp = 291,current_now=74066
+<6>[23691.800127] mmc0: Starting deferred resume
+<6>[23691.864765] mmc0: Deferred resume completed
+<3>[23712.193731] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4370000, chip->last_soc=100, batt_temp = 290,current_now=79989
+<6>[23717.474516] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[23725.939081] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<6>[23726.376894] mmc0: Starting deferred resume
+<6>[23726.445378] mmc0: Deferred resume completed
+<3>[23753.699792] wlan: [4187:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+<3>[23760.435145] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4369229, chip->last_soc=100, batt_temp = 290,current_now=127312
+<12>[23772.835845] healthd: battery l=100 v=4352 t=29.0 h=2 st=5 chg=u
+<3>[23808.693821] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4368568, chip->last_soc=100, batt_temp = 290,current_now=93768
+<6>[23812.000163] mmc0: Starting deferred resume
+<6>[23812.071504] mmc0: Deferred resume completed
+<6>[23845.708912] mmc0: Starting deferred resume
+<6>[23845.775443] mmc0: Deferred resume completed
+<3>[23856.954040] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4367900, chip->last_soc=100, batt_temp = 289,current_now=95909
+<6>[23872.320058] mmc0: Starting deferred resume
+<6>[23872.396764] mmc0: Deferred resume completed
+<3>[23905.194030] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4367248, chip->last_soc=100, batt_temp = 289,current_now=91049
+<6>[23906.074383] mmc0: Starting deferred resume
+<6>[23906.141988] mmc0: Deferred resume completed
+<3>[23928.249358] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[23953.454339] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4366542, chip->last_soc=100, batt_temp = 288,current_now=88462
+<6>[23970.366947] mmc0: Starting deferred resume
+<6>[23970.426025] mmc0: Deferred resume completed
+<6>[23992.580376] mmc0: Starting deferred resume
+<6>[23992.642060] mmc0: Deferred resume completed
+<3>[24001.711997] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4365802, chip->last_soc=100, batt_temp = 288,current_now=101277
+<3>[24049.948883] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4365057, chip->last_soc=100, batt_temp = 287,current_now=106913
+<6>[24052.660153] mmc0: Starting deferred resume
+<6>[24052.724646] mmc0: Deferred resume completed

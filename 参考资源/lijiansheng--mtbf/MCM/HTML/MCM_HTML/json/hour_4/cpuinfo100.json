@@ -1,0 +1,1 @@
+{"name":"/system/bin/sdcard","loop":[14180],"time":[15485],"avg":["-u 1023 -g 1023 -l /data/media /mnt/shell/emulated"],"cpu":[4.4]}

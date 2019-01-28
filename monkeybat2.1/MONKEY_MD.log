@@ -1,0 +1,1331 @@
+:Monkey: seed=14041 count=1000
+:AllowPackage: com.android.calendar
+:AllowPackage: com.letv.android.note
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   + Using main activity com.android.calendar.AllInOneActivity (from package com.android.calendar)
+//   + Using main activity com.letv.android.note.NoteListActivity (from package com.letv.android.note)
+// Selecting main activities from category android.intent.category.MONKEY
+// Seeded: 14041
+// Event percentages:
+//   0: 48.0%
+//   1: 32.0%
+//   2: 6.4%
+//   3: -0.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 2.0%
+//   7: 6.4%
+//   8: 2.0%
+//   9: 3.2%
+//   10: -0.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.calendar/.AllInOneActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(97.0,946.0)
+:Sending Touch (ACTION_UP): 0:(89.57599,965.4581)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(572.0,1057.0)
+:Sending Touch (ACTION_UP): 0:(571.8518,1058.8319)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(620.0,945.0)
+:Sending Touch (ACTION_UP): 0:(619.34546,947.74963)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(399.0,377.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(414.562,358.91968) 1:(714.0,1126.0)
+:Sending Touch (ACTION_MOVE): 0:(423.81564,342.05795) 1:(714.3799,1123.1279)
+:Sending Touch (ACTION_MOVE): 0:(434.81952,332.50204) 1:(714.84326,1123.0198)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(449.03784,318.85468) 1:(714.98303,1122.6442)
+:Sending Touch (ACTION_UP): 0:(451.01797,314.0431)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(32.0,341.0)
+:Sending Touch (ACTION_UP): 0:(30.742414,342.86972)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(183.0,1097.0)
+:Sending Touch (ACTION_MOVE): 0:(186.9102,1112.2507)
+:Sending Touch (ACTION_UP): 0:(189.62149,1129.904)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(387.0,1050.0)
+:Sending Touch (ACTION_UP): 0:(386.09702,1035.0431)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(132.0,538.0)
+:Sending Touch (ACTION_UP): 0:(143.00093,520.06396)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(303.0,1013.0)
+:Sending Touch (ACTION_UP): 0:(293.46872,1013.6399)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(226.0,51.0)
+:Sending Touch (ACTION_MOVE): 0:(234.28862,48.809868)
+:Sending Touch (ACTION_MOVE): 0:(234.8989,39.56626)
+:Sending Touch (ACTION_MOVE): 0:(237.24162,33.334034)
+:Sending Touch (ACTION_UP): 0:(243.39189,32.426)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(522.0,498.0)
+:Sending Touch (ACTION_UP): 0:(521.6336,499.61234)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(647.0,1090.0)
+:Sending Touch (ACTION_UP): 0:(628.21014,1090.0953)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(631.0,538.0)
+:Sending Touch (ACTION_MOVE): 0:(626.80475,541.93774)
+:Sending Touch (ACTION_MOVE): 0:(619.2579,542.46295)
+:Sending Touch (ACTION_MOVE): 0:(615.6448,553.44464)
+:Sending Touch (ACTION_MOVE): 0:(612.30963,563.93036)
+:Sending Touch (ACTION_MOVE): 0:(589.1562,580.65765)
+:Sending Touch (ACTION_MOVE): 0:(579.1012,585.1246)
+:Sending Touch (ACTION_MOVE): 0:(561.18066,603.0687)
+:Sending Touch (ACTION_UP): 0:(555.37115,612.1061)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(18.0,622.0)
+:Sending Touch (ACTION_UP): 0:(25.973667,627.2357)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(72.0,1054.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(69.939224,1053.1515) 1:(221.0,16.0)
+:Sending Touch (ACTION_MOVE): 0:(68.53797,1050.752) 1:(222.76973,5.4669323)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(67.39624,1049.3424) 1:(224.12999,0.0)
+:Sending Touch (ACTION_UP): 0:(66.41443,1047.1547)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(351.0,991.0)
+:Sending Touch (ACTION_UP): 0:(353.38242,991.66925)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(536.0,974.0)
+:Sending Touch (ACTION_MOVE): 0:(533.40924,982.39417)
+:Sending Touch (ACTION_MOVE): 0:(526.26544,984.36066)
+:Sending Touch (ACTION_MOVE): 0:(514.8787,985.4165)
+:Sending Touch (ACTION_MOVE): 0:(510.47638,994.20795)
+:Sending Touch (ACTION_MOVE): 0:(496.94073,999.8627)
+:Sending Touch (ACTION_MOVE): 0:(493.28598,1004.4569)
+:Sending Touch (ACTION_MOVE): 0:(490.45267,1011.48645)
+:Sending Touch (ACTION_MOVE): 0:(484.1905,1016.2873)
+:Sending Touch (ACTION_MOVE): 0:(472.20245,1028.214)
+:Sending Touch (ACTION_UP): 0:(463.56503,1038.1019)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(633.0,227.0)
+:Sending Touch (ACTION_UP): 0:(641.37305,232.32101)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(287.0,142.0)
+:Sending Touch (ACTION_UP): 0:(292.44727,144.14453)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(257.0,168.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(260.17526,169.17827) 1:(332.0,543.0)
+:Sending Touch (ACTION_MOVE): 0:(274.0906,174.70766) 1:(353.02753,548.0757)
+:Sending Touch (ACTION_MOVE): 0:(288.16504,180.11911) 1:(369.44202,552.4596)
+:Sending Touch (ACTION_MOVE): 0:(291.45752,182.34264) 1:(369.92233,558.4556)
+:Sending Touch (ACTION_MOVE): 0:(302.7093,188.2054) 1:(372.8756,569.0569)
+:Sending Touch (ACTION_MOVE): 0:(316.88922,194.70114) 1:(393.29172,574.42395)
+:Sending Touch (ACTION_MOVE): 0:(323.69788,197.26564) 1:(400.33746,582.94434)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(337.48056,201.5847) 1:(410.58832,593.1522)
+:Sending Touch (ACTION_UP): 0:(337.84244,203.9419)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1.0,911.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(0.0,906.98834) 1:(351.0,887.0)
+:Sending Touch (ACTION_MOVE): 0:(0.0,903.85406) 1:(330.6579,880.9279)
+:Sending Touch (ACTION_MOVE): 0:(0.0,899.428) 1:(328.20398,874.86224)
+:Sending Touch (ACTION_MOVE): 0:(0.0,883.585) 1:(310.95947,868.8401)
+:Sending Touch (ACTION_MOVE): 0:(0.0,880.04755) 1:(309.75574,857.6157)
+:Sending Touch (ACTION_MOVE): 0:(0.0,867.07556) 1:(287.24683,847.1321)
+:Sending Touch (ACTION_MOVE): 0:(0.0,856.1135) 1:(276.58386,834.76544)
+:Sending Touch (ACTION_MOVE): 0:(0.0,843.92596) 1:(260.53482,833.99445)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(0.0,840.4431) 1:(256.19684,822.77606)
+:Sending Touch (ACTION_UP): 0:(0.0,832.4487)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(491.0,680.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(486.06903,676.4985) 1:(686.0,376.0)
+:Sending Touch (ACTION_MOVE): 0:(481.91434,675.95105) 1:(692.6342,373.7274)
+:Sending Touch (ACTION_MOVE): 0:(476.78647,667.4083) 1:(696.402,373.31863)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(473.04492,662.54645) 1:(697.52466,371.70987)
+:Sending Touch (ACTION_UP): 0:(468.82523,658.89636)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(636.0,978.0)
+    //[calendar_time:2016-02-17 19:18:49.530  system_uptime:27529054]
+    // Sending event #100
+:Sending Touch (ACTION_UP): 0:(651.0913,978.4312)
+    // Injection Failed
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(445.0,87.0)
+:Sending Touch (ACTION_UP): 0:(426.86716,94.40315)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(473.0,821.0)
+:Sending Touch (ACTION_UP): 0:(473.3749,806.57385)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(708.0,1176.0)
+:Sending Touch (ACTION_MOVE): 0:(718.7954,1181.3699)
+:Sending Touch (ACTION_MOVE): 0:(720.0,1184.0)
+:Sending Touch (ACTION_MOVE): 0:(720.0,1184.0)
+:Sending Touch (ACTION_MOVE): 0:(720.0,1184.0)
+:Sending Touch (ACTION_MOVE): 0:(720.0,1184.0)
+:Sending Touch (ACTION_MOVE): 0:(720.0,1184.0)
+:Sending Touch (ACTION_MOVE): 0:(720.0,1184.0)
+:Sending Touch (ACTION_UP): 0:(720.0,1184.0)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(153.0,560.0)
+:Sending Touch (ACTION_MOVE): 0:(156.26198,557.86847)
+:Sending Touch (ACTION_MOVE): 0:(156.27095,557.6383)
+:Sending Touch (ACTION_MOVE): 0:(158.44632,556.51337)
+:Sending Touch (ACTION_MOVE): 0:(169.502,550.36334)
+:Sending Touch (ACTION_MOVE): 0:(174.9706,545.5315)
+:Sending Touch (ACTION_UP): 0:(182.22722,543.2513)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(303.0,240.0)
+:Sending Touch (ACTION_UP): 0:(302.4361,240.26904)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(458.0,807.0)
+:Sending Touch (ACTION_MOVE): 0:(455.7581,807.3343)
+:Sending Touch (ACTION_MOVE): 0:(452.71045,812.797)
+:Sending Touch (ACTION_MOVE): 0:(449.9004,815.66437)
+:Sending Touch (ACTION_MOVE): 0:(446.85004,820.2688)
+:Sending Touch (ACTION_UP): 0:(446.09137,821.2567)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(387.0,996.0)
+:Sending Touch (ACTION_UP): 0:(379.9283,995.2832)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(134.0,819.0)
+:Sending Touch (ACTION_UP): 0:(132.98686,803.0738)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(334.0,1016.0)
+:Sending Touch (ACTION_MOVE): 0:(334.15295,1015.55975)
+:Sending Touch (ACTION_MOVE): 0:(340.71295,1014.14087)
+:Sending Touch (ACTION_UP): 0:(344.0551,1013.31067)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(687.0,141.0)
+:Sending Touch (ACTION_UP): 0:(689.2779,134.23863)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(636.0,68.0)
+:Sending Touch (ACTION_UP): 0:(632.3314,62.192635)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.calendar/.AllInOneActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(421.0,1059.0)
+:Sending Touch (ACTION_MOVE): 0:(420.91373,1060.3701)
+:Sending Touch (ACTION_MOVE): 0:(420.34027,1062.5029)
+:Sending Touch (ACTION_UP): 0:(418.82764,1062.6425)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(419.0,614.0)
+:Sending Touch (ACTION_MOVE): 0:(425.70004,613.91785)
+:Sending Touch (ACTION_MOVE): 0:(434.67136,613.8922)
+:Sending Touch (ACTION_MOVE): 0:(440.17215,613.8075)
+:Sending Touch (ACTION_MOVE): 0:(457.1767,613.70764)
+:Sending Touch (ACTION_MOVE): 0:(462.56418,613.62494)
+:Sending Touch (ACTION_MOVE): 0:(479.1789,613.5288)
+:Sending Touch (ACTION_MOVE): 0:(492.55405,613.4995)
+:Sending Touch (ACTION_MOVE): 0:(493.87326,613.44995)
+:Sending Touch (ACTION_UP): 0:(500.00095,613.39435)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(328.0,1137.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(335.26276,1131.1157) 1:(195.0,204.0)
+:Sending Touch (ACTION_MOVE): 0:(345.25842,1129.2261) 1:(197.54614,203.65526)
+:Sending Touch (ACTION_MOVE): 0:(350.10913,1121.2571) 1:(204.4547,200.90085)
+:Sending Touch (ACTION_MOVE): 0:(355.00333,1119.5216) 1:(212.1762,198.41566)
+:Sending Touch (ACTION_MOVE): 0:(359.49902,1110.7656) 1:(218.76888,197.46014)
+:Sending Touch (ACTION_MOVE): 0:(360.62415,1105.1411) 1:(221.2901,195.58223)
+:Sending Touch (ACTION_MOVE): 0:(374.09967,1102.6272) 1:(222.78854,194.38452)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(387.2225,1100.1008) 1:(230.01315,193.22383)
+:Sending Touch (ACTION_UP): 0:(407.30362,1090.9368)
+Sleeping for 500 milliseconds
+    // Allowing start of Intent { cmp=com.android.calendar/com.letv.calendar.ui.OrderSquareActivity } in package com.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(554.0,913.0)
+:Sending Touch (ACTION_UP): 0:(555.01636,912.8198)
+Sleeping for 500 milliseconds
+    // Allowing start of Intent { cmp=com.android.calendar/com.letv.calendar.ui.TagDetailActivity } in package com.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(167.0,891.0)
+:Sending Touch (ACTION_MOVE): 0:(170.07793,894.5994)
+:Sending Touch (ACTION_MOVE): 0:(177.53706,899.6695)
+:Sending Touch (ACTION_MOVE): 0:(186.89767,902.66986)
+:Sending Touch (ACTION_MOVE): 0:(187.3503,909.11914)
+:Sending Touch (ACTION_MOVE): 0:(187.44298,915.2886)
+:Sending Touch (ACTION_MOVE): 0:(197.74767,917.93036)
+:Sending Touch (ACTION_UP): 0:(209.05057,918.2165)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(562.0,977.0)
+:Sending Touch (ACTION_MOVE): 0:(556.07184,978.33575)
+:Sending Touch (ACTION_MOVE): 0:(546.6154,988.40894)
+:Sending Touch (ACTION_MOVE): 0:(528.23834,993.4691)
+:Sending Touch (ACTION_MOVE): 0:(526.62213,998.1221)
+:Sending Touch (ACTION_MOVE): 0:(524.05945,1001.31915)
+:Sending Touch (ACTION_MOVE): 0:(522.8545,1001.9336)
+:Sending Touch (ACTION_MOVE): 0:(520.7649,1011.6564)
+:Sending Touch (ACTION_MOVE): 0:(511.20197,1015.18866)
+:Sending Touch (ACTION_UP): 0:(505.53732,1015.5214)
+Sleeping for 500 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.VIEW dat=letvclient://msiteAction?actionType=9&processId=19365&vid=24577628&from=leso&back=0 cmp=com.letv.android.client/com.letv.mobile.jump.activity.ExternalJumpInActivity } in package com.letv.android.client
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.calendar/.AllInOneActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(600.0,623.0)
+:Sending Touch (ACTION_UP): 0:(598.0547,616.44965)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(355.0,557.0)
+:Sending Touch (ACTION_MOVE): 0:(356.5491,557.45404)
+:Sending Touch (ACTION_MOVE): 0:(368.17984,558.0596)
+:Sending Touch (ACTION_MOVE): 0:(376.57758,561.1133)
+:Sending Touch (ACTION_MOVE): 0:(380.81198,561.5603)
+:Sending Touch (ACTION_MOVE): 0:(388.0005,566.4374)
+:Sending Touch (ACTION_MOVE): 0:(392.90683,571.2368)
+    //[calendar_time:2016-02-17 19:19:02.082  system_uptime:27541174]
+    // Sending event #200
+:Sending Touch (ACTION_MOVE): 0:(394.44415,572.61646)
+:Sending Touch (ACTION_MOVE): 0:(402.11172,574.5714)
+:Sending Touch (ACTION_UP): 0:(410.6497,575.5353)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(544.0,818.0)
+:Sending Touch (ACTION_MOVE): 0:(542.70013,819.21484)
+:Sending Touch (ACTION_MOVE): 0:(542.0625,830.47906)
+:Sending Touch (ACTION_MOVE): 0:(542.0396,839.51447)
+:Sending Touch (ACTION_MOVE): 0:(541.4318,846.086)
+:Sending Touch (ACTION_MOVE): 0:(540.83246,854.21985)
+:Sending Touch (ACTION_MOVE): 0:(540.705,856.73267)
+:Sending Touch (ACTION_MOVE): 0:(540.2311,875.405)
+:Sending Touch (ACTION_UP): 0:(538.7478,888.30786)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(193.0,651.0)
+:Sending Touch (ACTION_UP): 0:(191.57054,652.7814)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(341.0,587.0)
+:Sending Touch (ACTION_UP): 0:(334.93457,586.24133)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(307.0,217.0)
+:Sending Touch (ACTION_MOVE): 0:(296.55396,231.23425)
+:Sending Touch (ACTION_MOVE): 0:(288.55478,240.72414)
+:Sending Touch (ACTION_MOVE): 0:(283.84738,258.65024)
+:Sending Touch (ACTION_MOVE): 0:(281.56067,271.07693)
+:Sending Touch (ACTION_MOVE): 0:(280.80154,284.02557)
+:Sending Touch (ACTION_UP): 0:(277.39294,298.5491)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(243.0,91.0)
+:Sending Touch (ACTION_UP): 0:(240.47311,105.031525)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(411.0,91.0)
+:Sending Touch (ACTION_UP): 0:(410.34088,84.4135)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(592.0,611.0)
+:Sending Touch (ACTION_MOVE): 0:(590.8941,610.3982)
+:Sending Touch (ACTION_MOVE): 0:(587.88495,609.96576)
+:Sending Touch (ACTION_MOVE): 0:(584.8923,609.4801)
+:Sending Touch (ACTION_UP): 0:(581.4392,609.3482)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(686.0,191.0)
+:Sending Touch (ACTION_UP): 0:(684.222,201.70674)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(667.0,923.0)
+:Sending Touch (ACTION_UP): 0:(664.61426,939.49817)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(253.0,298.0)
+:Sending Touch (ACTION_UP): 0:(257.93762,287.4524)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(464.0,705.0)
+:Sending Touch (ACTION_UP): 0:(444.89023,706.52)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(96.0,508.0)
+:Sending Touch (ACTION_UP): 0:(107.76177,505.23444)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(520.0,705.0)
+:Sending Touch (ACTION_UP): 0:(532.3019,702.8401)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(299.0,848.0)
+:Sending Touch (ACTION_MOVE): 0:(304.30972,870.6206)
+:Sending Touch (ACTION_MOVE): 0:(319.5456,884.3058)
+:Sending Touch (ACTION_UP): 0:(324.0128,886.03186)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(19.0,588.0)
+:Sending Touch (ACTION_UP): 0:(7.639825,584.4189)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(631.0,451.0)
+:Sending Touch (ACTION_UP): 0:(644.7072,443.60986)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(414.0,529.0)
+:Sending Touch (ACTION_UP): 0:(415.7608,524.34686)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(13.0,31.0)
+:Sending Touch (ACTION_MOVE): 0:(11.366561,17.55705)
+:Sending Touch (ACTION_MOVE): 0:(0.0,17.329845)
+:Sending Touch (ACTION_MOVE): 0:(0.0,10.679966)
+:Sending Touch (ACTION_MOVE): 0:(0.0,6.5973296)
+:Sending Touch (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Touch (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(267.0,1082.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(271.40488,1080.7484) 1:(152.0,274.0)
+:Sending Touch (ACTION_MOVE): 0:(280.3722,1078.9788) 1:(139.13759,279.3677)
+:Sending Touch (ACTION_MOVE): 0:(296.78445,1076.5292) 1:(129.47694,287.1208)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(317.207,1075.8016) 1:(119.28826,291.6401)
+:Sending Touch (ACTION_UP): 0:(329.89163,1074.3127)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(483.0,303.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(471.86487,307.65417) 1:(175.0,36.0)
+:Sending Touch (ACTION_MOVE): 0:(460.94067,322.24622) 1:(160.18388,52.536995)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(458.40277,325.77536) 1:(155.96446,61.33615)
+:Sending Touch (ACTION_UP): 0:(447.5019,337.72424)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(664.0,680.0)
+:Sending Touch (ACTION_MOVE): 0:(665.3344,680.0498)
+:Sending Touch (ACTION_MOVE): 0:(669.71344,695.07074)
+:Sending Touch (ACTION_MOVE): 0:(677.565,708.6963)
+:Sending Touch (ACTION_MOVE): 0:(681.887,716.0953)
+:Sending Touch (ACTION_MOVE): 0:(685.8325,732.91736)
+:Sending Touch (ACTION_MOVE): 0:(691.6712,742.5433)
+:Sending Touch (ACTION_MOVE): 0:(695.49884,750.36633)
+:Sending Touch (ACTION_UP): 0:(698.75006,756.2677)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(267.0,500.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(267.8897,499.68494) 1:(297.0,220.0)
+:Sending Touch (ACTION_MOVE): 0:(272.74866,498.97433) 1:(301.05124,211.36914)
+:Sending Touch (ACTION_MOVE): 0:(276.5669,498.8336) 1:(306.35587,209.55849)
+:Sending Touch (ACTION_MOVE): 0:(276.98462,497.9302) 1:(308.50092,208.13167)
+:Sending Touch (ACTION_MOVE): 0:(277.11102,496.96826) 1:(312.95557,199.34926)
+:Sending Touch (ACTION_MOVE): 0:(278.00287,496.39597) 1:(315.77063,192.06046)
+:Sending Touch (ACTION_MOVE): 0:(282.05447,495.68137) 1:(317.347,189.67299)
+:Sending Touch (ACTION_MOVE): 0:(282.42868,495.31952) 1:(321.06274,181.78773)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(283.12433,494.6458) 1:(327.48422,181.50587)
+:Sending Touch (ACTION_UP): 0:(287.68115,494.5328)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(674.0,1097.0)
+    //[calendar_time:2016-02-17 19:19:15.269  system_uptime:27554361]
+    // Sending event #300
+:Sending Touch (ACTION_UP): 0:(671.16785,1098.8147)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(185.0,1028.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(201.51892,1041.4211) 1:(313.0,497.0)
+:Sending Touch (ACTION_MOVE): 0:(216.75497,1052.0272) 1:(295.2614,511.25488)
+:Sending Touch (ACTION_MOVE): 0:(235.3282,1056.8551) 1:(290.87292,517.37115)
+:Sending Touch (ACTION_MOVE): 0:(249.51575,1057.3203) 1:(273.92642,525.26135)
+:Sending Touch (ACTION_MOVE): 0:(271.68536,1074.5658) 1:(257.40997,534.8492)
+:Sending Touch (ACTION_MOVE): 0:(283.67487,1089.2587) 1:(257.02652,545.73773)
+:Sending Touch (ACTION_MOVE): 0:(291.79807,1106.5209) 1:(245.54068,549.8697)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(312.28058,1112.7029) 1:(234.30801,555.6667)
+:Sending Touch (ACTION_UP): 0:(331.02277,1117.5945)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(132.0,298.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(126.87098,287.2117) 1:(4.0,204.0)
+:Sending Touch (ACTION_MOVE): 0:(123.21009,282.44122) 1:(0.0,202.24666)
+:Sending Touch (ACTION_MOVE): 0:(119.00443,275.0274) 1:(0.0,200.11017)
+:Sending Touch (ACTION_MOVE): 0:(108.46953,273.9262) 1:(0.0,197.22371)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(94.87986,266.9067) 1:(0.0,194.71957)
+:Sending Touch (ACTION_UP): 0:(82.156555,259.368)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(490.0,81.0)
+:Sending Touch (ACTION_UP): 0:(490.8084,80.90208)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.letv.android.note/.NoteListActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.letv.android.note/.NoteListActivity } in package com.letv.android.note
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(89.0,57.0)
+:Sending Touch (ACTION_UP): 0:(89.06606,53.376976)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(330.0,868.0)
+:Sending Touch (ACTION_MOVE): 0:(332.3281,862.46844)
+:Sending Touch (ACTION_MOVE): 0:(337.6531,854.1174)
+:Sending Touch (ACTION_MOVE): 0:(342.57996,852.922)
+:Sending Touch (ACTION_MOVE): 0:(342.85165,842.61755)
+:Sending Touch (ACTION_MOVE): 0:(346.3808,829.2517)
+:Sending Touch (ACTION_MOVE): 0:(350.6772,811.95276)
+:Sending Touch (ACTION_MOVE): 0:(354.9445,805.23157)
+:Sending Touch (ACTION_MOVE): 0:(358.59982,782.61096)
+:Sending Touch (ACTION_UP): 0:(361.52032,768.10944)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(645.0,539.0)
+:Sending Touch (ACTION_UP): 0:(640.62787,549.5926)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(420.0,777.0)
+:Sending Touch (ACTION_UP): 0:(436.35226,778.6874)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(599.0,161.0)
+:Sending Touch (ACTION_UP): 0:(597.2709,162.71803)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(570.0,611.0)
+:Sending Touch (ACTION_MOVE): 0:(583.7772,607.24713)
+:Sending Touch (ACTION_MOVE): 0:(585.06506,597.7422)
+:Sending Touch (ACTION_UP): 0:(593.8022,597.2631)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(151.0,1090.0)
+:Sending Touch (ACTION_UP): 0:(138.72879,1098.0776)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(126.0,748.0)
+:Sending Touch (ACTION_MOVE): 0:(118.158325,742.4393)
+:Sending Touch (ACTION_UP): 0:(107.03847,732.4055)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(203.0,681.0)
+:Sending Touch (ACTION_UP): 0:(192.06784,684.84344)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(659.0,962.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(642.0757,959.86017) 1:(25.0,504.0)
+:Sending Touch (ACTION_MOVE): 0:(638.46564,957.7974) 1:(25.411583,492.7176)
+:Sending Touch (ACTION_MOVE): 0:(623.267,955.57855) 1:(27.869137,490.9824)
+:Sending Touch (ACTION_MOVE): 0:(606.9846,950.7709) 1:(31.669086,479.21725)
+:Sending Touch (ACTION_MOVE): 0:(583.46893,950.1448) 1:(35.934128,475.30554)
+:Sending Touch (ACTION_MOVE): 0:(560.9108,949.6451) 1:(37.920628,474.6244)
+:Sending Touch (ACTION_MOVE): 0:(544.22375,946.8362) 1:(38.716904,460.67957)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(531.5721,941.8508) 1:(39.88346,447.05173)
+:Sending Touch (ACTION_UP): 0:(520.32355,941.3563)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(582.0,472.0)
+:Sending Touch (ACTION_UP): 0:(572.1121,473.68027)
+Sleeping for 500 milliseconds
+    // Allowing start of Intent { cmp=com.letv.android.note/.NoteEditActivity } in package com.letv.android.note
+:Sending Touch (ACTION_DOWN): 0:(288.0,860.0)
+:Sending Touch (ACTION_UP): 0:(289.68057,880.15656)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(580.0,1002.0)
+:Sending Touch (ACTION_UP): 0:(590.07733,1001.96625)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(279.0,984.0)
+:Sending Touch (ACTION_MOVE): 0:(297.60068,984.56775)
+:Sending Touch (ACTION_UP): 0:(314.99872,985.4907)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(360.0,246.0)
+:Sending Touch (ACTION_MOVE): 0:(369.03107,237.5885)
+:Sending Touch (ACTION_UP): 0:(370.0796,235.41963)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(574.0,125.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(577.8813,132.3546) 1:(463.0,521.0)
+:Sending Touch (ACTION_MOVE): 0:(585.50977,133.613) 1:(476.77048,532.4832)
+:Sending Touch (ACTION_MOVE): 0:(593.88617,152.6196) 1:(492.10544,536.6007)
+:Sending Touch (ACTION_MOVE): 0:(606.1977,160.67955) 1:(501.95752,550.1235)
+:Sending Touch (ACTION_MOVE): 0:(612.14746,173.80992) 1:(518.1076,560.02704)
+:Sending Touch (ACTION_MOVE): 0:(614.06177,189.43922) 1:(526.81726,576.3151)
+:Sending Touch (ACTION_MOVE): 0:(624.2003,207.29251) 1:(532.1893,590.23615)
+:Sending Touch (ACTION_MOVE): 0:(633.62415,228.85979) 1:(536.34375,595.7292)
+:Sending Touch (ACTION_MOVE): 0:(635.60925,232.29262) 1:(552.34375,609.7036)
+:Sending Touch (ACTION_MOVE): 0:(642.8049,235.06648) 1:(564.6161,614.0352)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(646.4779,248.60286) 1:(566.8409,616.1017)
+:Sending Touch (ACTION_UP): 0:(650.5247,249.13544)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(474.0,678.0)
+:Sending Touch (ACTION_UP): 0:(459.3028,672.76025)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(207.0,1114.0)
+:Sending Touch (ACTION_MOVE): 0:(207.45316,1123.904)
+:Sending Touch (ACTION_MOVE): 0:(207.82532,1138.0007)
+:Sending Touch (ACTION_MOVE): 0:(208.28488,1141.7598)
+:Sending Touch (ACTION_MOVE): 0:(208.52,1151.6989)
+:Sending Touch (ACTION_MOVE): 0:(208.61217,1162.2959)
+:Sending Touch (ACTION_MOVE): 0:(209.04774,1169.4736)
+:Sending Touch (ACTION_UP): 0:(209.5071,1169.6198)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(485.0,925.0)
+:Sending Touch (ACTION_UP): 0:(487.05182,925.76794)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(301.0,536.0)
+:Sending Touch (ACTION_UP): 0:(301.19745,533.9656)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(325.0,884.0)
+    //[calendar_time:2016-02-17 19:19:28.290  system_uptime:27567382]
+    // Sending event #400
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(326.25525,873.4685) 1:(659.0,872.0)
+:Sending Touch (ACTION_MOVE): 0:(329.67508,863.45544) 1:(658.25073,861.91064)
+:Sending Touch (ACTION_MOVE): 0:(339.7514,856.64874) 1:(658.04016,854.8879)
+:Sending Touch (ACTION_MOVE): 0:(341.85867,851.7132) 1:(656.86835,854.0712)
+:Sending Touch (ACTION_MOVE): 0:(351.54303,847.43854) 1:(656.73334,849.4016)
+:Sending Touch (ACTION_MOVE): 0:(361.54422,840.63184) 1:(656.59955,847.16583)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(366.0473,833.9063) 1:(655.8047,836.8338)
+:Sending Touch (ACTION_UP): 0:(366.1542,831.7014)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(184.0,388.0)
+:Sending Touch (ACTION_MOVE): 0:(191.67986,399.30585)
+:Sending Touch (ACTION_MOVE): 0:(206.4418,414.8929)
+:Sending Touch (ACTION_MOVE): 0:(210.14938,421.39142)
+:Sending Touch (ACTION_UP): 0:(218.86102,425.50284)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(188.0,583.0)
+:Sending Touch (ACTION_UP): 0:(179.32639,583.01154)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(212.0,697.0)
+:Sending Touch (ACTION_MOVE): 0:(191.58553,699.10724)
+:Sending Touch (ACTION_MOVE): 0:(172.61044,705.5333)
+:Sending Touch (ACTION_MOVE): 0:(158.95691,718.4845)
+:Sending Touch (ACTION_MOVE): 0:(134.88503,734.55524)
+:Sending Touch (ACTION_UP): 0:(110.73744,742.69543)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(594.0,890.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(599.92584,899.6486) 1:(245.0,422.0)
+:Sending Touch (ACTION_MOVE): 0:(604.29987,910.7509) 1:(230.59232,436.191)
+:Sending Touch (ACTION_MOVE): 0:(605.3743,919.0458) 1:(217.39288,456.02505)
+:Sending Touch (ACTION_MOVE): 0:(606.8594,932.17883) 1:(200.35747,461.75433)
+:Sending Touch (ACTION_MOVE): 0:(614.61505,947.2953) 1:(189.82147,466.52728)
+:Sending Touch (ACTION_MOVE): 0:(617.0159,957.41125) 1:(181.9792,473.84552)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(617.0808,958.1042) 1:(174.33185,490.2895)
+:Sending Touch (ACTION_UP): 0:(618.4339,968.76086)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(652.0,954.0)
+:Sending Touch (ACTION_MOVE): 0:(652.2613,968.09235)
+:Sending Touch (ACTION_MOVE): 0:(658.30975,970.2927)
+:Sending Touch (ACTION_MOVE): 0:(667.9627,975.29736)
+:Sending Touch (ACTION_MOVE): 0:(679.04425,983.7169)
+:Sending Touch (ACTION_MOVE): 0:(685.19244,999.0381)
+:Sending Touch (ACTION_MOVE): 0:(689.7199,1006.1286)
+:Sending Touch (ACTION_UP): 0:(692.89825,1013.6927)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(634.0,780.0)
+:Sending Touch (ACTION_UP): 0:(630.6105,780.8338)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(712.0,639.0)
+:Sending Touch (ACTION_MOVE): 0:(698.40155,638.3358)
+:Sending Touch (ACTION_MOVE): 0:(686.8165,629.26056)
+:Sending Touch (ACTION_UP): 0:(678.29553,610.5434)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.calendar/.AllInOneActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(361.0,456.0)
+:Sending Touch (ACTION_MOVE): 0:(355.88812,459.5551)
+:Sending Touch (ACTION_MOVE): 0:(353.7307,461.20294)
+:Sending Touch (ACTION_MOVE): 0:(345.90662,465.36166)
+:Sending Touch (ACTION_UP): 0:(339.60056,468.18314)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(568.0,1181.0)
+:Sending Touch (ACTION_MOVE): 0:(569.429,1184.0)
+:Sending Touch (ACTION_MOVE): 0:(569.7813,1184.0)
+:Sending Touch (ACTION_MOVE): 0:(569.95905,1184.0)
+:Sending Touch (ACTION_MOVE): 0:(571.99054,1184.0)
+:Sending Touch (ACTION_MOVE): 0:(574.74054,1184.0)
+:Sending Touch (ACTION_MOVE): 0:(575.19904,1184.0)
+:Sending Touch (ACTION_UP): 0:(579.9458,1184.0)
+Sleeping for 500 milliseconds
+    // Allowing start of Intent { act=android.intent.action.VIEW cmp=com.android.calendar/.event.EditEventActivity } in package com.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(428.0,623.0)
+:Sending Touch (ACTION_MOVE): 0:(435.35864,622.4651)
+:Sending Touch (ACTION_MOVE): 0:(444.10107,622.2301)
+:Sending Touch (ACTION_UP): 0:(451.8911,622.1267)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(692.0,869.0)
+:Sending Touch (ACTION_UP): 0:(682.17834,869.58)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(57.0,1164.0)
+:Sending Touch (ACTION_MOVE): 0:(61.79113,1145.1041)
+:Sending Touch (ACTION_MOVE): 0:(75.11125,1141.6483)
+:Sending Touch (ACTION_MOVE): 0:(83.3215,1130.2002)
+:Sending Touch (ACTION_MOVE): 0:(85.892334,1121.5698)
+:Sending Touch (ACTION_MOVE): 0:(94.29147,1114.1038)
+:Sending Touch (ACTION_MOVE): 0:(111.56074,1094.9026)
+:Sending Touch (ACTION_MOVE): 0:(121.44089,1077.8953)
+:Sending Touch (ACTION_MOVE): 0:(129.50504,1075.5238)
+:Sending Touch (ACTION_UP): 0:(147.9038,1063.2828)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(215.0,31.0)
+:Sending Touch (ACTION_MOVE): 0:(214.04015,24.635891)
+:Sending Touch (ACTION_MOVE): 0:(211.80373,16.59508)
+:Sending Touch (ACTION_MOVE): 0:(210.38736,11.418387)
+:Sending Touch (ACTION_MOVE): 0:(209.35695,5.4560533)
+:Sending Touch (ACTION_MOVE): 0:(208.0214,3.5426288)
+:Sending Touch (ACTION_MOVE): 0:(205.99348,0.9360168)
+:Sending Touch (ACTION_MOVE): 0:(204.62366,0.883204)
+:Sending Touch (ACTION_MOVE): 0:(203.32353,0.0)
+:Sending Touch (ACTION_UP): 0:(201.90411,0.0)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(707.0,1081.0)
+:Sending Touch (ACTION_UP): 0:(720.0,1099.8931)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(481.0,732.0)
+:Sending Touch (ACTION_UP): 0:(495.901,718.7984)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(621.0,703.0)
+:Sending Touch (ACTION_UP): 0:(613.7348,707.06696)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(560.0,609.0)
+:Sending Touch (ACTION_UP): 0:(560.48206,608.2862)
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(613.0,710.0)
+:Sending Touch (ACTION_UP): 0:(610.1389,709.8219)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(19.0,157.0)
+:Sending Touch (ACTION_UP): 0:(17.387602,164.92967)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(254.0,1110.0)
+    //[calendar_time:2016-02-17 19:19:40.124  system_uptime:27579215]
+    // Sending event #500
+:Sending Touch (ACTION_MOVE): 0:(253.49908,1105.9974)
+:Sending Touch (ACTION_MOVE): 0:(252.59827,1100.5186)
+:Sending Touch (ACTION_MOVE): 0:(251.6205,1096.259)
+:Sending Touch (ACTION_MOVE): 0:(251.51566,1089.2842)
+:Sending Touch (ACTION_MOVE): 0:(251.20148,1086.566)
+:Sending Touch (ACTION_MOVE): 0:(251.11588,1085.4857)
+:Sending Touch (ACTION_UP): 0:(250.66492,1084.7377)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+    // Allowing start of Intent { cmp=com.android.calendar/.CalendarSettingsActivity } in package com.android.calendar
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(478.0,372.0)
+:Sending Touch (ACTION_MOVE): 0:(476.6305,377.2778)
+:Sending Touch (ACTION_MOVE): 0:(470.9003,387.36786)
+:Sending Touch (ACTION_MOVE): 0:(454.9889,398.34412)
+:Sending Touch (ACTION_MOVE): 0:(441.5473,411.82236)
+:Sending Touch (ACTION_MOVE): 0:(438.4488,426.76193)
+:Sending Touch (ACTION_MOVE): 0:(427.1301,435.95807)
+:Sending Touch (ACTION_MOVE): 0:(414.42743,437.93875)
+:Sending Touch (ACTION_MOVE): 0:(412.4879,442.05194)
+:Sending Touch (ACTION_MOVE): 0:(405.3991,455.44913)
+:Sending Touch (ACTION_UP): 0:(391.32736,456.3105)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(454.0,825.0)
+:Sending Touch (ACTION_UP): 0:(466.6543,826.334)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(283.0,895.0)
+:Sending Touch (ACTION_UP): 0:(305.28915,891.65436)
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(262.0,297.0)
+:Sending Touch (ACTION_UP): 0:(275.18774,304.83212)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(612.0,136.0)
+:Sending Touch (ACTION_UP): 0:(612.2396,134.40132)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(383.0,104.0)
+:Sending Touch (ACTION_UP): 0:(377.6364,93.44389)
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(161.0,401.0)
+:Sending Touch (ACTION_UP): 0:(153.95097,399.58215)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(686.0,315.0)
+:Sending Touch (ACTION_UP): 0:(695.9732,302.65768)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(37.0,440.0)
+:Sending Touch (ACTION_UP): 0:(47.130436,447.47186)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(401.0,473.0)
+:Sending Touch (ACTION_MOVE): 0:(410.51047,462.2254)
+:Sending Touch (ACTION_MOVE): 0:(423.4012,448.3223)
+:Sending Touch (ACTION_MOVE): 0:(438.53793,446.22986)
+:Sending Touch (ACTION_MOVE): 0:(440.2295,441.31396)
+:Sending Touch (ACTION_MOVE): 0:(448.1572,438.1996)
+:Sending Touch (ACTION_UP): 0:(449.33676,432.60025)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(318.0,903.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(324.50677,902.68) 1:(237.0,1054.0)
+:Sending Touch (ACTION_MOVE): 0:(345.63135,897.6093) 1:(234.83263,1046.7036)
+:Sending Touch (ACTION_MOVE): 0:(349.3757,892.8938) 1:(234.72708,1035.7029)
+:Sending Touch (ACTION_MOVE): 0:(362.37585,891.6622) 1:(231.44987,1026.5513)
+:Sending Touch (ACTION_MOVE): 0:(378.6015,883.80133) 1:(229.21353,1021.746)
+:Sending Touch (ACTION_MOVE): 0:(393.2207,875.175) 1:(226.15146,1020.96106)
+:Sending Touch (ACTION_MOVE): 0:(406.59796,870.55865) 1:(224.22871,1020.7069)
+:Sending Touch (ACTION_MOVE): 0:(414.905,864.9817) 1:(219.573,1018.1887)
+:Sending Touch (ACTION_MOVE): 0:(423.44122,858.44855) 1:(218.74461,1013.1316)
+:Sending Touch (ACTION_MOVE): 0:(437.56937,852.981) 1:(217.59871,1011.3231)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(452.39975,848.4943) 1:(214.18713,1002.0829)
+:Sending Touch (ACTION_UP): 0:(464.70883,844.39307)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(64.0,1038.0)
+:Sending Touch (ACTION_UP): 0:(48.82862,1034.7435)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(233.0,1081.0)
+:Sending Touch (ACTION_UP): 0:(233.72534,1098.6996)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(367.0,281.0)
+:Sending Touch (ACTION_UP): 0:(357.30188,299.19308)
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(614.0,216.0)
+:Sending Touch (ACTION_MOVE): 0:(632.3437,216.02365)
+:Sending Touch (ACTION_MOVE): 0:(645.6469,217.40076)
+:Sending Touch (ACTION_MOVE): 0:(645.877,217.8898)
+:Sending Touch (ACTION_MOVE): 0:(657.43,218.00394)
+:Sending Touch (ACTION_MOVE): 0:(669.14014,220.79027)
+:Sending Touch (ACTION_MOVE): 0:(675.1363,224.06303)
+:Sending Touch (ACTION_MOVE): 0:(688.82605,224.58653)
+:Sending Touch (ACTION_MOVE): 0:(691.88824,226.47594)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(702.0467,228.568)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(702.1384,231.49023)
+    // Injection Failed
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(328.0,646.0)
+:Sending Touch (ACTION_UP): 0:(311.35562,658.7049)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(121.0,420.0)
+:Sending Touch (ACTION_MOVE): 0:(110.074005,402.70746)
+:Sending Touch (ACTION_MOVE): 0:(102.42794,400.82938)
+:Sending Touch (ACTION_UP): 0:(94.9639,400.14722)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(457.0,626.0)
+:Sending Touch (ACTION_UP): 0:(459.63553,625.8967)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(391.0,798.0)
+:Sending Touch (ACTION_UP): 0:(386.9618,793.6151)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(617.0,382.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(631.68115,382.04953) 1:(398.0,193.0)
+:Sending Touch (ACTION_MOVE): 0:(638.70483,382.48898) 1:(397.82944,192.40434)
+:Sending Touch (ACTION_MOVE): 0:(653.8826,382.73495) 1:(375.5599,191.83842)
+:Sending Touch (ACTION_MOVE): 0:(658.57007,382.75772) 1:(374.35336,183.2379)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(663.20044,383.14844) 1:(351.49045,170.70412)
+:Sending Touch (ACTION_UP): 0:(675.4319,383.32938)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.calendar/.AllInOneActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+    //[calendar_time:2016-02-17 19:19:54.908  system_uptime:27594000]
+    // Sending event #600
+Sleeping for 500 milliseconds
+    //[calendar_time:2016-02-17 19:19:55.409  system_uptime:27594501]
+    // Sending event #600
+:Sending Touch (ACTION_DOWN): 0:(687.0,97.0)
+:Sending Touch (ACTION_UP): 0:(672.93695,97.311676)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(11.0,245.0)
+:Sending Touch (ACTION_UP): 0:(26.472588,244.95815)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(81.0,930.0)
+:Sending Touch (ACTION_MOVE): 0:(74.47143,929.5338)
+:Sending Touch (ACTION_MOVE): 0:(68.38432,924.5053)
+:Sending Touch (ACTION_MOVE): 0:(65.998795,921.6519)
+:Sending Touch (ACTION_UP): 0:(60.448223,919.989)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(588.0,649.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(582.1507,668.9217) 1:(71.0,820.0)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(578.87665,678.58136) 1:(72.2931,815.73065)
+:Sending Touch (ACTION_UP): 0:(577.2275,689.3896)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(424.0,446.0)
+:Sending Touch (ACTION_UP): 0:(419.69147,442.79034)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(464.0,620.0)
+:Sending Touch (ACTION_UP): 0:(452.85236,619.93115)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.letv.android.note/.NoteListActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.letv.android.note/.NoteListActivity } in package com.letv.android.note
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.letv.android.note/.NoteListActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.letv.android.note/.NoteListActivity } in package com.letv.android.note
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(311.0,734.0)
+:Sending Touch (ACTION_MOVE): 0:(310.30023,745.4863)
+:Sending Touch (ACTION_MOVE): 0:(302.04736,749.3795)
+:Sending Touch (ACTION_MOVE): 0:(300.76343,750.2737)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(298.35065,767.29974)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(298.32346,779.2571)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(297.70923,786.4304)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(289.0774,798.56586)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(280.02365,810.81854)
+    // Injection Failed
+:Sending Touch (ACTION_MOVE): 0:(274.7888,814.2547)
+    // Injection Failed
+:Sending Touch (ACTION_UP): 0:(272.2722,818.18567)
+    // Injection Failed
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(68.0,1176.0)
+:Sending Touch (ACTION_MOVE): 0:(55.410492,1175.1798)
+:Sending Touch (ACTION_MOVE): 0:(45.76566,1174.6287)
+:Sending Touch (ACTION_MOVE): 0:(44.998173,1173.7941)
+:Sending Touch (ACTION_MOVE): 0:(33.2257,1173.2813)
+:Sending Touch (ACTION_MOVE): 0:(29.64172,1172.6222)
+:Sending Touch (ACTION_MOVE): 0:(27.61974,1171.6128)
+:Sending Touch (ACTION_MOVE): 0:(6.5287514,1170.1583)
+:Sending Touch (ACTION_UP): 0:(0.0,1169.2659)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(566.0,212.0)
+:Sending Touch (ACTION_MOVE): 0:(576.3628,212.04495)
+:Sending Touch (ACTION_MOVE): 0:(584.8088,212.77725)
+:Sending Touch (ACTION_MOVE): 0:(600.5456,213.18057)
+:Sending Touch (ACTION_MOVE): 0:(618.52954,216.24059)
+:Sending Touch (ACTION_MOVE): 0:(619.95514,219.59889)
+:Sending Touch (ACTION_MOVE): 0:(629.2098,222.46007)
+:Sending Touch (ACTION_MOVE): 0:(644.58624,226.8235)
+:Sending Touch (ACTION_UP): 0:(658.45465,232.71487)
+Sleeping for 500 milliseconds
+    // activityResuming(com.letv.android.note)
+:Sending Touch (ACTION_DOWN): 0:(627.0,891.0)
+:Sending Touch (ACTION_MOVE): 0:(626.41345,890.7408)
+:Sending Touch (ACTION_MOVE): 0:(622.5941,890.5824)
+:Sending Touch (ACTION_MOVE): 0:(616.2434,890.4565)
+:Sending Touch (ACTION_UP): 0:(611.464,890.2412)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(704.0,516.0)
+:Sending Touch (ACTION_MOVE): 0:(705.6581,505.47464)
+:Sending Touch (ACTION_MOVE): 0:(712.9853,495.16345)
+:Sending Touch (ACTION_UP): 0:(720.0,484.01147)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(456.0,926.0)
+:Sending Touch (ACTION_UP): 0:(463.16974,928.9379)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(67.0,570.0)
+:Sending Touch (ACTION_UP): 0:(65.41026,550.431)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(257.0,60.0)
+:Sending Touch (ACTION_MOVE): 0:(260.96457,46.637028)
+:Sending Touch (ACTION_MOVE): 0:(263.37457,34.26235)
+:Sending Touch (ACTION_MOVE): 0:(264.34064,12.381212)
+:Sending Touch (ACTION_MOVE): 0:(273.32895,6.869804)
+:Sending Touch (ACTION_MOVE): 0:(275.22455,6.092561)
+:Sending Touch (ACTION_MOVE): 0:(276.1133,4.1974664)
+:Sending Touch (ACTION_UP): 0:(284.78717,0.0)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(685.0,233.0)
+:Sending Touch (ACTION_UP): 0:(696.36786,234.74236)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(629.0,952.0)
+:Sending Touch (ACTION_UP): 0:(624.1316,951.674)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(592.0,678.0)
+:Sending Touch (ACTION_UP): 0:(591.78107,674.28723)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(123.0,1058.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(120.67716,1056.9974) 1:(41.0,702.0)
+:Sending Touch (ACTION_MOVE): 0:(116.56831,1038.9287) 1:(49.51911,700.55133)
+:Sending Touch (ACTION_MOVE): 0:(113.44086,1026.1674) 1:(63.252914,697.1563)
+:Sending Touch (ACTION_MOVE): 0:(111.61362,1018.0323) 1:(75.50602,676.221)
+:Sending Touch (ACTION_MOVE): 0:(110.70182,1009.23224) 1:(86.26265,661.20844)
+:Sending Touch (ACTION_MOVE): 0:(109.17895,999.095) 1:(101.29667,660.36084)
+:Sending Touch (ACTION_MOVE): 0:(108.17907,994.8475) 1:(109.73187,658.7183)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(104.573006,990.6356) 1:(120.35908,636.0354)
+:Sending Touch (ACTION_UP): 0:(100.811226,987.3405)
+Sleeping for 500 milliseconds
+    // Rejecting start of Intent { act=com.letv.android.account.LOGIN cmp=com.letv.android.account/.activity.LoginGuideActivity } in package com.letv.android.account
+:Sending Touch (ACTION_DOWN): 0:(163.0,569.0)
+:Sending Touch (ACTION_UP): 0:(162.95929,566.12384)
+Sleeping for 500 milliseconds
+    // Allowing start of Intent { cmp=com.letv.android.note/.NoteEditActivity } in package com.letv.android.note
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(167.0,1135.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(183.43564,1153.6459) 1:(108.0,488.0)
+    //[calendar_time:2016-02-17 19:20:09.339  system_uptime:27608432]
+    // Sending event #700
+:Sending Touch (ACTION_MOVE): 0:(204.32095,1172.7736) 1:(107.88641,465.51563)
+:Sending Touch (ACTION_MOVE): 0:(218.9887,1184.0) 1:(107.66379,465.42508)
+:Sending Touch (ACTION_MOVE): 0:(222.62303,1184.0) 1:(107.45018,457.23447)
+:Sending Touch (ACTION_MOVE): 0:(241.91452,1184.0) 1:(107.178764,441.6815)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(250.38718,1184.0) 1:(107.16101,421.99884)
+:Sending Touch (ACTION_UP): 0:(251.18094,1184.0)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(224.0,108.0)
+:Sending Touch (ACTION_MOVE): 0:(222.10262,111.8544)
+:Sending Touch (ACTION_MOVE): 0:(219.90631,112.890785)
+:Sending Touch (ACTION_MOVE): 0:(219.5622,114.89909)
+:Sending Touch (ACTION_MOVE): 0:(218.79044,117.986336)
+:Sending Touch (ACTION_MOVE): 0:(216.54422,119.42992)
+:Sending Touch (ACTION_MOVE): 0:(215.57153,120.18187)
+:Sending Touch (ACTION_MOVE): 0:(211.62894,121.549324)
+:Sending Touch (ACTION_MOVE): 0:(209.55,125.16145)
+:Sending Touch (ACTION_MOVE): 0:(207.78804,128.41086)
+:Sending Touch (ACTION_UP): 0:(206.09386,131.49615)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(579.0,734.0)
+:Sending Touch (ACTION_UP): 0:(577.8898,734.3746)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(58.0,904.0)
+:Sending Touch (ACTION_UP): 0:(54.80894,881.8133)
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(552.0,1069.0)
+:Sending Touch (ACTION_MOVE): 0:(553.2136,1075.2231)
+:Sending Touch (ACTION_UP): 0:(559.93115,1083.1294)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(173.0,932.0)
+:Sending Touch (ACTION_MOVE): 0:(174.43388,948.1693)
+:Sending Touch (ACTION_UP): 0:(181.92458,964.83765)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(648.0,130.0)
+:Sending Touch (ACTION_UP): 0:(635.24615,134.37924)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(245.0,719.0)
+:Sending Touch (ACTION_MOVE): 0:(240.35196,719.58856)
+:Sending Touch (ACTION_UP): 0:(224.33463,726.1304)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(206.0,586.0)
+:Sending Touch (ACTION_UP): 0:(205.79424,581.06757)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(336.0,1017.0)
+:Sending Touch (ACTION_UP): 0:(330.35928,1019.3386)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(369.0,327.0)
+:Sending Touch (ACTION_UP): 0:(369.0959,330.84885)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(184.0,569.0)
+:Sending Touch (ACTION_MOVE): 0:(200.81584,557.0247)
+:Sending Touch (ACTION_MOVE): 0:(207.71764,551.22327)
+:Sending Touch (ACTION_MOVE): 0:(228.20915,539.5871)
+:Sending Touch (ACTION_MOVE): 0:(230.40631,531.52423)
+:Sending Touch (ACTION_MOVE): 0:(231.71574,518.2632)
+:Sending Touch (ACTION_MOVE): 0:(236.53072,502.14148)
+:Sending Touch (ACTION_MOVE): 0:(237.05545,501.37488)
+:Sending Touch (ACTION_MOVE): 0:(237.05562,495.03326)
+:Sending Touch (ACTION_UP): 0:(254.50562,489.1393)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(542.0,594.0)
+:Sending Touch (ACTION_MOVE): 0:(544.9931,595.0653)
+:Sending Touch (ACTION_MOVE): 0:(554.11066,595.88025)
+:Sending Touch (ACTION_MOVE): 0:(558.6158,596.078)
+:Sending Touch (ACTION_MOVE): 0:(576.54407,597.2753)
+:Sending Touch (ACTION_MOVE): 0:(580.32825,597.9995)
+:Sending Touch (ACTION_MOVE): 0:(585.7346,599.4651)
+:Sending Touch (ACTION_MOVE): 0:(586.7979,600.17633)
+:Sending Touch (ACTION_UP): 0:(598.5621,601.40295)
+Sleeping for 500 milliseconds
+    // activityResuming(com.letv.android.note)
+:Sending Touch (ACTION_DOWN): 0:(416.0,457.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(419.51956,454.15332) 1:(538.0,273.0)
+:Sending Touch (ACTION_MOVE): 0:(432.53195,442.1526) 1:(551.32086,284.5473)
+:Sending Touch (ACTION_MOVE): 0:(437.68567,433.45187) 1:(568.6707,292.7278)
+:Sending Touch (ACTION_MOVE): 0:(443.39417,424.1614) 1:(571.85675,299.00974)
+:Sending Touch (ACTION_MOVE): 0:(443.59552,419.62836) 1:(587.91437,306.83105)
+:Sending Touch (ACTION_MOVE): 0:(452.96002,416.32135) 1:(588.7614,311.0641)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(454.62476,415.92026) 1:(610.2067,317.7047)
+:Sending Touch (ACTION_UP): 0:(455.53186,406.86514)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(568.0,1012.0)
+:Sending Touch (ACTION_UP): 0:(555.7876,1005.9414)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(146.0,767.0)
+:Sending Touch (ACTION_UP): 0:(148.50806,768.63184)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(406.0,929.0)
+:Sending Touch (ACTION_UP): 0:(400.04172,933.1626)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(686.0,639.0)
+:Sending Touch (ACTION_UP): 0:(682.00604,639.47705)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(44.0,342.0)
+:Sending Touch (ACTION_MOVE): 0:(47.149498,360.20758)
+:Sending Touch (ACTION_MOVE): 0:(49.003613,360.94095)
+:Sending Touch (ACTION_MOVE): 0:(50.8961,363.30002)
+:Sending Touch (ACTION_MOVE): 0:(52.608604,377.97952)
+:Sending Touch (ACTION_UP): 0:(55.284008,383.1351)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(18.0,900.0)
+:Sending Touch (ACTION_MOVE): 0:(28.105114,902.27435)
+:Sending Touch (ACTION_MOVE): 0:(37.95056,906.6361)
+:Sending Touch (ACTION_MOVE): 0:(44.667706,907.026)
+:Sending Touch (ACTION_MOVE): 0:(53.11355,911.10657)
+:Sending Touch (ACTION_MOVE): 0:(54.828503,924.632)
+:Sending Touch (ACTION_MOVE): 0:(65.68335,934.8997)
+:Sending Touch (ACTION_MOVE): 0:(71.43463,946.94147)
+:Sending Touch (ACTION_MOVE): 0:(73.656715,951.3647)
+:Sending Touch (ACTION_UP): 0:(79.4726,958.7791)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(621.0,1144.0)
+:Sending Touch (ACTION_MOVE): 0:(604.33075,1147.2681)
+:Sending Touch (ACTION_MOVE): 0:(595.6766,1148.2605)
+:Sending Touch (ACTION_MOVE): 0:(576.81714,1150.6993)
+:Sending Touch (ACTION_MOVE): 0:(575.9979,1151.9313)
+    //[calendar_time:2016-02-17 19:20:21.219  system_uptime:27620311]
+    // Sending event #800
+:Sending Touch (ACTION_MOVE): 0:(556.6056,1153.4576)
+:Sending Touch (ACTION_MOVE): 0:(536.98926,1160.061)
+:Sending Touch (ACTION_MOVE): 0:(529.1596,1168.1061)
+:Sending Touch (ACTION_MOVE): 0:(511.3436,1175.6385)
+:Sending Touch (ACTION_UP): 0:(493.18805,1179.443)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(384.0,7.0)
+:Sending Touch (ACTION_UP): 0:(402.3003,2.3017468)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(44.0,1163.0)
+:Sending Touch (ACTION_MOVE): 0:(37.045666,1162.369)
+:Sending Touch (ACTION_MOVE): 0:(33.764603,1161.1456)
+:Sending Touch (ACTION_MOVE): 0:(28.334259,1160.4198)
+:Sending Touch (ACTION_MOVE): 0:(25.764568,1159.1108)
+:Sending Touch (ACTION_MOVE): 0:(22.927902,1158.1913)
+:Sending Touch (ACTION_MOVE): 0:(12.921606,1157.5918)
+:Sending Touch (ACTION_MOVE): 0:(9.665213,1157.5112)
+:Sending Touch (ACTION_UP): 0:(4.3186517,1156.748)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(292.0,254.0)
+:Sending Touch (ACTION_UP): 0:(289.54645,248.38632)
+Sleeping for 500 milliseconds
+    // Allowing start of Intent { cmp=com.letv.android.note/.NoteEditActivity } in package com.letv.android.note
+:Sending Touch (ACTION_DOWN): 0:(56.0,857.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(54.78656,850.07623) 1:(38.0,737.0)
+:Sending Touch (ACTION_MOVE): 0:(54.60984,841.08154) 1:(55.43521,727.8585)
+:Sending Touch (ACTION_MOVE): 0:(54.28993,826.69305) 1:(61.75505,718.7634)
+:Sending Touch (ACTION_MOVE): 0:(51.388817,826.09985) 1:(64.12977,702.5158)
+:Sending Touch (ACTION_MOVE): 0:(50.11623,812.3852) 1:(65.83233,692.22864)
+:Sending Touch (ACTION_MOVE): 0:(47.827564,796.47266) 1:(83.06562,689.0752)
+:Sending Touch (ACTION_MOVE): 0:(44.568985,778.4706) 1:(92.22723,684.1748)
+:Sending Touch (ACTION_MOVE): 0:(41.095257,777.07837) 1:(93.68933,679.15173)
+:Sending Touch (ACTION_MOVE): 0:(38.729336,776.2092) 1:(105.55073,669.077)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(36.240887,761.18713) 1:(107.26976,665.07196)
+:Sending Touch (ACTION_UP): 0:(32.98694,759.6771)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(454.0,1178.0)
+:Sending Touch (ACTION_MOVE): 0:(431.98553,1179.3406)
+:Sending Touch (ACTION_UP): 0:(413.27914,1180.1215)
+Sleeping for 500 milliseconds
+    // Allowing start of Intent { cmp=com.letv.android.note/.alarm.AlarmActivity } in package com.letv.android.note
+:Sending Touch (ACTION_DOWN): 0:(96.0,440.0)
+:Sending Touch (ACTION_MOVE): 0:(94.53299,433.4284)
+:Sending Touch (ACTION_MOVE): 0:(94.01642,428.9337)
+:Sending Touch (ACTION_MOVE): 0:(93.09953,413.82617)
+:Sending Touch (ACTION_MOVE): 0:(92.91622,412.08783)
+:Sending Touch (ACTION_UP): 0:(92.3192,404.8632)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(158.0,100.0)
+:Sending Touch (ACTION_UP): 0:(156.1109,99.135025)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(357.0,58.0)
+:Sending Touch (ACTION_UP): 0:(359.15268,60.52569)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(74.0,287.0)
+:Sending Touch (ACTION_UP): 0:(66.87525,287.61652)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(612.0,585.0)
+:Sending Touch (ACTION_UP): 0:(620.36005,585.6831)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(200.0,183.0)
+:Sending Touch (ACTION_MOVE): 0:(212.74567,178.63638)
+:Sending Touch (ACTION_MOVE): 0:(227.21019,176.72261)
+:Sending Touch (ACTION_MOVE): 0:(238.85443,163.73706)
+:Sending Touch (ACTION_MOVE): 0:(243.02966,150.61041)
+:Sending Touch (ACTION_MOVE): 0:(248.20407,143.57684)
+:Sending Touch (ACTION_MOVE): 0:(260.18817,136.31496)
+:Sending Touch (ACTION_MOVE): 0:(275.5647,135.35422)
+:Sending Touch (ACTION_UP): 0:(280.89975,128.93636)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(435.0,181.0)
+:Sending Touch (ACTION_UP): 0:(429.52518,180.74242)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.android.calendar/.AllInOneActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(521.0,754.0)
+:Sending Touch (ACTION_UP): 0:(524.2673,750.89105)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(499.0,961.0)
+:Sending Touch (ACTION_UP): 0:(503.3961,961.456)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(547.0,252.0)
+:Sending Touch (ACTION_UP): 0:(546.345,248.42812)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(118.0,1050.0)
+:Sending Touch (ACTION_UP): 0:(105.69518,1047.0662)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(397.0,764.0)
+:Sending Touch (ACTION_UP): 0:(395.72208,746.87573)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(94.0,508.0)
+:Sending Touch (ACTION_UP): 0:(82.775925,503.13086)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(323.0,60.0)
+:Sending Touch (ACTION_UP): 0:(317.35556,61.624218)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(20.0,181.0)
+:Sending Touch (ACTION_UP): 0:(29.244236,187.62291)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(557.0,1097.0)
+:Sending Touch (ACTION_MOVE): 0:(545.0955,1085.2498)
+:Sending Touch (ACTION_MOVE): 0:(535.5583,1072.5718)
+:Sending Touch (ACTION_MOVE): 0:(529.81165,1064.3217)
+:Sending Touch (ACTION_MOVE): 0:(518.6101,1050.9923)
+:Sending Touch (ACTION_MOVE): 0:(517.0899,1042.2477)
+:Sending Touch (ACTION_MOVE): 0:(507.22766,1036.6781)
+:Sending Touch (ACTION_MOVE): 0:(499.86395,1025.5878)
+:Sending Touch (ACTION_MOVE): 0:(488.50998,1022.68304)
+:Sending Touch (ACTION_UP): 0:(475.59924,1010.68616)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(689.0,67.0)
+:Sending Touch (ACTION_UP): 0:(696.89984,73.78947)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(175.0,16.0)
+:Sending Touch (ACTION_MOVE): 0:(190.93898,19.4315)
+:Sending Touch (ACTION_MOVE): 0:(201.8148,19.451408)
+:Sending Touch (ACTION_MOVE): 0:(201.82425,22.31235)
+:Sending Touch (ACTION_MOVE): 0:(218.26846,25.601128)
+:Sending Touch (ACTION_MOVE): 0:(221.56517,25.723886)
+:Sending Touch (ACTION_MOVE): 0:(224.09764,29.65538)
+:Sending Touch (ACTION_MOVE): 0:(234.10237,30.082727)
+:Sending Touch (ACTION_UP): 0:(235.01897,32.41071)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(392.0,188.0)
+:Sending Touch (ACTION_MOVE): 0:(393.57413,189.53264)
+    //[calendar_time:2016-02-17 19:20:34.894  system_uptime:27633986]
+    // Sending event #900
+:Sending Touch (ACTION_MOVE): 0:(401.7601,189.70064)
+:Sending Touch (ACTION_MOVE): 0:(407.0652,192.74838)
+:Sending Touch (ACTION_MOVE): 0:(412.39606,193.37292)
+:Sending Touch (ACTION_MOVE): 0:(412.879,194.65529)
+:Sending Touch (ACTION_MOVE): 0:(414.4618,196.38025)
+:Sending Touch (ACTION_MOVE): 0:(423.3186,199.2035)
+:Sending Touch (ACTION_MOVE): 0:(427.38654,199.9406)
+:Sending Touch (ACTION_MOVE): 0:(432.787,200.23112)
+:Sending Touch (ACTION_UP): 0:(433.7336,203.66788)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(632.0,652.0)
+:Sending Touch (ACTION_UP): 0:(632.0994,655.62366)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.letv.android.note/.NoteListActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.letv.android.note/.NoteListActivity } in package com.letv.android.note
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(596.0,1179.0)
+:Sending Touch (ACTION_UP): 0:(584.9508,1184.0)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(535.0,93.0)
+:Sending Touch (ACTION_UP): 0:(555.21985,86.28112)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(430.0,415.0)
+:Sending Touch (ACTION_UP): 0:(431.24966,407.2122)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(177.0,1116.0)
+:Sending Touch (ACTION_UP): 0:(169.31061,1117.522)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(93.0,474.0)
+:Sending Touch (ACTION_UP): 0:(101.2258,483.26367)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(277.0,232.0)
+:Sending Touch (ACTION_UP): 0:(278.9854,242.80087)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(412.0,686.0)
+:Sending Touch (ACTION_UP): 0:(415.2801,687.33435)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(98.0,574.0)
+:Sending Touch (ACTION_UP): 0:(109.62113,573.5465)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(462.0,222.0)
+:Sending Touch (ACTION_UP): 0:(454.1784,218.24507)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(566.0,99.0)
+:Sending Touch (ACTION_MOVE): 0:(567.15656,97.42564)
+:Sending Touch (ACTION_MOVE): 0:(568.4906,95.56665)
+:Sending Touch (ACTION_MOVE): 0:(571.6512,93.58676)
+:Sending Touch (ACTION_UP): 0:(574.30524,90.52973)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(583.0,379.0)
+:Sending Touch (ACTION_MOVE): 0:(580.5169,401.09402)
+:Sending Touch (ACTION_MOVE): 0:(567.9968,420.79077)
+:Sending Touch (ACTION_MOVE): 0:(558.9025,434.48657)
+:Sending Touch (ACTION_MOVE): 0:(551.279,447.09796)
+:Sending Touch (ACTION_MOVE): 0:(551.15753,451.10858)
+:Sending Touch (ACTION_UP): 0:(551.01227,471.6499)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(507.0,231.0)
+:Sending Touch (ACTION_MOVE): 0:(522.2731,243.76085)
+:Sending Touch (ACTION_MOVE): 0:(540.5104,255.54442)
+:Sending Touch (ACTION_MOVE): 0:(558.42804,265.80957)
+:Sending Touch (ACTION_MOVE): 0:(565.95703,268.23868)
+:Sending Touch (ACTION_MOVE): 0:(584.64215,283.19617)
+:Sending Touch (ACTION_UP): 0:(592.4857,291.01685)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(634.0,627.0)
+:Sending Touch (ACTION_UP): 0:(632.86896,638.0908)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(26.0,736.0)
+:Sending Touch (ACTION_UP): 0:(28.459118,735.21375)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(88.0,923.0)
+:Sending Touch (ACTION_MOVE): 0:(88.19955,930.52045)
+:Sending Touch (ACTION_MOVE): 0:(88.22592,945.4176)
+:Sending Touch (ACTION_MOVE): 0:(88.296486,955.1305)
+:Sending Touch (ACTION_MOVE): 0:(88.45427,966.36395)
+:Sending Touch (ACTION_MOVE): 0:(88.63648,977.2573)
+:Sending Touch (ACTION_MOVE): 0:(88.827934,982.3093)
+:Sending Touch (ACTION_MOVE): 0:(88.944824,999.0106)
+:Sending Touch (ACTION_MOVE): 0:(89.14304,1001.872)
+:Sending Touch (ACTION_MOVE): 0:(89.355576,1019.6967)
+:Sending Touch (ACTION_UP): 0:(89.409096,1029.0149)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(441.0,1160.0)
+:Sending Touch (ACTION_MOVE): 0:(448.08215,1152.1686)
+:Sending Touch (ACTION_MOVE): 0:(456.43738,1151.639)
+:Sending Touch (ACTION_MOVE): 0:(465.37225,1146.4773)
+:Sending Touch (ACTION_MOVE): 0:(480.60962,1138.8481)
+:Sending Touch (ACTION_MOVE): 0:(488.1508,1138.7213)
+:Sending Touch (ACTION_MOVE): 0:(502.57877,1133.7286)
+:Sending Touch (ACTION_MOVE): 0:(502.95206,1123.7147)
+:Sending Touch (ACTION_MOVE): 0:(503.5282,1117.7314)
+:Sending Touch (ACTION_MOVE): 0:(521.45593,1109.4166)
+:Sending Touch (ACTION_UP): 0:(528.6208,1103.5737)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(509.0,569.0)
+:Sending Touch (ACTION_UP): 0:(520.5067,578.8001)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(113.0,615.0)
+:Sending Touch (ACTION_MOVE): 0:(121.17111,627.792)
+:Sending Touch (ACTION_MOVE): 0:(125.23611,631.30493)
+:Sending Touch (ACTION_MOVE): 0:(128.71622,641.219)
+:Sending Touch (ACTION_UP): 0:(133.40685,658.8688)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(54.0,155.0)
+:Sending Touch (ACTION_UP): 0:(46.60843,152.31915)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(617.0,1107.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(631.0468,1108.9312) 1:(420.0,943.0)
+:Sending Touch (ACTION_MOVE): 0:(651.3541,1109.6743) 1:(419.0287,938.44855)
+:Sending Touch (ACTION_MOVE): 0:(669.11163,1109.9639) 1:(418.47052,916.90405)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(688.57983,1111.7891) 1:(417.29276,897.4985)
+:Sending Touch (ACTION_UP): 0:(698.91394,1116.0721)
+Sleeping for 500 milliseconds

@@ -1,0 +1,2 @@
+sh /data/local/tmp/mcm.sh 10 1440 &
+exit

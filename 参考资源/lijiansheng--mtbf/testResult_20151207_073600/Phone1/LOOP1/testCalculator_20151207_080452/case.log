@@ -1,0 +1,54 @@
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.Calculator.Calculator#testCalculator
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.letv.cases.leui.Calculator.Calculator:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testCalculator
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.Calculator.Calculator
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+================process: rm -rf /data/anrreturn!!!================
+================Call shell function return!!!================
+================process: rm -rf /data/tombstonesreturn!!!================
+================Call shell function return!!!================
+INSTRUMENTATION_STATUS: title=启动计算器应用,计算器操作正常,退出计算器
+INSTRUMENTATION_STATUS_CODE: 16
+The folder /sdcard/AutoSmoke_UI30/testCalculator_20151207_080452 has existed!
+current_case_root_folder=testCalculator_20151207_080452
+INSTRUMENTATION_STATUS: caseStep=Step1:启动计算器应用
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=Step2:计算器操作正常
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=Step3:计算器操作正常
+INSTRUMENTATION_STATUS_CODE: 15
+The phone type is: X900
+================process: /system/bin/sh /data/local/tmp/PullLog.sh testCalculator_20151207_080452return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: mv /data/tombstones /sdcard/AutoSmoke_UI30/testCalculator_20151207_080452/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: mv -r /data/anr /sdcard/AutoSmoke_UI30/testCalculator_20151207_080452/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: logcat -creturn!!!================
+================Call shell function return!!!================
+================process: mv /data/tombstones /sdcard/AutoSmoke_UI30/testCalculator_20151207_080452/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testCalculator
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.Calculator.Calculator
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 137.341
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+==========There are no error happend==========

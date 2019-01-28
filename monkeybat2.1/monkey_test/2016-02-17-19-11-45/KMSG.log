@@ -1,0 +1,190 @@
+<3>[20913.463568] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4365660, chip->last_soc=100, batt_temp = 312,current_now=265305
+<3>[20930.120425] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[20931.149706] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[20953.442571] iio_buffer_store_enable: for predisable part
+<3>[20953.449072] iio_buffer_store_enable: for postenable part
+<3>[20953.697495] --backlight is close add by caiwutang--
+<3>[20953.699255] wlan: [4187:E :SME] sme_QosPmcDeviceStateUpdateInd: 7443: nothing to process in PMC state BMPS (6)
+<3>[20953.699266] wlan: [4187:E :TL ]  ----> CRegion 0, hRSSI -16, Alpha 5
+<3>[20953.753483] mdss_fb_blank: *****LCD panel wakeup begin*************
+<3>[20953.769578] mdss_dsi_panel_off: ctrl=ffffffc074a72018 ndx=0
+<3>[20953.972523] mdss_dsi_panel_off:-
+<3>[20954.000246] --mdss--mdss_dsi_off---enter---
+<3>[20954.018044] --mdss--mdss_dsi_off---exit---
+<6>[20954.019176] <<-GTP-INFO->> Esd cancelled
+<3>[20961.700062] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4364000, chip->last_soc=100, batt_temp = 312,current_now=154503
+<6>[20999.278767] mmc0: Starting deferred resume
+<6>[20999.351847] mmc0: Deferred resume completed
+<3>[21009.963526] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4363281, chip->last_soc=100, batt_temp = 311,current_now=90687
+<6>[21035.620249] mmc0: Starting deferred resume
+<6>[21035.696187] mmc0: Deferred resume completed
+<3>[21058.215869] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4362615, chip->last_soc=100, batt_temp = 310,current_now=85669
+<6>[21059.277393] mmc0: Starting deferred resume
+<6>[21059.348855] mmc0: Deferred resume completed
+<3>[21080.546252] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<6>[21090.710072] mmc0: Starting deferred resume
+<6>[21090.789908] mmc0: Deferred resume completed
+<3>[21106.458857] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4361976, chip->last_soc=100, batt_temp = 308,current_now=84368
+<6>[21116.444120] mmc0: Starting deferred resume
+<6>[21116.513153] mmc0: Deferred resume completed
+<3>[21119.224354] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[21154.723801] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4361330, chip->last_soc=100, batt_temp = 307,current_now=86654
+<6>[21155.900976] mmc0: Starting deferred resume
+<6>[21155.977830] mmc0: Deferred resume completed
+<6>[21179.279253] mmc0: Starting deferred resume
+<6>[21179.352295] mmc0: Deferred resume completed
+<3>[21197.525990] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<3>[21202.975973] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4360657, chip->last_soc=100, batt_temp = 305,current_now=98537
+<3>[21204.792415] CHARGE:smb135x_battery_get_property:  __get battery temp=30___
+<12>[21204.809653] healthd: battery l=100 v=4344 t=30.6 h=2 st=5 chg=u
+<6>[21239.277576] mmc0: Starting deferred resume
+<6>[21239.349385] mmc0: Deferred resume completed
+<3>[21251.218467] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4360015, chip->last_soc=100, batt_temp = 304,current_now=85534
+<6>[21276.180045] mmc0: Starting deferred resume
+<6>[21276.251390] mmc0: Deferred resume completed
+<6>[21299.277566] mmc0: Starting deferred resume
+<6>[21299.355872] mmc0: Deferred resume completed
+<6>[21299.483025] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<6>[21299.483691] smb135x-charger 6-0057: status = CHARGING chg_done_batt_full = 0
+<6>[21299.483703] BMS: check_recharge_condition: soc dropped below resume_soc soc=100 last_ocv_uv=4359409 resume_soc=99, restart charging
+<3>[21299.485372] power_ok_handler: rt_stat = 0x01
+<3>[21299.488932] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4359409, chip->last_soc=100, batt_temp = 303,current_now=81976
+<12>[21299.513614] healthd: battery l=100 v=4351 t=30.3 h=2 st=2 chg=u
+<12>[21299.543995] healthd: battery l=100 v=4352 t=30.4 h=2 st=2 chg=u
+<3>[21299.595806] fast_chg_handler: rt_stat = 0x40
+<3>[21299.608869] CHARGE:smb135x_battery_get_property: __get battery voltage=4406088___
+<12>[21299.629978] healthd: battery l=100 v=4404 t=30.0 h=2 st=2 chg=u
+<12>[21299.653644] healthd: battery l=100 v=4412 t=30.0 h=2 st=2 chg=u
+<3>[21332.681740] taper_handler: rt_stat = 0x04
+<12>[21332.710536] healthd: battery l=100 v=4420 t=30.3 h=2 st=2 chg=u
+<12>[21332.735127] healthd: battery l=100 v=4422 t=30.3 h=2 st=2 chg=u
+<6>[21336.290229] mmc0: Starting deferred resume
+<6>[21336.367756] mmc0: Deferred resume completed
+<3>[21347.739567] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4361580, chip->last_soc=100, batt_temp = 302,current_now=-297467
+<6>[21359.278332] mmc0: Starting deferred resume
+<6>[21359.357335] mmc0: Deferred resume completed
+<12>[21372.836187] healthd: battery l=100 v=4421 t=30.1 h=2 st=2 chg=u
+<6>[21386.533086] mmc0: Starting deferred resume
+<6>[21386.605177] mmc0: Deferred resume completed
+<3>[21395.997882] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4363727, chip->last_soc=100, batt_temp = 301,current_now=-290503
+<6>[21402.146018] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[21419.276809] mmc0: Starting deferred resume
+<6>[21419.357729] mmc0: Deferred resume completed
+<3>[21444.257723] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4365780, chip->last_soc=100, batt_temp = 300,current_now=-278357
+<6>[21455.994106] mmc0: Starting deferred resume
+<6>[21455.995539] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[21456.064708] mmc0: Deferred resume completed
+<3>[21492.499290] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4367763, chip->last_soc=100, batt_temp = 300,current_now=-270068
+<6>[21500.030886] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[21516.487680] mmc0: Starting deferred resume
+<6>[21516.553212] mmc0: Deferred resume completed
+<6>[21528.007481] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[21539.279210] mmc0: Starting deferred resume
+<6>[21539.358600] mmc0: Deferred resume completed
+<3>[21540.758007] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4369735, chip->last_soc=100, batt_temp = 299,current_now=-270203
+<6>[21570.110026] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[21574.202412] mmc0: Starting deferred resume
+<6>[21574.265054] mmc0: Deferred resume completed
+<6>[21589.016263] BMS: report_eoc: Report EOC to charger,chip->last_ocv_uv=4371577
+<6>[21589.016278] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<3>[21589.018991] power_ok_handler: rt_stat = 0x00
+<3>[21589.026053] taper_handler: rt_stat = 0x00
+<3>[21589.029023] fast_chg_handler: rt_stat = 0x00
+<6>[21589.034484] __smb135x_usb_suspend: ===enter,suspend=1 ===
+<6>[21589.035077] smb135x-charger 6-0057: status = FULL chg_done_batt_full = 1
+<3>[21589.035402] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4371577, chip->last_soc=100, batt_temp = 298,current_now=-250750
+<3>[21589.053431] CHARGE:smb135x_battery_get_property: __get battery voltage=4374606___
+<12>[21589.064168] healthd: battery l=100 v=4374 t=30.0 h=2 st=5 chg=u
+<12>[21589.091240] healthd: battery l=100 v=4362 t=30.0 h=2 st=5 chg=u
+<12>[21589.116721] healthd: battery l=100 v=4372 t=30.0 h=2 st=5 chg=u
+<12>[21589.134220] healthd: battery l=100 v=4361 t=30.0 h=2 st=5 chg=u
+<6>[21599.277712] mmc0: Starting deferred resume
+<6>[21599.349443] mmc0: Deferred resume completed
+<6>[21636.810390] mmc0: Starting deferred resume
+<6>[21636.880822] mmc0: Deferred resume completed
+<3>[21637.284553] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4371370, chip->last_soc=100, batt_temp = 297,current_now=43203
+<6>[21644.495471] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[21685.548785] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4370969, chip->last_soc=100, batt_temp = 296,current_now=59925
+<6>[21706.870046] mmc0: Starting deferred resume
+<6>[21706.945318] mmc0: Deferred resume completed
+<3>[21733.784359] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4370538, chip->last_soc=100, batt_temp = 296,current_now=61279
+<6>[21766.970349] mmc0: Starting deferred resume
+<6>[21767.051759] mmc0: Deferred resume completed
+<6>[21776.119381] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[21782.042981] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4370050, chip->last_soc=100, batt_temp = 296,current_now=67357
+<6>[21819.630904] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[21822.108396] mmc0: Starting deferred resume
+<6>[21822.178572] mmc0: Deferred resume completed
+<3>[21830.303010] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4369517, chip->last_soc=100, batt_temp = 295,current_now=73246
+<3>[21878.543247] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4368924, chip->last_soc=100, batt_temp = 294,current_now=77801
+<6>[21882.301220] mmc0: Starting deferred resume
+<6>[21882.365682] mmc0: Deferred resume completed
+<3>[21892.859802] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<6>[21898.816646] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[21926.539287] mmc0: Starting deferred resume
+<6>[21926.617487] mmc0: Deferred resume completed
+<3>[21926.803807] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4368334, chip->last_soc=100, batt_temp = 294,current_now=79865
+<3>[21972.834904] CHARGE:smb135x_battery_get_property:  __get battery temp=29___
+<12>[21972.841741] healthd: battery l=100 v=4347 t=29.3 h=2 st=5 chg=u
+<3>[21975.063588] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4367750, chip->last_soc=100, batt_temp = 293,current_now=90010
+<6>[21995.574558] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[22003.628821] mmc0: Starting deferred resume
+<6>[22003.698905] mmc0: Deferred resume completed
+<3>[22023.302669] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4367072, chip->last_soc=100, batt_temp = 293,current_now=90551
+<6>[22039.224546] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[22050.311943] mmc0: Starting deferred resume
+<6>[22050.377211] mmc0: Deferred resume completed
+<3>[22071.562680] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4366397, chip->last_soc=100, batt_temp = 293,current_now=97227
+<6>[22106.057751] mmc0: Starting deferred resume
+<6>[22106.131516] mmc0: Deferred resume completed
+<3>[22119.812085] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4365689, chip->last_soc=100, batt_temp = 292,current_now=104693
+<6>[22137.527885] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[22168.062531] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4364925, chip->last_soc=100, batt_temp = 291,current_now=111899
+<6>[22188.150043] mmc0: Starting deferred resume
+<6>[22188.229318] mmc0: Deferred resume completed
+<6>[22205.660269] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[22216.322281] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4364259, chip->last_soc=100, batt_temp = 290,current_now=85683
+<6>[22235.900781] mmc0: Starting deferred resume
+<6>[22235.963007] mmc0: Deferred resume completed
+<3>[22264.571698] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4363578, chip->last_soc=100, batt_temp = 293,current_now=84163
+<3>[22284.282388] wlan: [4187:E :PE ] limProcessActionFrame: 2221: Action ID 0 not handled in HT Action category
+<6>[22294.485812] mmc0: Starting deferred resume
+<6>[22294.566550] mmc0: Deferred resume completed
+<3>[22312.821819] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4362959, chip->last_soc=100, batt_temp = 290,current_now=85675
+<6>[22341.996895] mmc0: Starting deferred resume
+<6>[22342.056015] mmc0: Deferred resume completed
+<3>[22361.080981] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4362288, chip->last_soc=100, batt_temp = 290,current_now=108357
+<6>[22368.450000] mmc0: Starting deferred resume
+<6>[22368.527491] mmc0: Deferred resume completed
+<3>[22409.331501] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4361564, chip->last_soc=100, batt_temp = 290,current_now=103161
+<6>[22423.663328] mmc0: Starting deferred resume
+<6>[22423.729668] mmc0: Deferred resume completed
+<3>[22457.581627] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4360882, chip->last_soc=100, batt_temp = 290,current_now=93133
+<6>[22487.350386] mmc0: Starting deferred resume
+<6>[22487.431914] mmc0: Deferred resume completed
+<6>[22488.974295] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<6>[22499.279698] mmc0: Starting deferred resume
+<6>[22499.342356] mmc0: Deferred resume completed
+<3>[22505.840496] BMS: monitor_soc_work: charging = 0,chip->last_ocv_uv = 4360156, chip->last_soc=100, batt_temp = 289,current_now=100468
+<6>[22548.899922] mmc0: Starting deferred resume
+<6>[22548.976842] mmc0: Deferred resume completed
+<6>[22554.081103] __smb135x_usb_suspend: ===enter,suspend=0 ===
+<6>[22554.081799] smb135x-charger 6-0057: status = CHARGING chg_done_batt_full = 0
+<6>[22554.081811] BMS: check_recharge_condition: soc dropped below resume_soc soc=100 last_ocv_uv=4359470 resume_soc=99, restart charging
+<3>[22554.083433] power_ok_handler: rt_stat = 0x01
+<3>[22554.087208] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4359470, chip->last_soc=100, batt_temp = 288,current_now=93865
+<3>[22554.111794] CHARGE:smb135x_battery_get_property:  __get battery temp=28___
+<12>[22554.119225] healthd: battery l=100 v=4351 t=28.8 h=2 st=2 chg=u
+<12>[22554.144803] healthd: battery l=100 v=4351 t=28.8 h=2 st=2 chg=u
+<3>[22554.193956] fast_chg_handler: rt_stat = 0x40
+<3>[22554.205309] CHARGE:smb135x_battery_get_property: __get battery voltage=4407852___
+<12>[22554.224600] healthd: battery l=100 v=4404 t=28.6 h=2 st=2 chg=u
+<12>[22554.245163] healthd: battery l=100 v=4414 t=28.6 h=2 st=2 chg=u
+<12>[22572.837516] healthd: battery l=100 v=4422 t=28.8 h=2 st=2 chg=u
+<3>[22577.360339] taper_handler: rt_stat = 0x04
+<12>[22577.375465] healthd: battery l=100 v=4418 t=28.8 h=2 st=2 chg=u
+<12>[22577.403597] healthd: battery l=100 v=4423 t=28.8 h=2 st=2 chg=u
+<6>[22592.563849] EXT4-fs (mmcblk0p40): re-mounted. Opts: (null)
+<3>[22602.344502] BMS: monitor_soc_work: charging = 1,chip->last_ocv_uv = 4361661, chip->last_soc=100, batt_temp = 288,current_now=-297136
+<6>[22609.000073] mmc0: Starting deferred resume
+<6>[22609.062382] mmc0: Deferred resume completed

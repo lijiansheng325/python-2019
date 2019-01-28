@@ -1,0 +1,47 @@
+{
+	"TAG_DICT": 
+	{
+	    "ANR_0": "Application is not responding",
+		"ANR_1": "ANR in",
+		"ANR_2": "APP_ANR happens",
+		"CRASH": "CRASH ",
+		"FC": "FATAL EXCEPTION ",
+		"TC": "Tombstone written to: /data/tombstones"   	
+	},
+
+	"ADB_CMD": 
+	{
+		"ADB_FETCH_LOGS_CMD": "adb logcat -c && adb logcat -v threadtime",
+		"ADB_WAIT_CMD": "adb wait-for-device",
+		"ADB_ROOT_CMD": "adb root",
+		"ADB_REMOUNT_CMD": "adb remount",
+
+		"ANR_PULL_CMD": "adb pull /data/anr",
+		"DROPBOX_PULL_CMD": "adb pull /data/system/dropbox",
+		"SDCARD_SEMS_PULL_CMD": "adb pull /sdcard/sems",
+		"SDCARD_LOGS_PULL_CMD": "adb pull /sdcard/logs",
+		"TOMBSTONES_PULL_CMD": "adb pull /data/tombstones",
+
+		"ANR_CLEAN_CMD": "adb shell rm /data/anr/*",
+		"DROPBOX_CLEAN_CMD": "adb shell rm /data/system/dropbox/*",
+		"SDCARD_SEMS_CLEAN_CMD": "adb shell rm /sdcard/sems/*",
+		"SDCARD_LOGS_CLEAN_CMD": "adb shell rm /sdcard/logs/*",
+		"TOMBSTONES_CLEAN_CMD": "adb shell rm /data/tombstones/*"
+	},
+ 
+	"PARSER_ARGS": 
+	{
+		"A_SIZE": -6,
+		"B_SIZE": 5,
+		"STEP": 1000
+	},
+
+	"cubes":
+	{
+		"1":
+		{
+			"dim":"dim data",
+			"meas":"meas data"
+		}
+	}
+}

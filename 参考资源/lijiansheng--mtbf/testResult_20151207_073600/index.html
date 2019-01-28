@@ -1,0 +1,1548 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+	<head>
+		<title>自动化冒烟测试结果</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="测试报告" />
+
+		<style type="text/css">
+			/*css reset code */
+
+			/****  文字大小初始化,使1em=10px *****/
+			body {
+				font-size: 62.5%;
+			}/* for IE/Win */
+			html > body {
+				font-size: 10px;
+			}/* for everything else */
+
+			/*字体边框等初始化*/
+			body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+				padding: 0;
+				margin: 0;
+			}
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+			}
+			fieldset, img {
+				border: 0;
+			}
+			img {
+				display: block;
+			}
+			address, caption, cite, code, dfn, th, var {
+				font-weight: normal;
+				font-style: normal;
+			}
+			ol, ul {
+				list-style: none;
+			}
+			caption, th {
+				text-align: left;
+			}
+			h1, h2, h3, h4, h5, h6 {
+				font-weight: normal;
+				font-size: 100%;
+			}
+			q:before, q:after {
+				content: '';
+			}
+			abbr, acronym {
+				border: 0;
+			}
+
+			a {
+				text-decoration: underline;
+			}
+
+			/*-----以下是报告样式*/
+
+			body {
+
+				color: #4f6b72;
+				background: #eff0f0;
+			}
+			.container {
+				width: 1200px;
+				margin: 0px auto;
+			}
+
+			.header {
+				/* background: #DDDDDD; */
+				height: 40px;
+				width: 1210px;
+				margin: 30px 0px 20px 0px;
+				border-radius: 15px 15px 15px 15px;
+				/* box-shadow: 3px 3px 4px #818181; */
+
+			}
+
+			.header span {
+				margin: 0px 0px 0px 10px;
+				font-size: 30px;
+				line-height: 60px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: #CC0000;
+				font-weight: bold;
+			}
+
+			.header a {
+				font-size: 15px;
+				font-weight: bold;
+				line-height: 95px;
+				margin-left: 460px;
+			}
+			.header a:link {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			.header a:visited {
+				color: purple;
+				text-decoration: underline;
+			}
+
+			.header a:hover {
+				color: orange;
+				text-decoration: underline;
+			}
+
+			.main {
+				width: 1200px;
+				margin: 10px 0px 10px 0px;
+			}
+
+			.subtittle_up {
+				width: 850px;
+				height: 30px;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				font-size: 18px;
+				line-height: 30px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				padding-left: 10px;
+				/* background: #CCFFCC;
+				 box-shadow: 1px 1px 4px #818181;
+				 border-radius: 0px 0px 9px 9px; */
+				font-weight: bold;
+				color: #CC0000;
+			}
+
+			.subtittle_down {
+				width: 1150px;
+				margin-left: 10px;
+				margin-bottom: 20px;
+				font-size: 18px;
+				height: 30px;
+				line-height: 30px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				padding-left: 10px;
+				/* background: #CCFFCC;
+				 box-shadow: 1px 1px 4px #818181;
+				 border-radius: 0px 0px 9px 9px; */
+				font-weight: bold;
+				color: #CC0000;
+			}
+
+			.subtittle_down span {
+				margin-left: 20px;
+				font-size: 15px;
+				color: #CC0000;
+			}
+
+			.summary_table {
+				border: 5px solid white;
+				margin: 0px 0px 0px 20px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				box-shadow: 3px 3px 3px #818181;
+			}
+
+			.summary_table tr {
+				border: 1px solid #a5ada2;
+			}
+
+			.summary_table td {
+				border: 1px solid #a5ada2;
+				padding: 2px 10px 2px 10px;
+				background-color: #faf9ec;
+				font-weight: bold;
+				font-size: 13px;
+				text-align: center;
+			}
+
+			.summary_table td a:link {
+				color: blue;
+				text-decoration: underline;
+			}
+
+			.summary_table td a:visited {
+				color: purple;
+				text-decoration: underline;
+			}
+
+			.summary_table td a:hover {
+				color: orange;
+				text-decoration: underline;
+			}
+
+			.summary_table th {
+				border: 1px solid #a5ada2;
+				padding: 3px 10px 3px 10px;
+				margin-left: 25px;
+				margin-bottom: 10px;
+				font-size: 16px;
+				/*line-height: 36px;*/
+				color: brown;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				font-weight: bold;
+				text-align: center;
+			}
+
+			.summary_table tr td:first-child {
+				background-color: #a9c79b;
+				font-weight: bold;
+				color: white;
+				font-size: 15px;
+			}
+			.planCount {
+				color: blue;
+			}
+
+			.execCount {
+				color: green;
+			}
+
+			.noRunCount {
+				color: red;
+			}
+
+			.passCount {
+				color: green;
+			}
+
+			.failCount {
+				color: red;
+			}
+
+			.tab_box select {
+				margin-left: 25px;
+				margin: 10px 25px;
+			}
+
+			.showCaseText {
+				margin-left: 25px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: brown;
+				font-weight: bold;
+				font-size: 15px;
+			}
+			.inputText {
+				margin-left: 3px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				color: brown;
+				font-weight: bold;
+				font-size: 15px;
+			}
+
+			.main_down {
+				margin-top: 10px;
+			}
+
+			.caseTable {
+				border: 5px solid white;
+				margin: 15px 0px 0px 20px;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				box-shadow: 3px 3px 3px #818181;
+			}
+
+			.caseTable tr {
+				border: 1px solid white;
+				margin: 0px 0px 0px 20px;
+			}
+
+			.caseTable td {
+				font-size: 13px;
+				border: 1px solid white;
+				padding: 8px 8px 8px 8px;
+				text-align: left;
+			}
+
+			.caseTable th {
+				font-size: 15px;
+				text-align: center;
+				border: 1px solid white;
+				padding: 8px 8px 8px 8px;
+				background: #a1a1a1;
+				font-weight: bold;
+				color: white;
+			}
+			.fail td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.error td {
+				background: #8a5266;
+				color: white;
+				font-weight: bold;
+			}
+			.pass td {
+				background: #648566;
+				color: white;
+				font-weight: bold;
+			}
+			#tailer {
+				margin-top: 30px;
+				margin-bottom: 30px;
+				text-align: center;
+			}
+			#tailer span {
+				margin-top: 10px;
+				font-size: 12px;
+				line-height: 40px;
+				color: #4e4c4d;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+			}
+			.tab_on {
+				float: left;
+				background: #e3e3e3;
+				padding: 0 10px;
+				border-top: ridge;
+				border-top-color: brown;
+			}
+			.tab_off {
+				float: left;
+				cursor: pointer;
+				text-align: center;
+				padding: 0 10px;
+			}
+			.tab_off:hover {
+				background: #e3e3e3;
+			}
+			.tab {
+				margin-left: 25px;
+				margin-bottom: 10px;
+				font-size: 16px;
+				line-height: 36px;
+				color: brown;
+				font-family: 'Microsoft Yahei', SimHei, sans-serif;
+				font-weight: bold
+			}
+			.tab_box {
+				padding-top: 10px;
+				line-height: 20px;
+				padding: 5px;
+				background: #e3e3e3;
+			}
+
+		</style>
+
+		<script type="text/javascript">
+			function changeLoop(selectValue, device) {
+
+				var caseCount = document.getElementById("showAll_" + device).getElementsByTagName('tr').length;
+				var faildetailCount = document.getElementsByName('faildetail').length;
+
+				if (selectValue == 0) {
+					var list = document.getElementById("showAll_" + device);
+					//获取检索范围
+					var countLoop0 = 1;
+					var str = list.getElementsByTagName("tr");
+					//获取检索内容块
+					for (var i = 0; i < str.length; i++) {//遍历内容块
+						str[i].style.display = "table-row";
+						//重新定义序号
+						if (i != 0 && str[i].className != "faildetail") {
+							var td_index = str[i].cells[0];
+							td_index.innerHTML = countLoop0;
+							countLoop0++;
+						}
+					}
+
+				} else {
+					var countother = 1;
+					var list = document.getElementById("showAll_" + device);
+					//获取id为showAll的table
+					var str = list.getElementsByTagName("tr");
+					//获取showAll的行
+					for (var i = 1; i < str.length; i++) {//遍历所有的行
+						if (str[i].getAttribute("name") == selectValue) {//如果当前行的为选中显示的loop
+							str[i].style.display = "table-row";
+							//显示出当前行
+
+							//重新定义序号
+							if (i != 0 && str[i].className != "faildetail") {//i=0时的行为表头不需要添加序号
+								var td_index = str[i].cells[0];
+								td_index.innerHTML = countother;
+								countother++;
+							}
+
+						} else {//不为当前选中的loop的行就不显示
+							str[i].style.display = "none";
+						}
+
+					}
+
+				}
+				for (var i = 0; i < faildetailCount; i++) {//所有失败后行的casedetail的详细信息默认不显示
+					if (document.getElementsByName) {
+						document.getElementsByName('faildetail')[i].style.display = "none";
+					}
+				}
+				
+			    radioChecked = document.getElementsByName("showCaseCase_"+device);  
+			    for (var i=0; i<radioChecked.length; i++){  
+			        if (radioChecked[i].value=="1") {  
+			            radioChecked[i].checked= true;  
+			            break;  
+			        }  
+			    }  
+			}
+
+			function changeData(selectValue, device) {
+				var currentLoop = document.getElementById("mySelect_" + device).value;
+				var caseCount = document.getElementById("showAll_" + device).getElementsByTagName('tr').length;
+				var faildetailCount = document.getElementsByName('faildetail').length;
+				var countLoop0 = 1;
+				var countother = 1;
+				for (var i = 0; i < caseCount; i++) {
+					var list = document.getElementById("showAll_" + device);
+					//获取到id为showAll的table
+					var str = list.getElementsByTagName("tr");
+					//获取到table里的行
+
+					for (var i = 1; i < str.length; i++) {//遍历所有行
+
+						if (currentLoop == 0) {//当前loop为0默认是显示所有loop
+							if (selectValue == 1) {//selectValue是显示所有case（pass and fail）
+								str[i].style.display = "table-row";
+								/*//重新定义序号
+								if (i != 0 && (selectValue == 1 || (selectValue == 2 && str[i].className == "fail") || (selectValue == 3 && str[i].className == "pass")) && str[i].className != "faildetail") {
+									var td_index = str[i].cells[0];
+									td_index.innerHTML = countLoop0;
+									countLoop0++;
+								}*/
+							} else if (selectValue == 2 && str[i].className == "fail") {//只显示fail的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 3 && str[i].className == "pass") {//只显示pass的case
+								str[i].style.display = "table-row";
+							} else if (selectValue == 4 && str[i].className == "error") {//只显示pass的case
+								str[i].style.display = "table-row";
+							} else {
+								str[i].style.display = "none";
+							}
+
+
+								//重新定义序号
+								if (i != 0 && (selectValue == 1 || (selectValue == 2 && str[i].className == "fail") || (selectValue == 3 && str[i].className == "pass")||(selectValue == 4 && str[i].className == "error")) && str[i].className != "faildetail") {
+									var td_index = str[i].cells[0];
+									td_index.innerHTML = countLoop0;
+									countLoop0++;
+								}
+} else if (str[i].getAttribute("name")  == currentLoop) {//显示其他loop
+
+							if (selectValue == 1) {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 2 && str[i].className == "fail") {
+								str[i].style.display = "table-row";
+							} else if (selectValue == 3 && str[i].className == "pass") {
+								str[i].style.display = "table-row";
+							} else {
+								str[i].style.display = "none";
+}
+							//重新定义序号
+							if (i != 0 && (selectValue == 1 || (selectValue == 2 && str[i].className == "fail") || (selectValue == 3 && str[i].className == "pass")||(selectValue == 4 && str[i].className == "error")) && str[i].className != "faildetail") {
+								var td_index = str[i].cells[0];
+								td_index.innerHTML = countother;
+								countother++;
+							}
+
+						}
+
+					}
+
+				}
+
+				for (var i = 0; i < faildetailCount; i++) {
+					if (document.getElementsByName) {
+						document.getElementsByName('faildetail')[i].style.display = "none";
+					}
+				}
+
+			}
+
+			function showTab(id) {
+				longth = document.getElementsByClassName('tab')[0].getElementsByTagName('div').length;
+				for (var i = 1; i <= longth; i++) {
+					if (id == i) {
+						document.getElementById('Tab_' + i).className = 'tab_on';
+						document.getElementById('cont_' + i).style.display = '';
+					} else {
+						document.getElementById('Tab_' + i).className = 'tab_off';
+						document.getElementById('cont_' + i).style.display = 'none';
+					}
+				}
+			}
+
+			function toggle(id) {
+
+				var tb = document.getElementById(id);
+
+				if (tb.style.display == 'none')
+					tb.style.display = 'table-row';
+				else
+					tb.style.display = 'none';
+			}
+			
+			document.addEventListener("DOMContentLoaded", function(event) { 
+				table = document.getElementsByClassName("caseTable");
+				for (var i = 0; i < table.length; i++) {
+					trs = table[i].getElementsByTagName("tr");
+					//获取showAll的行
+					countother = 1;
+					for (var j = 0; j < trs.length; j++) {//遍历所有的行
+						//重新定义序号
+						if (j != 0 && trs[j].className != "faildetail") {//i=0时的行为表头不需要添加序号
+							td_index = trs[j].cells[0];
+							td_index.innerHTML = countother;
+							countother++;
+						}
+					}
+				}
+				
+				//计算Total数值
+			});
+		</script>
+
+	</head>
+	<body>
+
+		<div class="container">
+
+			<div class="header">
+
+				<span>LETV自动化测试报告</span>
+
+				<a class="clr" href="http://tc.letv.leshiren.com/index" target="_blank"
+				></a>
+
+			</div>
+
+			<hr color=#CC0000 SIZE=3>
+			<div class="main">
+				<div class="main_up">
+					<div class="subtittle_up" >
+						测试结果总结
+					</div>
+
+					<div>
+						
+<table class="summary_table">
+	<tr>
+		<th>测试结果</th>
+		
+		<th>Phone1</th>
+		
+	</tr>
+	<tr>
+		<td>软件版本</td>
+		
+		<td>max1-userdebug 5.0.2 CBXCNOP5525712071D 252 test-keys</td>
+		
+	</tr>
+	<tr>
+		<td>版本发布时间</td>
+		
+		<td>Mon Dec 7 06:48:33 CST 2015</td>
+		
+	</tr>
+	<tr>
+		<td>测试启动时间</td>
+		
+		<td>2015-12-07 07:36:25</td>
+		
+	</tr>
+	<tr>
+		<td>测试停止时间</td>
+		
+		<td>2015-12-07 08:58:51</td>
+		
+	</tr>	
+	<tr>
+		<td>总执行时间</td>
+		
+		<td>1.4Hrs</td>
+		
+	</tr>
+	<tr>
+		<td>ANR</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>
+	<tr>
+		<td>Tombstone</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>
+	<tr>
+		<td>Force Close</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>
+	<tr>
+		<td>Phone Reboot</td>
+		
+		<td><span class="passCount">0</span></td>
+		
+	</tr>	
+	<tr>
+		<td>Case Pass Rate</td>
+		
+		<td><span class="passCount">20/37=54.05%</span></td>
+		
+	</tr>
+	<tr>
+		<td><span class="passCount">Total ANR</span></td>
+		<td colspan="1"><span class="passCount">0</span></td>
+	</tr>
+	<tr>
+		<td><span class="passCount">Total Tombstone</span></td>
+		<td colspan="1"><span class="passCount">0</span></td>
+	</tr>
+	<tr>
+		<td><span class="passCount">Total Force Close</span></td>
+		<td colspan="1"><span class="passCount">0</span></td>
+	</tr>
+	<tr>
+		<td><span class="passCount">Total Reboot</span></td>
+		<td colspan="1"><span class="passCount">0</span></td>
+	</tr>
+	<tr>
+		<td><span class="passCount">Rack执行时间<span></td>
+		<td colspan="1">1.4Hrs</td>
+	</tr>
+	<tr>
+		<td><span class="passCount">Rack故障数</span></td>
+		<td colspan="1"><span class="passCount">0</span></td>
+	</tr>
+	<tr>
+		<td><span class="passCount"">All Case Pass Rate</span></td>
+		<td colspan="1"><span class="passCount">All PASS CASE(20)/All EXECUTE CASE(37) = 54.05%</span></td>
+	</tr>
+	<!--<tr>
+		<td><span class="passCount">MTBF Value</span></td>
+		<td colspan="1"><span class="passCount">所有终端运行总时间 / 所有终端故障总数 = 1.4</span></td>
+	</tr>-->
+</table>
+
+					</div>
+				</div>
+
+				<div class="main_down">
+					
+
+<div class="subtittle_down" >
+	测试用例执行详情
+	<span> 单击具体用例可以查看用例详细步骤 </span>
+</div>
+<div class="tab">
+
+	
+	<div class="tab_on" id="Tab_1" onclick="showTab('1');">
+		Phone1
+	</div>
+	
+</div>
+<div style="clear:both;"></div>
+
+<div class="tab_box" id="cont_1" >
+	<select id="mySelect_1" onchange="changeLoop(this.value,1)" autocomplete="off">
+		<option value="0" selected=true>显示全部Loop结果</option>
+		
+		<option value="1">loop1</option>
+		
+	</select>
+	<br/>
+
+	<span class="showCaseText">当前loop用例显示方式：</span>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="1" checked="checked" onchange="changeData(this.value,1)">
+	<span class="inputText">显示全部的测试用例&nbsp;&nbsp;&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="2" onchange="changeData(this.value,1)">
+	<span class="inputText">仅显示失败的用例&nbsp;&nbsp;&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="3" onchange="changeData(this.value,1)">
+	<span class="inputText">仅显示成功的用例&nbsp;&nbsp;&nbsp;</span></input>
+	<input class="showCaseInput" type="radio" name="showCaseCase_1" value="4" onchange="changeData(this.value,1)">
+	<span class="inputText">仅显示发生Error的用例&nbsp;&nbsp;&nbsp;</span></input>
+	<table id="showAll_1"  class="caseTable" >
+
+		<tr id="table_tittle">
+			<th>序号</th><th>用例方法</th><th>用例中文描述</th><th>测试结果</th><th>用例执行时间</th><th>备注</th>
+		</tr>
+		
+		
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_1')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.TDLTE.MOCall#testMOCallSim1</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testMOCallSim1_20151207_073625" target="_blank">SIM1: MO call</a></td>
+			<td>FAIL</td>
+			<td>146.843</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_1" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:SIM1切换到4G网络下
+2.step2:使用SIM1打电话
+3.拨打号码10086
+<span style="color:#FF0000">错误原因:
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=1, CLASS=android.widget.TextView, RESOURCE_ID=com.android.dialer:id/dialpad_key_number]</span></pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_2')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.TDLTE.MOCall#testMOCallSim2</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testMOCallSim2_20151207_073929" target="_blank">SIM2: MO call</a></td>
+			<td>FAIL</td>
+			<td>151.98</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_2" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:SIM2切换到4G网络下
+2.step2:使用SIM2打电话
+3.拨打号码10086
+<span style="color:#FF0000">错误原因:
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=1, CLASS=android.widget.TextView, RESOURCE_ID=com.android.dialer:id/dialpad_key_number]</span></pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_3')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.TDLTE.WebBrowsing#testBrowsingSim1</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testBrowsingSim1_20151207_074239" target="_blank">SIM1: WEB Browsing</a></td>
+			<td>PASS</td>
+			<td>197.885</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_3" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:SIM1切换到3G网络下
+2.step2:使用SIM1浏览网页
+3.打开浏览器
+4.清除浏览器缓存，历史记录和cookie数据
+5.打开浏览器并正常显示
+6.输入特定网址（例如：http://sina.cn/）并登陆
+7.确认登陆网页显示正常
+8.返回到浏览器首页
+9.退出浏览器
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_4')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.TDLTE.WebBrowsing#testBrowsingSim2</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testBrowsingSim2_20151207_074603" target="_blank">SIM2: WEB Browsing</a></td>
+			<td>PASS</td>
+			<td>194.428</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_4" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:SIM2切换到3G网络下
+2.step2:使用SIM2浏览网页
+3.打开浏览器
+4.清除浏览器缓存，历史记录和cookie数据
+5.打开浏览器并正常显示
+6.输入特定网址（例如：http://sina.cn/）并登陆
+7.确认登陆网页显示正常
+8.返回到浏览器首页
+9.退出浏览器
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_5')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.TDLTE.SMS#testSMSSim1</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testSMSSim1_20151207_074925" target="_blank">SIM1: 收发短信</a></td>
+			<td>PASS</td>
+			<td>195.735</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_5" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:SIM1切换到4G网络下
+2.step2:使用SIM1发短信
+3.打开信息程序
+4.编写新信息
+5.发送新信息
+6.step3:查看SIM1收到的短信
+7.等待10秒
+8.删除发送的信息
+9.退出应用
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_6')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.TDLTE.SMS#testSMSSim2</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testSMSSim2_20151207_075248" target="_blank">SIM2: 收发短信</a></td>
+			<td>FAIL</td>
+			<td>134.133</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_6" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:SIM2切换到4G网络下
+2.step2:使用SIM2发短信
+3.打开信息程序
+4.编写新信息
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 填写收件人的地方不存在</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testSMSSim2_20151207_075248/1449446096126.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_7')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.EmergencyCall.EmergencyCall#testEmergencyCall</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testEmergencyCall_20151207_075541" target="_blank">Emergency call</a></td>
+			<td>FAIL</td>
+			<td>51.884</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_7" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.Step1:拨打紧急号码
+2.拨打紧急电话112
+<span style="color:#FF0000">错误原因:
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=1, CLASS=android.widget.TextView, RESOURCE_ID=com.android.dialer:id/dialpad_key_number]</span></pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_8')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.WIFI.Wifi#testWifiConnection</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testWifiConnection_20151207_075711" target="_blank">wifi</a></td>
+			<td>PASS</td>
+			<td>144.152</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_8" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.Open wifi
+2.Connect wifi
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_9')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.BrowserTest.Browser#testOpenPage</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenPage_20151207_075942" target="_blank">打开特定的web页面</a></td>
+			<td>PASS</td>
+			<td>44.004</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_9" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.打开浏览器
+2.打开浏览器并正常显示
+3.输入特定网址（例如：www.sina.cn）并登陆
+4.确认登陆网页显示正常
+5.退出浏览器
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_10')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Weather.Weather#testOpenWeather</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenWeather_20151207_080033" target="_blank">启动天气应用</a></td>
+			<td>PASS</td>
+			<td>82.67</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_10" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:启动天气
+2.step2:home键后台，再次点击天气
+3.step3:home键后台调用多任务，多任务中点击天气
+4.step3:home键后台调用多任务，多任务中点击天气
+5.退出应用
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_11')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Contact.Contact#testOpenContact</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenContact_20151207_080203" target="_blank">启动联系人应用</a></td>
+			<td>FAIL</td>
+			<td>55.146</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_11" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.Step1:启动联系人应用
+2.step2:home键后台图库，再次点击图库
+3.step3:home键后台图库调用多任务，多任务中点击图库
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: Can&#39;t find contact.</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenContact_20151207_080203/1449446571550.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_12')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Contact.Contact#testAddDelContacts</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testAddDelContacts_20151207_080337" target="_blank">联系人基本功能</a></td>
+			<td>PASS</td>
+			<td>67.144</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_12" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.打开通讯录
+2.新建联系人
+3.确认联系人新建成功
+4.删除联系人
+5.退出通讯录
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_13')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Calculator.Calculator#testCalculator</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testCalculator_20151207_080452" target="_blank">启动计算器应用,计算器操作正常,退出计算器</a></td>
+			<td>PASS</td>
+			<td>137.341</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_13" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.Step1:启动计算器应用
+2.Step2:计算器操作正常
+3.Step3:计算器操作正常
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_14')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Note.Note#testOpenNote</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenNote_20151207_080716" target="_blank">启动便签应用,退出便签应用</a></td>
+			<td>FAIL</td>
+			<td>62.631</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_14" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:点击进入便签应用
+2.step2:home键后台，再次点击便签应用
+3.step3:home键后台调用多任务，多任务中点击便签应用
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 没有成功便签应用</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenNote_20151207_080716/1449446892647.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_15')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.AirPlaneMode.AirplaneMode#testAPMConnection</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testAPMConnection_20151207_080858" target="_blank">1.打开设置&gt;飞行模式2.多次打开/关闭飞行模式</a></td>
+			<td>PASS</td>
+			<td>174.468</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_15" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.Open APM
+2.Close APM
+3.Open APM
+4.Close APM
+5.Open APM
+6.Close APM
+7.退出应用程序
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_16')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Calendar.Calendar#testOpenCalendar</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenCalendar_20151207_081159" target="_blank">启动日历应用</a></td>
+			<td>FAIL</td>
+			<td>50.104</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_16" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.Step1:启动日历应用
+2.step2:home键后台日历，再次点击日历
+3.step3:home键后台日历，再次点击日历
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 没有进入到日历中.</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenCalendar_20151207_081159/1449447162697.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_17')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.LeAccount.LeAccount#testLoginAccount</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testLoginAccount_20151207_081329" target="_blank">账号登录</a></td>
+			<td>FAIL</td>
+			<td>31.425</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_17" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:进入乐视账号
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 输入账号的地方不存在</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testLoginAccount_20151207_081329/1449447231877.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_18')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.LeStore.LeStore#testLeStore</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testLeStore_20151207_081440" target="_blank">启动乐视商城应用,乐视账号登录,浏览商品，退出乐视商城</a></td>
+			<td>PASS</td>
+			<td>43.589</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_18" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:启动乐视商城
+2.step2:登陆乐视商城
+3.step３:输入用户名密码
+4.step４:进入分类
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_19')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.WPS.WPS#testOpenWPS</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenWPS_20151207_081531" target="_blank">启动WPS应用,退出WPS</a></td>
+			<td>FAIL</td>
+			<td>67.986</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_19" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:启动WPS
+2.step2:home键后台，再次点击WPS
+3.step3:home键后台调用多任务，多任务中点击wps
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 没有成功进入WPS</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenWPS_20151207_081531/1449447386174.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_20')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.GPS.GPS#testGPSConnection</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testGPSConnection_20151207_081719" target="_blank">GPS</a></td>
+			<td>PASS</td>
+			<td>81.529</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_20" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.开启GPS
+2.关闭GPS
+3.提出应用程序
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_21')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Calendar.Calendar#testLookCalendar</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testLookCalendar_20151207_081847" target="_blank">查看日历</a></td>
+			<td>PASS</td>
+			<td>51.868</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_21" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.打开日历
+2.退出日历
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_22')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.FileManager.FileManager#testOpenFileManager</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenFileManager_20151207_081946" target="_blank">启动文件管理应用</a></td>
+			<td>PASS</td>
+			<td>70.496</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_22" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.Step1:启动文件管理应用
+2.step2:home键后台，再次点击
+3.step3:home键后台调用多任务，多任务中点击文件管理
+4.step3:home键后台文件管理调用多任务，多任务中点击文件管理
+5.退出应用
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_23')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.TDLTE.MMS#testMMSSim1</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testMMSSim1_20151207_082104" target="_blank">SIM1: 收发彩信</a></td>
+			<td>PASS</td>
+			<td>361.546</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_23" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:SIM1切换到4G网络下
+2.step2:使用SIM1发彩信
+3.打开信息程序
+4.编写新信息
+5.发送新信息
+6.step3:查看SIM1收到的彩信
+7.等待收到信息
+8.删除发送的信息
+9.退出应用
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_24')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.TDLTE.MMS#testMMSSim2</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testMMSSim2_20151207_082713" target="_blank">SIM2: 收发彩信</a></td>
+			<td>FAIL</td>
+			<td>221.323</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_24" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:SIM2切换到4G网络下
+2.step2:使用SIM2发彩信
+3.打开信息程序
+4.编写新信息
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: sim2卡不存在</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testMMSSim2_20151207_082713/1449448250278.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_25')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Email.Email#testopenEmail</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testopenEmail_20151207_083135" target="_blank">启动邮件应用</a></td>
+			<td>FAIL</td>
+			<td>94.317</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_25" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.Step1:启动邮箱应用
+2.step2:home键后台应用，再次点击应用
+3.step3:home键后台应用调用多任务，多任务中点击应用
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 没有成功进入邮箱</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testopenEmail_20151207_083135/1449448382627.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_26')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Email.Email#testsendEmail</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testsendEmail_20151207_083350" target="_blank">发送邮件</a></td>
+			<td>FAIL</td>
+			<td>97.358</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_26" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.设置邮箱账号
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 未添加邮箱账号</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testsendEmail_20151207_083350/1449448520633.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_27')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.MusicPlayer.MusicPlayer#testOpenMusicPlay</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenMusicPlay_20151207_083608" target="_blank">启动音乐频播放器应用</a></td>
+			<td>FAIL</td>
+			<td>54.048</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_27" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:启动音频播放器应用
+2.step2:home键后台，再次点击
+3.step3:home键后台调用多任务，多任务中点击
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 没有成功进入音乐频播放器</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenMusicPlay_20151207_083608/1449448615672.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_28')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.VideoPlayer.VideoPlayer#testOpenVideoPlayer</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenVideoPlayer_20151207_083743" target="_blank">启动视频播放器应用</a></td>
+			<td>FAIL</td>
+			<td>85.14</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_28" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:启动视频播放器应用
+2.step2:home键后台播放器，再次点击播放器
+3.step3:home键后台播放器调用多任务，多任务中点击播放器
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 没有成功进入视频播放器</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenVideoPlayer_20151207_083743/1449448741621.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_29')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.MusicPlayer.MusicPlayer#testPlayMusic</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testPlayMusic_20151207_083949" target="_blank">播放本地多种格式的音频</a></td>
+			<td>FAIL</td>
+			<td>68.892</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_29" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:启动音频播放器应用
+2.选择歌曲播放5秒
+3.退出应用
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 清除不存在</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testPlayMusic_20151207_083949/1449448851698.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_30')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.VideoPlayer.VideoPlayer#testPlayVideo</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testPlayVideo_20151207_084139" target="_blank">播放本地多种格式的视频</a></td>
+			<td>PASS</td>
+			<td>306.834</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_30" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:启动视频播放器应用
+2.退出应用
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_31')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Camera.Video#testRecordVideo</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testRecordVideo_20151207_084653" target="_blank">录制视频</a></td>
+			<td>PASS</td>
+			<td>102.214</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_31" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.打开相机，切换到录像模式
+2.点击开始录像30S
+3.播放录像10S
+4.删除录像
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_32')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Camera.CameraSwitchVideo#testCameraSwitchVideo</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testCameraSwitchVideo_20151207_084843" target="_blank">相机和摄像机模式切换</a></td>
+			<td>PASS</td>
+			<td>65.959</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_32" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.打开相机，切换到录像模式
+2.切换到照相模式
+3.切换到录像模式
+4.切换到照相模式
+5.退出相机
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_33')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Gallery.Gallery#testEditPic</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testEditPic_20151207_084956" target="_blank">查看/编辑/删除照片</a></td>
+			<td>PASS</td>
+			<td>91.898</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_33" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:启动图库应用
+2.step2:编辑照片
+3.退出应用
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_34')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Gallery.Gallery#testOpenGallery</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenGallery_20151207_085135" target="_blank">启动图库应用</a></td>
+			<td>PASS</td>
+			<td>96.606</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_34" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step1:启动图库应用
+2.step2:home键后台图库，再次点击图库
+3.step3:home键后台图库调用多任务，多任务中点击图库
+4.step3:home键后台图库调用多任务，多任务中点击图库
+5.退出应用
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="pass" name="1" onclick="toggle('Phone1loop1_35')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Record.Recoder#testRecodeAudio</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testRecodeAudio_20151207_085319" target="_blank">音频文件的录制、打开和删除</a></td>
+			<td>PASS</td>
+			<td>80.371</td>
+			<td> 
+			
+			
+			</td>
+
+		</tr>
+
+		<tr id="Phone1loop1_35" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.清空所有录音
+2.录制5秒音频
+3.保存音频
+4.播放录音
+5.分享录音
+6.退出应用
+</pre></td><td colspan="1"></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_36')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.WallPaperOnline.WallPaperOnline#testWallPaperOnline</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testWallPaperOnline_20151207_085447" target="_blank">启动在线壁纸应用</a></td>
+			<td>FAIL</td>
+			<td>95.751</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_36" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.Step1:启动在线壁纸应用
+2.step2:home键后台在线壁纸，再次点击在线壁纸
+3.step3:home键后台在线壁纸，再次点击在线壁纸
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 没有进入到在线壁纸中.</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testWallPaperOnline_20151207_085447/1449449756531.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		<tr class="fail" name="1" onclick="toggle('Phone1loop1_37')">
+			<td name="index" class="index"></td><td>com.letv.cases.leui.Map.Map#testOpenMap</td>
+
+			<td><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenMap_20151207_085705" target="_blank">启动地图应用,关闭地图应用</a></td>
+			<td>FAIL</td>
+			<td>63.926</td>
+			<td> 
+			
+			
+			
+			<div name="other">
+				请分析log
+			</div></td>
+
+		</tr>
+
+		<tr id="Phone1loop1_37" class="faildetail" name="faildetail" style="display:none">
+			<td></td><td colspan="3">			<pre>1.step2:home键后台，再次点击地图
+2.step3:home键后台调用多任务，多任务中点击地图
+<span style="color:#FF0000">错误原因:
+junit.framework.AssertionFailedError: 没有成功进入地图</span></pre></td><td colspan="1"><a href="testResult_20151207_073600/Phone1/LOOP1/testOpenMap_20151207_085705/1449449882151.png" target="_blank">屏幕截图</a></td>
+		</tr>
+		
+		
+		
+	</table>
+</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div id="tailer">
+			<hr color=#CC0000 SIZE=2>
+			<span>  <a href=></a></span>
+		</div>
+	</body>
+</html>

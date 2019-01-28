@@ -1,0 +1,1 @@
+{"name":"app_process","loop":[11530],"time":[12828],"avg":["/system/bin com.android.commands.am.Am start -n com.android.calendar/.AllInOneActivity"],"cpu":[[20.9,1]]}

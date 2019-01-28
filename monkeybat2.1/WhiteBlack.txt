@@ -1,0 +1,4 @@
+
+com.letv.android.note
+
+com.android.calendar

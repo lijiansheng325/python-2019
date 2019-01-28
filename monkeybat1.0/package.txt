@@ -1,0 +1,141 @@
+com.gd.mobicore.pa
+com.uei.quicksetsdk.letv
+com.yulong.android.factorypattern
+com.android.providers.telephony
+com.letv.android.voiceassistant
+com.letv.android.agent
+com.letv.android.theme
+com.android.providers.calendar
+com.android.providers.media
+com.letv.android.account
+com.yulong.logredirect
+com.qualcomm.qti.modemtestmode
+com.android.wallpapercropper
+com.android.protips
+com.letv.android.wallpaper
+com.letv.leui.schpwronoff
+com.letv.android.wallpaperonline
+com.android.documentsui
+com.sohu.inputmethod.sogouoem
+com.android.galaxy4
+com.letv.android.letvlive
+com.letv.android.letvsafe
+com.android.externalstorage
+com.lesports.glivesports
+com.android.htmlviewer
+com.android.mms.service
+com.wandoujia.phoenix2.usbproxy
+com.ivvi.live
+com.android.providers.downloads
+com.letv.android.note
+com.android.browser
+com.letv.android.usagestats
+com.yulong.audioelectric
+com.android.defcontainer
+com.letv.app.appstore
+com.android.providers.downloads.ui
+com.android.pacprocessor
+com.stv.stvpush
+com.tencent.mm
+com.letv.android.freeflow
+com.android.certinstaller
+org.codeaurora.bluetooth
+android
+com.android.contacts
+com.qualcomm.wfd.service
+com.letv.android.remotecontrol
+com.android.mms
+com.android.stk
+com.android.launcher3
+com.android.backupconfirm
+com.letv.android.client
+com.letv.android.setupwizard
+com.android.wallpaper.holospiral
+com.letv.android.share.pro
+com.android.calendar
+com.android.phasebeam
+com.letv.android.remotedevice
+com.qualcomm.qcrilmsgtunnel
+com.android.providers.settings
+com.android.sharedstoragebackup
+cloneit.pkg.install
+com.android.printspooler
+com.android.videoplayer
+com.tencent.qqpimsecure
+com.android.dreams.basic
+com.letv.android.recorder
+com.tencent.qqlive
+com.android.webview
+com.android.inputdevices
+com.icoolme.android.weather
+com.letv.bugpostbox
+com.android.cellbroadcastreceiver
+com.android.onetimeinitializer
+com.android.server.telecom
+com.android.facelock
+com.android.keychain
+com.android.camera
+com.android.dialer
+com.android.gallery3d
+com.tencent.mobileqq
+com.android.packageinstaller
+com.svox.pico
+com.dsi.ant.server
+com.android.proxyhandler
+com.android.inputmethod.latin
+com.yulong.TestSetting
+com.qti.backupagent
+com.wandoujia.phoenix2
+com.letv.agnes
+com.android.musicvis
+com.letv.android.supermanager
+com.android.managedprovisioning
+com.android.dreams.phototable
+com.letv.lesophoneclient
+com.baidu.BaiduMap
+com.android.noisefield
+com.qihoo.secstore
+com.android.smspush
+com.letv.android.bugreporter
+com.letv.android.accountinfo
+com.android.wallpaper.livepicker
+com.netease.dhxy.leshi
+com.baidu.map.location
+com.yulong.cloneit
+com.letv.android.filemanager
+com.tencent.news
+jp.co.omronsoft.openwnn
+com.android.settings
+com.ivvi.android.appstore
+com.letv.android.ecoProvider
+com.yulong.android.cp_engmode
+com.android.calculator2
+com.qualcomm.location
+com.example.testivvibuluo
+com.letv.android.cloudservice
+com.qti.diagservices
+com.android.wallpaper
+com.qualcomm.qti.services.secureui
+com.android.vpndialogs
+com.android.email
+com.sina.weibo
+com.android.music
+com.android.phone
+com.android.shell
+com.android.providers.userdictionary
+com.android.location.fused
+com.android.deskclock
+com.android.systemui
+com.android.exchange
+com.letv.bsp.qccrashhandler
+com.codeaurora.fmrecording
+com.yulong.android.gpsview
+com.letv.android.ota
+com.android.bluetooth
+com.qualcomm.timeservice
+com.android.providers.contacts
+com.android.captiveportallogin
+com.tencent.lightalk
+cn.wps.moffice_eng
+com.letv.android.LetvShareProvider
+com.letv.android.phonecontrol

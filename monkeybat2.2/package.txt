@@ -1,0 +1,70 @@
+com.qualcomm.qti.auth.securesampleauthservice
+com.qualcomm.qti.auth.fidocryptoservice
+com.android.cellbroadcastreceiver
+com.android.dialer
+com.android.protips
+com.qualcomm.cabl
+com.google.android.music
+com.android.location.fused
+com.android.backupconfirm
+org.codeaurora.bluetooth
+com.qti.backupagent
+com.letv.account
+com.android.packageinstaller
+com.dsi.ant.server
+com.qualcomm.display
+com.qualcomm.interfacepermissions
+com.android.providers.contacts
+cn.wps.moffice_eng
+com.sogou.map.android.sogounav
+com.google.android.googlequicksearchbox
+com.letv.sms
+com.letv.videoplayer
+com.letv.android.autolive
+com.android.shell
+com.android.settings
+com.qualcomm.wfd.service
+eui.auto.letvlauncher
+com.letv.travel
+com.svox.pico
+com.qti.service.colorservice
+com.android.inputdevices
+com.qualcomm.timeservice
+com.android.bluetooth
+com.android.providers.settings
+com.letv.calendar
+com.letv.weather
+com.letv.vehicle
+com.letv.voice
+com.google.android.gms
+com.gd.mobicore.pa
+com.google.android.apps.maps
+com.android.contacts
+com.letv.systemupgrade
+com.letv.lesophoneclient
+com.letv.filemanager
+com.android.pacprocessor
+com.android.server.telecom
+com.letv.settings
+com.android.defcontainer
+com.letv.music
+com.sohu.inputmethod.sogou
+com.android.mms.service
+com.android.systemui
+com.letv.multiscreen.server
+com.android.phone
+com.android.providers.media
+com.qualcomm.qcom_qmi
+com.qualcomm.qti.auth.sampleauthenticatorservice
+com.android.providers.calendar
+com.android.vending
+com.android.webview
+com.qapp.quickboot
+com.android.certinstaller
+android
+com.android.providers.telephony
+com.android.providers.downloads
+com.android.browser
+com.android.stk
+com.google.android.gsf
+com.letv.android.autoclient

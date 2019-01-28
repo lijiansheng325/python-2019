@@ -1,0 +1,58 @@
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.Contact.Contact#testAddDelContacts
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.letv.cases.leui.Contact.Contact:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testAddDelContacts
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.Contact.Contact
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+================process: rm -rf /data/anrreturn!!!================
+================Call shell function return!!!================
+================process: rm -rf /data/tombstonesreturn!!!================
+================Call shell function return!!!================
+INSTRUMENTATION_STATUS: title=联系人基本功能
+INSTRUMENTATION_STATUS_CODE: 16
+The folder /sdcard/AutoSmoke_UI30/testAddDelContacts_20151207_080337 has existed!
+current_case_root_folder=testAddDelContacts_20151207_080337
+INSTRUMENTATION_STATUS: caseStep=打开通讯录
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=新建联系人
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=确认联系人新建成功
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=删除联系人
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=退出通讯录
+INSTRUMENTATION_STATUS_CODE: 15
+The phone type is: X900
+================process: /system/bin/sh /data/local/tmp/PullLog.sh testAddDelContacts_20151207_080337return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: mv /data/tombstones /sdcard/AutoSmoke_UI30/testAddDelContacts_20151207_080337/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: mv -r /data/anr /sdcard/AutoSmoke_UI30/testAddDelContacts_20151207_080337/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: logcat -creturn!!!================
+================Call shell function return!!!================
+================process: mv /data/tombstones /sdcard/AutoSmoke_UI30/testAddDelContacts_20151207_080337/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testAddDelContacts
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.Contact.Contact
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 67.144
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+==========There are no error happend==========

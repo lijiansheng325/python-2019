@@ -1,0 +1,2 @@
+python ceshi.py
+pause

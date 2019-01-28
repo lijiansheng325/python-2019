@@ -1,0 +1,24 @@
+{
+	"common":
+	{
+		"CSV_HEADER": "Time _Total RAM_Free RAM_Used RAM_Lost RAM_APP RAM",
+		"ADB_DUMP_MEM_CMD": "adb shell dumpsys meminfo"
+	},		
+	"case_list":
+	{
+		"case_00":
+		{
+			"APP_NAME": "com.letv.videoplayer",
+			"CSV_FILE_NAME": "case_00_videoplayer_meminfo.csv",
+			"UI_AUTO_CMD": "python E:\\python_study\\appium\\calculater-hpc1.py",
+			"LOOP_NUM": 2
+		},
+		"case_01":
+		{
+			"APP_NAME": "com.android.calculator2",
+			"CSV_FILE_NAME": "case_01_calculator_meminfo.csv",
+			"UI_AUTO_CMD": "python E:\\python_study\\appium\\calculater-hpc1.py",
+			"LOOP_NUM": 2
+		}
+	}
+}

@@ -1,0 +1,62 @@
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.AirPlaneMode.AirplaneMode#testAPMConnection
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.letv.cases.leui.AirPlaneMode.AirplaneMode:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testAPMConnection
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.AirPlaneMode.AirplaneMode
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+================process: rm -rf /data/anrreturn!!!================
+================Call shell function return!!!================
+================process: rm -rf /data/tombstonesreturn!!!================
+================Call shell function return!!!================
+INSTRUMENTATION_STATUS: title=1.打开设置>飞行模式2.多次打开/关闭飞行模式
+INSTRUMENTATION_STATUS_CODE: 16
+The folder /sdcard/AutoSmoke_UI30/testAPMConnection_20151207_080858 has existed!
+current_case_root_folder=testAPMConnection_20151207_080858
+INSTRUMENTATION_STATUS: caseStep=Open APM
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=Close APM
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=Open APM
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=Close APM
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=Open APM
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=Close APM
+INSTRUMENTATION_STATUS_CODE: 15
+INSTRUMENTATION_STATUS: caseStep=退出应用程序
+INSTRUMENTATION_STATUS_CODE: 15
+The phone type is: X900
+================process: /system/bin/sh /data/local/tmp/PullLog.sh testAPMConnection_20151207_080858return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: mv /data/tombstones /sdcard/AutoSmoke_UI30/testAPMConnection_20151207_080858/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: mv -r /data/anr /sdcard/AutoSmoke_UI30/testAPMConnection_20151207_080858/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+================process: logcat -creturn!!!================
+================Call shell function return!!!================
+================process: mv /data/tombstones /sdcard/AutoSmoke_UI30/testAPMConnection_20151207_080858/return!!!================
+call shell failed. error code is :1
+================Call shell function return!!!================
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testAPMConnection
+INSTRUMENTATION_STATUS: class=com.letv.cases.leui.AirPlaneMode.AirplaneMode
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 174.468
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+==========There are no error happend==========
